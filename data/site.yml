@@ -1,0 +1,12 @@
+name:      "Hong Kong Open Source Conference 2017 // 香港開源年會 2017"
+slogan:    "Embracing Open Source's Success"
+ticketURL: "https://hkoscon2017.eventbrite.com/?aff=website#tickets"
+patronURL: "https://hkoscon2017.eventbrite.com/?aff=websitepatron#tickets"
+baseURL:   "http://hkoscon.org/2017/"
+basePath:  "/2017"
+og:
+  title: "Hong Kong Open Source Conference 2017"
+  image: "http://file.hkoscon.org/og/2017.png"
+  url:   "http://hkoscon.org/2017/"
+  type:  "article"
+  description: "Hong Kong Open Source Conference 2017 HKOSCon (2017.06.09-10) is a annual international open source conference in Hong Kong. It is aimed to demonstrate the use of open source software technology, open hardware technology and latest development in the world."

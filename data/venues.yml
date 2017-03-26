@@ -1,0 +1,30 @@
+#
+# @file venues.yml
+#
+# format
+# ------
+#
+# venue-key:
+#   name: "venue name"
+#
+
+reception:
+  name: "Reception"
+
+sea-view-concourse:
+  name: "Sea View Concourse"
+
+function-room:
+  name: "Function Room 1 and 2"
+
+training-theatre:
+  name: "Training Theatre"
+
+training-room-1:
+  name: "Training Room 1"
+
+training-room-2:
+  name: "Training Room 2"
+
+training-room-3:
+  name: "Training Room 3"
