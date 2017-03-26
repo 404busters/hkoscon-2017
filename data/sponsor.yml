@@ -1,0 +1,43 @@
+sponsors:
+ -  name: "Gold Sponsor"
+    sponsors:
+      - id: gandi
+        name: "Gandi.net"
+        grantedPerm: true
+        description: >
+           Gandi is the No Bullshit™ domain name registrar and hosting 
+           provider. Created in France in 1999, Gandi is now present in 3 
+           continents,with offices in Paris, San Francisco, Luxembourg, and 
+           Taipei. We position ourselves as the next port of call for those 
+           who want to create an online presence, right after Internet 
+           access providers, since domain names are the firststep in 
+           creating your own piece of the Internet.
+        logos:
+          - title: "Gandi.net"
+            alt: "Gandi.net logo"
+            img: "//file.hkoscon.org/sponsor/gandi.jpg"
+            url: "https://www.gandi.net/"
+        links:
+          - text: "Gandi.net Website"
+            url: "https://www.gandi.net/"
+  - name: "Prize Sponsor"
+    sponsors:
+      - id: jetbrains
+        name: JetBrains
+        grantedPerm: true
+        description: >
+           JetBrains PyCharm is the intelligent Python IDE for
+           Professional Developers providing a complete set of tools for
+           productive Python, Web and Scientific development. PyCharm comes
+           in two editions. The free and open-source PyCharm Community
+           Edition is perfect for pure Python and scientific development.
+           PyCharm Professional Edition is designed for professional Python
+           and Web developers.
+        logos:
+          - title: JetBrains
+            alt: "JetBrains logo"
+            img: "//file.hkoscon.org/sponsor/jetbrains.jpg"
+            url: "https://www.jetbrains.com/"
+        links:
+          - text: "JetBrains Website"
+            url: "https://www.jetbrains.com/"
