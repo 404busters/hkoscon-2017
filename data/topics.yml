@@ -1,0 +1,41 @@
+num_submissions: "51"
+deadline: 2017/02/28 23:00 (GMT+8)
+results:
+  -   title:    "Preparing for the App-ocalypse: The Web in the Age of Physical Computing"
+      speaker:  "Dietrich Ayala"
+      remark:   "Mozilla"
+      url:      "#"
+      cfp:      true
+  -   title:    "Reproducible builds: Fulfilling the original promise of free software"
+      speaker:  "Chris Lamb"
+      remark:   "Debian"
+      url:      "#"
+      cfp:      true
+  -   title:    "Building a career in Open Source"
+      speaker:  "Vaishali Thakkar"
+      remark:   "India"
+      url:      "#"
+      cfp:      true
+  -   title:    "Open CV in Raspberry PI with Camera"
+      speaker:  "Kazuhiko Inaba"
+      remark:   "Japan"
+      url:      "#"
+      cfp:      false
+  -   title:    "Tips in setting up OpenStack from scratch"
+      speaker:  "Vinnson Lee"
+      url:      "#"
+      cfp:      true
+  -   title:    "Let's Rust! System programming is awesome again!"
+      speaker:  "Karl Lam"
+      remark:   "OneSky"
+      url:      "#"
+      cfp:      true
+  -   title:    "One Year of Rust Microkernel Development"
+      speaker:  "Wei Tang"
+      url:      "#"
+      cfp:      false
+  -   title:    "Building Artificial Intelligence Units in Rust"
+      speaker:  "Vigneshwer Dhinakaran"
+      remark:   "India"
+      url:      "#"
+      cfp:      true
