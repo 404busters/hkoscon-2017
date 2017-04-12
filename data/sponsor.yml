@@ -57,7 +57,7 @@ sponsor_types:
         logos:
           title:  "MySQL"
           alt:    "MySQL logo"
-          img:    "//file.hkoscon.org/sponsor/mysql.jpg"
+          img:    "//file.hkoscon.org/sponsor/mysql.png"
           url:    "https://www.mysql.com/"
         links:
           text:     "MySQL Website"
