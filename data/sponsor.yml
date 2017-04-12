@@ -4,14 +4,15 @@ sponsor_types:
       - id:   "gandi"
         name: "Gandi.net"
         grantedPerm: true
-        description: >
-          Gandi is the No Bullshit™ domain name registrar and hosting
-          provider. Created in France in 1999, Gandi is now present in 3
-          continents,with offices in Paris, San Francisco, Luxembourg, and
-          Taipei. We position ourselves as the next port of call for those
-          who want to create an online presence, right after Internet
-          access providers, since domain names are the firststep in
-          creating your own piece of the Internet.
+        description:
+          - >
+            Gandi is the No Bullshit™ domain name registrar and hosting
+            provider. Created in France in 1999, Gandi is now present in 3
+            continents,with offices in Paris, San Francisco, Luxembourg, and
+            Taipei. We position ourselves as the next port of call for those
+            who want to create an online presence, right after Internet
+            access providers, since domain names are the firststep in
+            creating your own piece of the Internet.
         logos:
           title:  "Gandi.net"
           alt:    "Gandi.net logo"
@@ -20,19 +21,61 @@ sponsor_types:
         links:
           text:     "Gandi.net Website"
           url:      "https://www.gandi.net/"
+  - name:     "Silver Sponsor"
+    sponsors:
+      - id:   "MySQL"
+        name: "MySQL"
+        grantedPerm: true
+        description:
+          - >
+            MySQL is the world's most popular OS database. With its proven
+            performance, reliability and ease-of-use, MySQL has become the
+            leading database choice for web-based applications, used by high
+            profile web properties including Facebook, Twitter, YouTube, Yahoo!
+            and many more. Additionally, it is an extremely popular choice as
+            embedded database, distributed by over 3,000 ISVs & OEMs. To
+            organizations in need of an open source, ACID-compliant transactional
+            database delivering real-time in-memory performance and 99.999 percent
+            availability, Oracle offers MySQL Cluster.
+          - >
+            MySQL Enterprise Edition is a commercial offering comprised of the
+            MySQL database with security, encryption, auditing, high availability
+            and scalability extensions, online backup, monitoring, management,
+            and visual database design and SQL development tools. MySQL Enterprise
+            Edition is backed by Oracle Premier support for organizations
+            delivering highly available, business critical applications and services.
+            Oracle MySQL Cloud Service delivers a secure, cost-effective and
+            enterprise-grade MySQL database service. Built on MySQL Enterprise
+            Edition and powered by the Oracle Cloud, it provides a simple,
+            automated, integrated and enterprise ready MySQL cloud service,
+            enabling organizations to increase business agility and reduce costs.
+          - >
+            Oracle drives MySQL innovation, constantly improving MySQL solutions
+            and delivering new capabilities to power next generation web, cloud,
+            mobile and embedded applications.
+
+        logos:
+          title:  "MySQL"
+          alt:    "MySQL logo"
+          img:    "//file.hkoscon.org/sponsor/mysql.jpg"
+          url:    "https://www.mysql.com/"
+        links:
+          text:     "MySQL Website"
+          url:      "https://www.mysql.com/"
   - name:     "Prize Sponsor"
     sponsors:
       - id:   "jetbrains"
         name: "JetBrains"
         grantedPerm: true
-        description: >
-          JetBrains PyCharm is the intelligent Python IDE for
-          Professional Developers providing a complete set of tools for
-          productive Python, Web and Scientific development. PyCharm comes
-          in two editions. The free and open-source PyCharm Community
-          Edition is perfect for pure Python and scientific development.
-          PyCharm Professional Edition is designed for professional Python
-          and Web developers.
+        description:
+          - >
+            JetBrains PyCharm is the intelligent Python IDE for
+            Professional Developers providing a complete set of tools for
+            productive Python, Web and Scientific development. PyCharm comes
+            in two editions. The free and open-source PyCharm Community
+            Edition is perfect for pure Python and scientific development.
+            PyCharm Professional Edition is designed for professional Python
+            and Web developers.
         logos:
           title:  "JetBrains"
           alt:    "JetBrains logo"
