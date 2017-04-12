@@ -72,7 +72,7 @@ ga(function(tracker) {
       let action   = $link.data('ga-action');
       let label    = $link.data('ga-label');
       let value    = $link.data('ga-value');
-      if ((typeof category != 'undefined') & (category != '')
+      if ((typeof category != 'undefined') && (category != '')
         && (typeof action != 'undefined') && (action != '')) {
         link.onclick = trackEvent(category, action, label, value);
       }
