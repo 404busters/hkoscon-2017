@@ -1,0 +1,55 @@
+teams:
+  - name: Conference Chairman
+    members:
+      - name: Mr. Sammy Fung
+  - name: Design
+    members:
+      - name: Mr. Nicholas Yau
+        teamlead: true
+        email: ''
+  - name: Finance
+    members:
+      - name: Dr. Haggen So
+        teamlead: true
+        email: ''
+  - name: Marketing
+    members:
+      - name: Mr. Calvin Tsang
+        teamlead: true
+      - name: Ms. Fiona Lam
+      - name: Ms. Clara Lin
+      - name: Ms. Wing Yan Tang
+      - name: Mr. Tony Yip
+  - name: Operation
+    members:
+      - name: Mr. Nicholas Yau
+        teamlead: true
+      - name: Mr. Peter Chung
+      - name: Ms. Connie Leung
+        email: cleung334@gmail.com
+      - name: Ms. Sana Siu
+      - name: Mr. Dick Tang
+      - name: Ms. Claire Wong
+      - name: Mr. Koala Yeung
+      - name: Mr. Tony Yip
+  - name: Program
+    members:
+      - name: Mr. Sammy Fung
+        teamlead: true
+      - name: Ms. Connie Leung
+        email: cleung334@gmail.com
+      - name: Mr. Dick Tang
+      - name: Mr. Calvin Tsang
+  - name: Record
+    members:
+      - name: Mr. Henry Law
+        teamlead: true
+      - name: Mr. Joe Chan
+      - name: Mr. Mr. Sam Chiuck
+  - name: Web
+    members:
+      - name: Mr. Koala Yeung
+        teamlead: true
+      - name: Ms. Connie Leung
+        email: 'cleung334@gmail.com'
+      - name: Mr. Tony Yip
