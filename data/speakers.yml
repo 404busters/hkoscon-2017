@@ -1,0 +1,539 @@
+ivan-ma:
+  name: Ivan Ma
+  gender: male
+  description:
+    - >
+      Ivan Ma is the MySQL User Group Lead in Hong Kong. He has over 20+ years
+      of experience in enterprise system infrastructure and software technologies.
+      He has certification on MySQL DBA 5.6, MySQL Developer 5.1 and MySQL
+      Cluster 5.1 DBA.
+    - >
+      He Joined MySQL, is currently MySQL Principal Sales Consultant, Asia
+      Pacific with Oracle, responsible for pre-sales consulting, technical
+      education, and product promotions.
+
+    - >
+      Prior to joining MySQL team, he joined Oracle in System Team from Sun
+      Mircosystems acquisition. Prior to Sun Microsystems, he was Principal
+      Solution Architect with Sybase APAC covering APAC regions.
+  residence:  Hong Kong
+  nationality: Hong Kong
+  social:
+    blog: http://mysqlhk.blogspot.hk/
+  community:
+    name: MySQL User Group Hong Kong
+    url: https://www.facebook.com/groups/hkmysqlusergroup/
+  company:
+    name: MySQL
+    url: https://www.mysql.com/
+  portrait: ""
+  hkoscon-sponsored: false
+  
+ryusuke-kajiyama:
+  name: Ryusuke Kajiyama
+  gender: male
+  social:
+      nickname: RKajiyama
+      twitter: https://twitter.com/rkajiyama
+  description:
+    - >
+      Ryusuke Kajiyama(梶山隆輔) is Open Source Specialist with 10+ years of
+      experience of systems design using MySQL and open source solutions. He
+      originally joined MySQL AB, and is currently managing MySQL Sales
+      Consultant team of Asia Pacific region at Oracle.
+  residence:  Japan
+  nationality: Japan
+  community:
+    name: MySQL
+    url:  https://www.mysql.com/
+  company:
+    name: MySQL
+    url: https://www.mysql.com/
+  portrait: ""
+  hkoscon-sponsored: false
+
+josh-rich:
+  name: Joshua Rich
+  gender: male
+  description:
+    - >
+      Joshua came to Elastic from a background in scientific research and
+      high-performance computing and is no stranger to dealing with big data
+      solutions. He now helps our customers get the most out of our products
+      providing passionate and enthusiastic advice and support.
+  residence:  Australia
+  nationality:  Australia
+  social:
+    nickname: Josh
+    github: https://github.com/joshuar/
+  company:
+    name: Elastic
+    url:  https://www.elastic.co/
+  portrait: ""
+  hkoscon-sponsored: false
+
+chris-lamb:
+  name: Chris Lamb
+  gender: male
+  description:
+    - >
+      I am a polyglot freelance computer programmer who is the author of dozens
+      of free projects and contributor to 100s of others. I've been an official
+      Debian Developer since 2008 and am currently highly active in the
+      Reproducible Builds project where I have been awarded a grant from the
+      Core Infrastructure Initiative to fund my work in this area. In my spare
+      time I'm an avid classical musician.
+  residence:  United Kingdom
+  nationality:  United Kingdom
+  social:
+    nickname: Chris
+    github: https://github.com/lamby/
+    blog: https://chris-lamb.co.uk/blog
+  community:
+    name: Debian
+    url: https://www.debian.org/
+  portrait: ""
+  hkoscon-sponsored: false
+
+dietrich-ayala:
+  name: Dietrich Ayala
+  gender: male
+  description:
+    - >
+      Dietrich Ayala has been working for internet freedom for over a decade
+      at Mozilla, the non-profit makers of the Firefox web browser, where's
+      he's shipped open source software to hundreds of millions of people.
+      A developer, writer and speaker, he’s currently traveling Asia helping
+      schools, businesses and governments use the web to make emerging
+      technologies like IoT, AR and VR accessible to everyone.
+  residence:  United States
+  nationality:  United States
+  social:
+    nickname: Dietrich
+    github: http://github.com/autonome/
+  company:
+    name: Mozilla
+    url:  https://www.mozilla.org/
+  portrait: ""
+  hkoscon-sponsored: false
+
+franklin-weng:
+  name: Franklin Weng
+  gender: male
+  description:
+    - >
+      <a href=\"https://about.me/fweng322\" target=\"_blank\">https://about.me/fweng322</a>
+  residence:  Taiwan
+  nationality:  Taiwan
+  social:
+    nickname: Franklin
+    github: https://github.com/fweng322/
+  community:
+    name: LibreOffice (representation); KDE, ezgo (participating)
+  company:
+    name: Software Liberty Association Taiwan (SLAT)
+    url: http://www.slat.org/
+  portrait: ""
+  hkoscon-sponsored: false
+
+pcman:
+  name: PC Man
+  gender: male
+  description:
+    - >
+      Appier Inc. senior software engineer (現職)
+    - >
+      前台北榮民總醫院 過敏免疫科醫師
+    - >
+      長年參與 open source projects: LXDE/LXQt, PIME 輸入法, 新酷音輸入法, IETab
+      firefox plugin, PCMan BBS client
+  residence:  Taiwan
+  nationality:  Taiwan
+  portrait: ""
+  hkoscon-sponsored: false
+
+eric-sun:
+  name: Eric Sun
+  gender: male
+  description:
+    - >
+      台灣教育部校園自由軟體數位資源推廣服務中心  執行秘書
+  residence:  Taiwan
+  nationality:  Taiwan
+  community:
+    name: ezgo
+    url: http://ezgo.westart.tw/ezgo13/
+  portrait: ""
+  hkoscon-sponsored: false
+
+kingman-leung:
+  name: Kingman Leung
+  gender: male
+  description:
+    - >
+      香港註冊社工，主職長者服務，2000年帶領長者開發開放源碼「筆順五碼」中文輸入法，再於近年帶長者開發開放授權的「自由香港字型」計劃
+  residence: Hong Kong
+  nationality: Hong Kong
+  portrait: ""
+  hkoscon-sponsored: false
+
+hong-kong-r-user-group:
+  name: Hong Kong R User Group
+  gender: NA
+  description:
+    - >
+      Hong Kong R User Group
+  residence:  Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Hong Kong R User Group
+    github: https://github.com/hkrusers
+  community:
+    name: Hong Kong R User Group
+    url: https://www.facebook.com/groups/hkrusers/
+  portrait: ""
+  hkoscon-sponsored: false
+
+lushi-chen:
+  name: Lucia Chen
+  gender: female
+  description:
+    - >
+      I'm a psychologist researches on social media data and user’s
+      psychological traits. During the past two years, I have proactively
+      engaged with social media data and worked towards using a machine learning
+      approach to model user's mental health and psychological traits. Besides
+      using R and Python to conduct data analysis on my studies,  I’m also a
+      junior mobile/web app developer with some experience in JavaScript and
+      Meteor Platform.
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Lucia
+    github: https://github.com/luciasalar/FB_ML
+  portrait: ""
+  hkoscon-sponsored: false
+
+chris-van-tuin:
+  name: Chris Van Tuin
+  gender: male
+  description:
+    - >
+      Chris Van Tuin, Chief Technologist at Red Hat, has over 20 years of
+      experience in IT and Software.   Since joining Red Hat in 2005, Chris has
+      been architecting solutions for strategic customers and partners with a
+      focus on emerging technologies including IaaS, PaaS, and DevOps and is
+      frequent speaker on DevOps, Security, and Containers.  He started his
+      career at Intel in IT and Managed Hosting followed by leadership roles in
+      services and sales engineering at Loudcloud and Linux startups. Chris
+      holds a Bachelors of Electrical Engineering from Georgia Institute
+      of Technology.
+  residence:  United States
+  nationality:  United States
+  social:
+    nickname: Chris
+    github: https://github.com/cvantuin
+  company:
+    name: Red hat
+    url:  https://www.redhat.com/
+  portrait: ""
+  hkoscon-sponsored: false
+
+andy-li:
+  name: Andy Li
+  gender: male
+  description:
+    - >
+      Andy Li is a member of the Haxe Foundation. He obtained his PhD in the
+      School of Creative Media, City University of Hong Kong. He is interested
+      in programming language theories as well as mobile user interface,
+      interactivity, installation art and generative graphics.
+
+    - >
+      He works in TCL Research (HK) as a senior researcher, in which he works
+      with the Virtual Reality team that develops new motion tracking systems,
+      VR development tools, and custom VR contents.
+  residence:  Hong Kong
+  nationality:  Hong Kong
+  social:
+    name: Andy
+    url:  https://github.com/andyli
+    blog: https://blog.onthewings.net/
+  portrait: ""
+  hkoscon-sponsored: false
+
+kevin-leung:
+  name: Kevin Leung
+  gender: male
+  description:
+    - >
+      Kevin Leung has been working in the actuarial field when he finds out
+      his real interest to be programming. From GW Basic on a 80286 to Haxe on
+      a Mac, Kevin is enthusiastic in learning new technology and always wishes
+      to create something interesting in the beauty of code. He is now a
+      full-stack developer in a startup company.
+  residence:  Hong Kong
+  nationality: Hong Kong
+  portrait: ""
+  hkoscon-sponsored: false
+parvani-ng:
+  name: Parvani Ng
+  gender: female
+  description:
+    - >
+      Parvani is a UX Designer in VR team at TCL Research (HK), mainly focuses
+      on content creation and multimedia production. Previously, Parvani worked
+      as a front-end web developer for a Hong Kong startup company. She
+      graduated with honors from City University of Hong Kong with a degree in
+      Creative Media.
+  residence: Hong Kong
+  nationality: Hong Kong
+  portrait: ""
+  hkoscon-sponsored: false
+
+karl-lam:
+  name: Karl Lam
+  gender: male
+  description:
+    - >
+      A Vegan, Free software enthusiast, DevOps engineer from bare metal to cloud.
+  residence: Hong Kong
+  nationality: Hong Kong
+  portrait: ""
+  hkoscon-sponsored: false
+  social:
+    nickname: Karl
+    github: http://github.com/karlvlam
+  portrait: ""
+  hkoscon-sponsored: false
+
+wei-tang:
+  name: Wei Tang
+  gender: male
+  description:
+    - >
+      Wei Tang is currently a university student and active open source
+      contributor to Rux, NixOS, Julia and others.
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Wei Tang
+    github: github.com/sorpaas
+    blog: https://that.world/en/
+  portrait: ""
+  hkoscon-sponsored: false
+david-ng:
+  name: David Ng
+  gender: male
+  description:
+    - >
+      David is a Product Manager at Skygear.io, an open source backend for
+      mobile apps and web apps. He joined Oursky as a full stack developer in
+      2012. He's interested in software product design and development.
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: skygeario
+    github: https://github.com/skygeario
+    blog: https://code.oursky.com/
+  portrait: ""
+  hkoscon-sponsored: false
+irvin-chen:
+  name: Irvin Chen
+  gender: male
+  description:
+    - >
+      Community liaison of MozTW, Mozilla Taiwan Community. Long time Mozilla
+      contributors and Mozilla Rep Mentor. I contributing to Mozilla on
+      community building, recruiting volunteers, organising event and speaking
+      for Mozilla's Mission and open culture.
+
+    - >
+      In the mean time, I'm front-end developer in womany.net.
+  residence: Taiwan
+  nationality: Taiwan
+  social:
+    nickname: Irvin
+    github: https://github.com/irvin
+  community:
+    name: MozTW
+    url:  https://moztw.org
+  company:
+    name: 女人迷 womany.net
+    url:  https://womany.net
+  portrait: ""
+  hkoscon-sponsored: false
+kazuhiko-inaba:
+  name: "Kazuhiko Inaba"
+  gender: male
+  description:
+    - >
+      As a system engineer, mainly creating infrastructure about 10 years
+  residence:  Japan
+  nationality:  Japan
+  social:
+    nickname: Kaz
+    facebook: https://www.facebook.com/inaba.kazuhiko.94
+  portrait: ""
+  hkoscon-sponsored: false
+anny-leung:
+  name: Ann/y Leung
+  gender: female
+  description:
+    - >
+      Ann/y Leung is the founder of "Open Source MultiMedia, Hong Kong" and we
+      advocate Open Learning and use of Open Source Software in MultiMedia
+      production & co-creation. We also deliver free workshops and an Open
+      Learning platform for everyone to learn FOSS, Open Design and Personal
+      Fabrication.
+  residence: Hong Kong
+  nationality:  Hong Kong
+  social:
+    blog: http://osmmhk.weebly.com/
+  portrait: ""
+  hkoscon-sponsored: false
+bluebat:
+  name: 趙惟倫
+  gender: male
+  description:
+    - >
+      趙惟倫曾以開發小組主管或專案經理的身分，在開放原始碼相關業務的公司任職多年，主要負責
+      套件打包與系統整合的工作。他也熱衷於自由軟體的本地化，長期參與 GNU 翻譯計畫，並製作
+      一些漢語相關的國際化套件。
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: 趙惟倫
+    github: https://github.com/bluebat
+  portrait: ""
+  hkoscon-sponsored: false
+
+rick-mak:
+  name: Rick Mak
+  gender: male
+  description:
+    - >
+      Father of two kids. Programmer writes js, python, go and brew coffee.
+      Like to read codes in different languages. Working at http://oursky.com/
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Nick
+    github: https://github.com/rickmak
+  company:
+    name: Oursky
+    url:  http://oursky.com/
+  portrait: ""
+  hkoscon-sponsored: false
+hayden-chung:
+  name: Hayden Chung
+  gender: male
+  description:
+    - >
+      Hayden Chung, a freelance system administrator, describes himself as
+      an information security fanatics which loves to try out new technology.
+      Former guest speaker in OSHK starting from 2014. A community member
+      of Mozilla Hong Kong.
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Hayden
+    github: https://github.com/fhoshino
+    blog: https://about.me/fubukihoshino
+  portrait: ""
+  hkoscon-sponsored: false
+amanda-lam:
+  name: Amanda Lam
+  gender: female
+  description:
+    - >
+      Product Owner @ SEEK Asia (jobsDB + JobStreet) | Diversity Advocate |
+      HKPUG Podcaster | Youtuber | Jolla & Sailfish OS fans
+      http://about.me/amandalam
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Amanda
+    github: https://github.com/amandalam
+    blog: http://dadablog.net/
+vinnson-lee:
+  name: Vinnson Lee
+  gender: male
+  description:
+    - >
+      Senior Software Engineer from China Mobile Hong Kong, DevOps leader,
+      10+ year experience in software development and implementation of open
+      source software
+  residence: Hong Kong
+  nationality: Hong Kong
+  portrait: ""
+  hkoscon-sponsored: false
+cyrus-wong:
+  name: Cyrus Wong
+  gender: male
+  description:
+    - >
+      Mr. Cyrus Wong the first AWS All 5 Certified and AWS Community Hero of
+      Hong Kong, and he is the Data Scientist of Cloud Innovation Centre in
+      IVE (Lee Wai Lee) . Winner of 3 Hong Kong ICT Awards.
+    - >
+      https://hk.linkedin.com/in/cyruswong
+    - >
+      https://aws.amazon.com/heroes/asia-pacific/cyrus-wong/
+  residence: Hong Kong
+  nationality: Hong Kong
+  social:
+    nickname: Cyrus
+    github: https://github.com/wongcyrus/AWSCloudLab
+  portrait: male
+  hkoscon-sponsored: false
+daniel-chcouri:
+  name: Daniel Chcouri
+  gender: male
+  description:
+    - >
+      Full-Stack web developer. Founder and manager of MeteorSpark, a Hong Kong
+      based MeteorJS consultancy
+  residence: Hong Kong
+  nationality: Israel
+  social:
+    nickname: Daniel
+    github: https://github.com/theosp
+  company:
+    name: MeteorSpark
+    url: http://www.meteorspark.com/
+  portrait: ""
+  hkoscon-sponsored: false
+vigneshwer-dhinakaran:
+  name: Vigneshwer Dhinakaran
+  gender: male
+  description:
+    - >
+      Vigneshwer is an innovative data scientist with an artistic perception of
+      technology and business, having 3+ years of experience in various domains
+      such as IOT, DevOps, Computer Vision & Deep Learning and is working as a
+      research analyst crunching real-time data and implementing state of art
+      AI algorithms in the Innovation and development lab of the world’s
+      largest decision science company in Bengaluru, India.
+
+    - >
+      He is an official Mozilla representative and has been associated with
+      Mozilla for more than 4 years conducting 100+ events in his region. His
+      recent session include
+      demystifying AI in Mozfest16, Deep dive into rust at MozillaTN17 meetup
+      and is currently writing a book on rust language.
+  residence: India
+  nationality: India
+  social:
+    nickname: Vigneshwer
+    github: https://github.com/dvigneshwer/
+    blog: https://dvigneshwer.wordpress.com/
+  portrait: ""
+  hkoscon-sponsored: false
+vaishali-thakkar:
+  name: Vaishali Thakkar
+  gender: female
+  residence: ""
+  nationality: ""
+  portrait: ""
+  hkoscon-sponsored: true

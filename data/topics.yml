@@ -1,41 +1,609 @@
 num_submissions: "51"
 deadline: 2017/02/28 23:00 (GMT+8)
 topics:
+  -   title:    "The deep dive in-and-out of MySQL Group Replication"
+      id:       "the-deep-dive-in-and-out-of-mysql-group-replication"
+      speaker:
+        - "ivan-ma"
+      remark:   "MySQL"
+      url:      "#"
+      description:
+        - >
+          High Available Database Architecture is so important.  It is more than
+          just the HA but also scalable design to the demand.   MySQL Group
+          Replication is one of the key features in MySQL 5.7 (since the
+          release of 5.7.17).   The session will share the setup of MySQL Group
+          Replication together with the MySQL InnoDB Cluster, in which the MySQL
+          Shell, MySQL Router + MySQL Group Replication architecture go together
+          to form a scalable and reliable db infrastructure to your
+          application(s).
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:      true
+  -   title:  "What's New in MySQL 8.0"
+      id:     "whats-new-in-mysql-8.0"
+      speaker:
+        - "ryusuke-kajiyama"
+      remark: "MySQL"
+      url:  "#"
+      description:
+        - >
+          In this session learn about the new features in MySQL 8.0 Development
+          Milestone Release, including the new transactional data dictionary,
+          SQL roles, new character sets and collations, and much more.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:      true
   -   title:    "Preparing for the App-ocalypse: The Web in the Age of Physical Computing"
-      speaker:  "Dietrich Ayala"
+      id:       "preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing"
+      speaker:
+        - "dietrich-ayala"
       remark:   "Mozilla"
       url:      "#"
+      description:
+        - >
+          Ubiquitous physical computing is here, blurring what is digital and
+          real in our daily experience. Join me for an interactive tour of how
+          to create digital+physical experiences on the web with IoT, AR, VR
+          and other emerging technologies.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
       cfp:      true
   -   title:    "Reproducible builds: Fulfilling the original promise of free software"
-      speaker:  "Chris Lamb"
+      id:       "reproducible-builds-fulfilling-the-original-promise-of-free-software"
+      speaker:
+        - "chris-lamb"
       remark:   "Debian"
       url:      "#"
+      description:
+        - >
+          Whilst anyone can inspect the source code of free software for
+          malicious flaws, most Linux distributions provide binary
+          (or "compiled") packages to end users.
+
+        - >
+          The motivation behind "reproducible" builds is to allow verification
+          that no flaws have been introduced during this compilation process by
+          promising identical binary packages are always generated from a
+          given source.
+
+        - >
+          This prevents against the installation of backdoor-introducing malware
+          on developers' machines - an attacker would need to simultaneously
+          infect or blackmail all developers attempting to reproduce the build.
+
+        - >
+          This talk will focus heavily on how exactly software can fail to be
+          reproducible, the tools, tests & specifications we have written to
+          fix & diagnose issues, as well as the many amusing "fails" in
+          upstream's code that have been unearthed by this process. In addition,
+          you will learn what to avoid in your own software as well as the
+          future efforts in the Reproducible Builds arena.
+      lang:  "en"
+      lang_slide: "en"
+      type: "talk"
       cfp:      true
   -   title:    "Building a career in Open Source"
-      speaker:  "Vaishali Thakkar"
+      id:       "building-a-career-in-open-source"
+      speaker:
+        - "vaishali-thakkar"
       remark:   "India"
       url:      "#"
+      description: ""
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
       cfp:      true
   -   title:    "Open CV in Raspberry PI with Camera"
-      speaker:  "Kazuhiko Inaba"
+      id:       "open-cv-in-raspberry-pi-with-camera"
+      speaker:
+        - "kazuhiko-inaba"
       remark:   "Japan"
       url:      "#"
+      description:
+        - >
+          This topic is about  Open CV in Raspberry PI 3 with Camera. I would
+          like to explain about this module how to install and use , and show
+          some demo from  the standard of the point of the view in performance
+          for making robots like an eye's function we can use.
+      lang: "en"
+      lang_slide: "ja_JP"
+      type: "talk"
       cfp:      false
   -   title:    "Tips in setting up OpenStack from scratch"
-      speaker:  "Vinnson Lee"
+      id:       "tips-in-setting-up-openstack-from-scratch"
+      speaker:
+        - "vinnson-lee"
       url:      "#"
+      description:
+        - >
+          We will show you some tips about how to setup OpenStack platform, and
+          bring you our experience in setting up private cloud for commercial
+          use, with hints on consideration of architecture, HA and network
+          design.
+      lang: "en_zh"
+      lang_slide: "en"
+      type: "talk"
       cfp:      true
   -   title:    "Let's Rust! System programming is awesome again!"
-      speaker:  "Karl Lam"
+      id:       "lets-rust-system-programming-is-awesome-again"
+      speaker:
+        - "karl-lam"
       remark:   "OneSky"
       url:      "#"
+      description:
+        - >
+          Usually we have to choose between performance, safety, and development
+          speed. We have C/C++, Java, and bunch of scripting languages.
+
+        - >
+          Then here comes to the Rust: a programming language brought by Mozilla
+          and the community.
+
+        - >
+          This topic will introduce Rust by showing the ownership concept,
+          modern syntax and examples of concurrency approach.
+      lang: "zh.yue"
+      lang_slide: "en"
+      type: "talk"
       cfp:      true
   -   title:    "One Year of Rust Microkernel Development"
-      speaker:  "Wei Tang"
+      id:       "one-year-of-rust-microkernel-development"
+      speaker:
+        - "wei-tang"
       url:      "#"
+      description:
+        - >
+          This talk discusses about my experience in working on Rux
+          (https://github.com/sorpaas/rux), a hobbist microkernel project in
+          Rust. It is nearly complete and features a capability-based system
+          similar to seL4. More will be focused on how to roll out your own
+          kernel project based on Rux.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
       cfp:      false
   -   title:    "Building Artificial Intelligence Units in Rust"
-      speaker:  "Vigneshwer Dhinakaran"
+      id:       "building-artificial-intelligence-units-in-rust"
+      speaker:
+        - "vigneshwer-dhinakaran"
       remark:   "India"
       url:      "#"
-      cfp:      true
+      description:
+        - >
+          General Description
+        - >
+          Rust is great for building mathematical models and AI which is the
+          talk of the hour and a great emerging domain is based on mathematics
+          which can crunch realtime data to provide human level insights which
+          helps in making logical decisions.
+        - >
+          There are already many crates in rust which provide AI units which
+          help in implementing deep learning and reinforcement learning systems
+          and algorithms.
+        - >
+          Proposals basically deep dives into such implementations in rust and
+          covers the benchmarks of performance of the rust crates with the
+          industrial grade libraries such as tensor flow and caffe. The Talk
+          touches upon the major problems in the industrial grade libraries and
+          how rust can help in avoiding them.
+        - >
+          Demos of few mathematical models to perform prediction tasks and how
+          to start off development of models from scratch in rust will be
+          demonstrated.
+
+        - >
+          Session Content
+        - >
+          Introduction to AI
+        - >
+          Current AI crates
+        - >
+          Demo on Male and female detector
+        - >
+          Template for mathematical model building
+        - >
+          Benchmarks of Rust Crates
+        - >
+          Areas of improvements and rust unique offerings
+
+        - >
+          Key Takeaways
+        - >
+          Learn to build your first machine learning program in rust
+        - >
+          Template for creating mathematical implementation from scratch
+        - >
+          Benchmarks of rust ML crates
+        - >
+          Learn the different benchmark parameters
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp: true
+  -   title:    "Data In, Elasticsearch Out"
+      id:       "data-in-elasticsearch-out"
+      speaker:
+        - "josh-rich"
+      remark:   "Elasticsearch"
+      url:      "#"
+      description:
+        - >
+          In this talk, I'll give a whirlwind tour of how to get various common
+          sources of data into Elasticsearch using Logstash and Beats.  Once
+          we've covered getting data in, we'll take a look at filtering and
+          enrichment options both pre and post ingest with Logstash and
+          Elasticsearch and then finally at management, maintenance and best
+          practices of storing data in Elasticsearch.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:      false
+  -   title:  "A War of File Format -- Why We Select ODF in Taiwan"
+      id: "a-war-of-file-format-why-we-select-odf-in-taiwan"
+      speaker:
+        - "franklin-weng"
+      remark: ""
+      url:    "#"
+      description:
+        - >
+          Since 2015 Taiwan launched a three-year project, asking users in
+          government to use ODF as the standard file format.  Why did we choose
+          ODF instead of OOXML, which has a lot more users in the world?
+          What's the differences?  What's the advantages using a stable and
+          open spec file format?  LibreOffice v.s. Microsoft Office -- It's not
+          a war of software.  It's actually a war of file format.
+      lang: "en_zh"
+      lang_slide: "en"
+      type: "talk"
+      cfp:    false
+  -   title:  "PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法"
+      id: "PIME"
+      speaker:
+        - "pcman"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          Open source 的中文輸入 framework 在Linux下選擇很多，但在 Windows 上則相對缺乏，
+          尤其 Windows 8 之後，新 TSF 架構實做相當困難，Metro mode 又多了許多限制，
+          使得很多開發者空有設計輸入法的構想，卻無法落實到很多人使用的 Windows 系統上。PIME
+          為一個能在 Windows 上用 python 和 JavaScript 開發中文輸入法的架構，底層採用
+          C++ 開發的 LibIME (取自新酷音輸入 Windows 版)，幫助有志於改善中文輸入環境的朋友，
+          在不了解太多細節，也不用會 C++ 的狀況下，也能用標準 web 技術設計新的輸入法。
+      lang: "zh.tw"
+      lang_slide: "zh"
+      type: "talk"
+      cfp:  false
+  -   title:  "ezgo for HK：自由的學習系統，本地的楷書字型。"
+      id: "ezgo-for-hk"
+      speaker:
+        - "eric-sun"
+        - "franklin-weng"
+        - "kingman-leung"
+      remark: ""
+      url:    "#"
+      description:
+        - >
+          ezgo 是由台灣所發起的一項計畫，將 Linux 系統客製化，加入許多值得推廣的自由軟體、
+          教育資源與開放素材等等。並且在選單做了客製化，方便使用者快速找到想使用的應用程式。
+          現在，ezgo 與香港開源社群合作，推出一版香港專用的 ezgo 版本，除了原有的 ezgo
+          各項自由資源以外，更加上了近期大力推展的「自由香港字型」，以及可以參與造字的
+          fontforge 軟體。讓香港的孩子們、大人們，都可以體驗自由軟體的世界，並貢獻於自由
+          香港字型的建立。
+      lang: "zh.tw"
+      lang_slide: "zh"
+      type: "talk"
+      cfp:  false
+  -   title:  "This year in #rstats"
+      id: "this-year-in-rstats"
+      speaker:
+          - "hong-kong-r-user-group"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          Demonstrate some fascinating stuffs that you can do now with #rstats,
+          but not in 365 days before.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:  false
+  -   title:  "Harnessing social media with R"
+      id: "harnessing-social-media-with-r"
+      speaker:
+        - "lushi-chen"
+      remark: ""
+      url: "#"
+      description:
+        - >
+          Studying satisfaction with life can assist evaluation of the effect
+          of interventions mediating mental disorders, yet frequent or regular
+          monitoring of SWL in longitudinal studies is laborious and often
+          results in high dropout rate. In this study, we applied machine
+          learning to social network data to predict SWL. Based on a variety of
+          feature selection methods and a three-step random forest model, our
+          language-based model for SWL reached an accuracy of 0.58
+          (SWL split into three classes). Machine-predicted SWL scores showed
+          higher validity coefficients than self-reported SWL scores when
+          predicting certain life outcomes. Using the same method, we built
+          three more models predicting respectively depression, personality,
+          and self-disclosure, the accuracies of which were all over 0.50.
+          Comparison of these models suggest that content words such as negative
+          emotion words are the major indicators of SWL and a multi-step random
+          forest model can make valid predictions for many psychological traits.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:  false
+  -   title:  "A Security State of Mind: Continuous Security for DevOps with Kubernetes"
+      id:   "a-security-state-of-mind-continuous-security-for-devops-with-kubernetes"
+      speaker:
+        - "chris-van-tuin"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          With the rise of DevOps, containers are at the brink of becoming a
+          pervasive technology in Enterprise IT to accelerate application delivery
+          for the business. When it comes to adopting containers in the enterprise,
+          Security is the highest adoption barrier. Is your organization ready to
+          address the security risks with containers for your DevOps environment?
+
+        - >
+          In this presentation, you'll learn about:
+        - >
+          The underlying technologies for Containers based DevOps including
+          Kubernetes
+        - >
+          The top security risks with containers and how to manage theses risks
+          at scale for Container Images, Builds, Registry, Deployment, Hosts,
+          Network, Storage, API, Monitoring/Logging, Federation.
+        - >
+          How to make your Container workflow more secure without slowing down
+          DevOps
+        - >
+          Automating security vulnerability management and compliance checking
+          for container images
+        - >
+          Also, a demo of Kubernetes managing container image lifecycle,
+          automating container security scans, and deployment strategies for
+          security updates at scale including Canary, Blue/Green, A/B testing.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp:  false
+  -   title:  "Build a cross-platform game in Haxe"
+      id: "build-a-cross-platofrm-game-in-haxe"
+      speaker:
+        - "andy-li"
+        - "kevin-leung"
+      remark: "Workshop"
+      url:  "#"
+      description:
+        - >
+          The Haxe programming language is well known for its wide range of
+          compilation targets. It is possible to compile a single Haxe code
+          base to JavaScript, Java, C#, Python, C++, PHP, Lua, and more.
+        - >
+          Let's have some hands-on experience with the Haxe by building a simple
+          game that is totally cross-platform - runs on desktops, mobiles, and
+          browsers. We will explore Haxe’s modern language design and study how
+          it produce performance efficient outputs.
+      lang: "en"
+      lang_slide: "en"
+      type: "workshop"
+      cfp:  false
+  -   title:  "Getting into the virtual world with WebVR/A-Frame"
+      id: "getting-into-the-virtual-world-with-web-vr"
+      speaker:
+        - "andy-li"
+        - "parvani-ng"
+      remark: "Workshop"
+      url:  "#"
+      description:
+        - >
+          Let’s get started in Virtual Reality with A-Frame, which is an open
+          source project that allows us to develop WebVR applications like how
+          we develop web sites - using XML based declarative markup.
+        - >
+          We will introduce the current status of VR software and hardware, and
+          what WebVR fits in. Using the Mozilla-developed A-Frame project, we
+          will build a simple WebVR application that can be viewed on a desktop
+          browser, on mobile with Google Cardboard, or even on a high-end head
+          mounted display.
+      lang: "en"
+      lang_slide: "en"
+      type: "workshop"
+      cfp:  false
+  -   title: "Building web app with open source serverless technology"
+      id: "building-web-app-with-open-source-serverless-technology"
+      speaker:
+        - "david-ng"
+      remark: "Workshop, Oursky"
+      url:  "#"
+      description:
+        - >
+          Short workshop on building web app with JavaScript and HTML5 that has
+          cloud features in a serverless approach。
+      lang: "zh.yue"
+      lang_slide: "en"
+      type: "workshop"
+      cfp:  false
+  -   title: "1000 days of Mozilla Community Space in Taipei"
+      id: "1000-days-of-mozilla-community-space-in-taipei"
+      speaker:
+        - "irvin-chen"
+      remark: ""
+      url: "#"
+      description:
+        - >
+          Volunteers of MozTW had already running Mozilla Community Space Taipei
+          "摩茲工寮" for 2.5 years. What have we done, how do we manage it, and
+          what we have learned. If you're interesting in running your own
+          hackerspace or makerspace, you're invited to join us exploring a
+          open way of community building and management.
+      lang: "zh.tw"
+      lang_slide: "en"
+      type: "talk"
+      cfp: false
+  -   title:  Blender Interface and 3D-CGI concepts
+      id: blender-interface-and-3d-cgi-concepts
+      speaker:
+        - "anny-leung"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          This session will share the basic 3D-CGI architecture and Blender
+          interface. Audience will learn the concepts and mechanisms of 3D
+          digital modeling and 3D animation principles. Blender would be used
+          to demonstrate the underlying concepts.
+      lang: "zh.yue"
+      lang_slide: "en"
+      type: "talk"
+      cfp: false
+  -   title:  軟體訊息本地化前置翻譯工具
+      id: 軟體訊息本地化前置翻譯工具
+      speaker:
+        - bluebat
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          翻譯軟體訊息與翻譯一般文件的需求差異，是造成本地化工作困難的原因之一。本工具希望能
+          夠扮演前置翻譯程式的角色，藉由字典檔案的比對，減輕翻譯者保持字彙一致的壓力，而能專
+          注於語意的正確與敘述的通順。除了由英語翻譯為漢語的功能之外，在不同的漢語翻譯之間互
+          轉也是程式的設計目標。
+      lang: "zh.tw"
+      lang_slide: "zh"
+      type: "talk"
+      cfp:  false
+  -   title: ZMQ multiplex between golang coroutine and python thread
+      id: zmq-multiplex-between-golang-coroutine-and-python-thread
+      speaker:
+        - rick-mak
+      remark: "Oursky"
+      url:  "#"
+      description:
+        - >
+          We use ZMQ as RPC transport between golang coroutine and python
+          thread in web server. The problem is handling one web request will
+          trigger multiple RPC calls between golang and python. The original
+          implementation of the RPC does not bidirectional and multiplexing
+          transport. As result, the call between golang and python will easily
+          consumed all python thread in thread pool very easily. We implement
+          a bidirectional and multiplexing transport, so we can reduce overhead
+          and reuse blocked workers.
+      lang: "en_zh"
+      lang: "en"
+      type: "talk"
+      cfp: false
+  -   title:  "Pentest fun with metasploit framework II"
+      id: "pentest-fun-with-metasploit-framework-ii"
+      speaker:
+        - "hayden-chung"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          This talk would be covering a quick recap of why we need penetration
+          testing, what metasploit framework is, and how to use it for
+          penetration testing. The talk would be including a mimic penetration
+          testing scenario as a showcase for how the framework is used.
+          Participant would expect after some introductory slides, live demo
+          (mainly command line interface) would take place. Though it is not
+          necessary, it is encouraged that participant would bring their own
+          laptop to follow the demo if they wish to.
+      lang: "en"
+      lang_slide: "en"
+      type: "talk"
+      cfp: false
+  -   title:  "Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!"
+      id: "use-sqlite-for-simple-data-analysis"
+      speaker:
+        - "amanda-lam"
+      remark: "Workshop"
+      url:  "#"
+      description:
+        - >
+          Excel formulas can be quite slow when you're processing data files
+          with thousands of rows. It's also especially difficult to maintain
+          the files when you have some messy mixture of VLOOKUPs, Pivot Tables,
+          Macros and VBAs.
+        - >
+          In this interactive workshop targeted for non-coders, we will make
+          use of SQLite, a very lightweight and portable open source database
+          library, to perform some simple and repeatable data analysis on large
+          datasets that are publicly available. We will also explore what you
+          can further do with the data by using some powerful extensions of
+          SQLite.
+        - >
+          While SQLite may not totally replace Excel in many ways, after the
+          workshop you will find that it can improve your work efficiency and
+          make your life much easier in so many use cases!
+        - >
+          Who should attend this workshop?
+        - >
+          If you're frustrated with the slow performance of Excel formulas
+          when dealing with large datasets in your daily work
+        - >
+          No coding experience is required
+        - >
+          Requirements
+        - >
+          Bring your own laptop (it can be Windows, Mac or Linux)
+      lang: "en"
+      lang_slide: "en"
+      type: "workshop"
+      cfp: false
+  -   title:  "AWS Cloud Lab (革新雲端電腦房)"
+      id: "aws-cloud-lab"
+      speaker:
+        - "cyrus-wong"
+      remark: ""
+      url:  "#"
+      description:
+        - >
+          AWS Cloud Lab is aims to facilitate educators using AWS in their
+          teaching (not RESEARCH). Using AWS, teachers can create the tailor
+          made lab environment for every students, and get rid of the physical
+          computer limitation.
+        - >
+          This project won 香港資訊及通訊科技獎2015:最佳學生發明（大專及大學）金獎
+          Gold Award - Hong Kong ICT Awards 2015: Best Student Invention
+          (College & Undergraduates) Award.
+      cfp:  false
+  -   title:  "Why BASH?"
+      id: "why-bash"
+      speaker:
+        - "daniel-chcouri"
+      remark: "MeteorSpark"
+      url:  "#"
+      description:
+        - >
+          When Linus Torvalds set down to write git it was Bash that he first
+          wrote it in. In this lecture, I'll explore the reasons why many
+          developers still use this scripting language to play with ideas and
+          write new tools. I'll present some of the most powerful features of
+          the language, and will help you getting started with it.
+      cfp: false
+  -   title:  "沒有 Powerpoint 的簡報世界"
+      id: "libreoffice-impress"
+      speaker:
+        - "franklin-weng"
+      remark: ""
+      url: "#"
+      description:
+        - >
+          你認識的簡報軟體只有 PowerPoint 嗎? 思考一下，全世界公認的簡報大師 Steve Jobs
+          是用 PowerPoint 做簡報的嗎? 你覺得全世界最知名的 TED 演講網站，有哪一份簡報非
+          PowerPoint 不可?
+        - >
+          試著在網路搜尋 Presentation tools 你將會發現原來簡報的工具還有更多的選擇，
+          試著選擇 LibreOffice 裡的 Impress 你將會發現，原來簡報設計可以如此的純粹，
+          原來一份令人驚豔的簡報關鍵不在 PowerPoint，而是令人  Impressive 的創意。
+      cfp: false
