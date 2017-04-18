@@ -6,9 +6,9 @@
 /******/ 	function __webpack_require__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
+/******/ 		if(installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
-/******/
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
@@ -7201,6 +7201,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
   function createChainableTypeChecker(validate) {
     if ({"FIREBASE_API_KEY":"AIzaSyBntaQn3SVsGDq36gdiDrJOdcoJ86c8plY","FIREBASE_AUTH_DOMAIN":"hkoscon-2017.firebaseapp.com","FIREBASE_DATEBASE_URL":"https://hkoscon-2017.firebaseio.com","FIREBASE_STORAGE_BUCKET":"hkoscon-2017.appspot.com","FIREBASE_MESSAGING_SENDER_ID":"621449212856"}.NODE_ENV !== 'production') {
       var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
     }
     function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
       componentName = componentName || ANONYMOUS;
@@ -7213,9 +7214,12 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
         } else if ({"FIREBASE_API_KEY":"AIzaSyBntaQn3SVsGDq36gdiDrJOdcoJ86c8plY","FIREBASE_AUTH_DOMAIN":"hkoscon-2017.firebaseapp.com","FIREBASE_DATEBASE_URL":"https://hkoscon-2017.firebaseio.com","FIREBASE_STORAGE_BUCKET":"hkoscon-2017.appspot.com","FIREBASE_MESSAGING_SENDER_ID":"621449212856"}.NODE_ENV !== 'production' && typeof console !== 'undefined') {
           // Old behavior for people using React.PropTypes
           var cacheKey = componentName + ':' + propName;
-          if (!manualPropTypeCallCache[cacheKey]) {
+          if (!manualPropTypeCallCache[cacheKey] &&
+          // Avoid spamming the console because they are often not actionable except for lib authors
+          manualPropTypeWarningCount < 3) {
             warning(false, 'You are manually calling a React.PropTypes validation ' + 'function for the `%s` prop on `%s`. This is deprecated ' + 'and will throw in the standalone `prop-types` package. ' + 'You may be seeing this warning due to a third-party PropTypes ' + 'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.', propFullName, componentName);
             manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
           }
         }
       }
