@@ -1,12 +1,12 @@
-num_submissions: "51"
+num_submissions:  51
 deadline: 2017/02/28 23:00 (GMT+8)
 topics:
-  -   title:    "The deep dive in-and-out of MySQL Group Replication"
-      id:       "the-deep-dive-in-and-out-of-mysql-group-replication"
+  -   title:    The deep dive in-and-out of MySQL Group Replication
+      id:       the-deep-dive-in-and-out-of-mysql-group-replication
       speaker:
-        - "ivan-ma"
-      remark:   "MySQL"
-      url:      "#"
+        - ivan-ma
+      remark:   MySQL
+      url:      #
       description:
         - >
           High Available Database Architecture is so important.  It is more than
@@ -17,47 +17,49 @@ topics:
           Shell, MySQL Router + MySQL Group Replication architecture go together
           to form a scalable and reliable db infrastructure to your
           application(s).
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
+      lang: zh.yue
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:  "What's New in MySQL 8.0"
-      id:     "whats-new-in-mysql-8.0"
+  -   title:  What's New in MySQL 8.0
+      id:     whats-new-in-mysql-8.0
       speaker:
-        - "ryusuke-kajiyama"
-      remark: "MySQL"
-      url:  "#"
+        - ryusuke-kajiyama
+      remark: MySQL
+      url:  #
       description:
         - >
           In this session learn about the new features in MySQL 8.0 Development
           Milestone Release, including the new transactional data dictionary,
           SQL roles, new character sets and collations, and much more.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
+      lang: en
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:    "Preparing for the App-ocalypse: The Web in the Age of Physical Computing"
-      id:       "preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing"
+  -   title:  >-
+                Preparing for the App-ocalypse: The Web in the Age of Physical Computing
+      id:       preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing
       speaker:
-        - "dietrich-ayala"
-      remark:   "Mozilla"
-      url:      "#"
+        - dietrich-ayala
+      remark:   Mozilla
+      url:      #
       description:
         - >
           Ubiquitous physical computing is here, blurring what is digital and
           real in our daily experience. Join me for an interactive tour of how
           to create digital+physical experiences on the web with IoT, AR, VR
           and other emerging technologies.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
+      lang: en
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:    "Reproducible builds: Fulfilling the original promise of free software"
-      id:       "reproducible-builds-fulfilling-the-original-promise-of-free-software"
+  -   title:  >-
+                Reproducible builds: Fulfilling the original promise of free software
+      id:       reproducible-builds-fulfilling-the-original-promise-of-free-software
       speaker:
-        - "chris-lamb"
-      remark:   "Debian"
-      url:      "#"
+        -  chris-lamb
+      remark:   Debian
+      url:      #
       description:
         - >
           Whilst anyone can inspect the source code of free software for
@@ -82,58 +84,58 @@ topics:
           upstream's code that have been unearthed by this process. In addition,
           you will learn what to avoid in your own software as well as the
           future efforts in the Reproducible Builds arena.
-      lang:  "en"
-      lang_slide: "en"
-      type: "talk"
+      lang:  en
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:    "Building a career in Open Source"
-      id:       "building-a-career-in-open-source"
+  -   title:    Building a career in Open Source
+      id:       building-a-career-in-open-source
       speaker:
-        - "vaishali-thakkar"
-      remark:   "India"
-      url:      "#"
-      description: ""
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:      true
-  -   title:    "Open CV in Raspberry PI with Camera"
-      id:       "open-cv-in-raspberry-pi-with-camera"
+        -   vaishali-thakkar
+      remark:   India
+      url:      #
+      description:
+      lang: en
+      lang_slide: en
+      type: talk
+      cfp:      false
+  -   title:    Open CV in Raspberry PI with Camera
+      id:       open-cv-in-raspberry-pi-with-camera
       speaker:
-        - "kazuhiko-inaba"
-      remark:   "Japan"
-      url:      "#"
+        - kazuhiko-inaba
+      remark:   Japan
+      url:      #
       description:
         - >
           This topic is about  Open CV in Raspberry PI 3 with Camera. I would
           like to explain about this module how to install and use , and show
           some demo from  the standard of the point of the view in performance
           for making robots like an eye's function we can use.
-      lang: "en"
-      lang_slide: "ja_JP"
-      type: "talk"
-      cfp:      false
-  -   title:    "Tips in setting up OpenStack from scratch"
-      id:       "tips-in-setting-up-openstack-from-scratch"
+      lang: en
+      lang_slide: ja_JP
+      type: talk
+      cfp:      true
+  -   title:    Tips in setting up OpenStack from scratch
+      id:       tips-in-setting-up-openstack-from-scratch
       speaker:
-        - "vinnson-lee"
-      url:      "#"
+        - vinnson-lee
+      url:  #
       description:
         - >
           We will show you some tips about how to setup OpenStack platform, and
           bring you our experience in setting up private cloud for commercial
           use, with hints on consideration of architecture, HA and network
           design.
-      lang: "en_zh"
-      lang_slide: "en"
-      type: "talk"
+      lang: en_zh
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:    "Let's Rust! System programming is awesome again!"
-      id:       "lets-rust-system-programming-is-awesome-again"
+  -   title:    Let's Rust! System programming is awesome again!
+      id:       lets-rust-system-programming-is-awesome-again
       speaker:
-        - "karl-lam"
-      remark:   "OneSky"
-      url:      "#"
+        - karl-lam
+      remark:   OneSky
+      url:      #
       description:
         - >
           Usually we have to choose between performance, safety, and development
@@ -146,15 +148,15 @@ topics:
         - >
           This topic will introduce Rust by showing the ownership concept,
           modern syntax and examples of concurrency approach.
-      lang: "zh.yue"
-      lang_slide: "en"
-      type: "talk"
+      lang: zh.yue
+      lang_slide: en
+      type: talk
       cfp:      true
-  -   title:    "One Year of Rust Microkernel Development"
-      id:       "one-year-of-rust-microkernel-development"
+  -   title:    One Year of Rust Microkernel Development
+      id:       one-year-of-rust-microkernel-development
       speaker:
-        - "wei-tang"
-      url:      "#"
+        - wei-tang
+      url:      #
       description:
         - >
           This talk discusses about my experience in working on Rux
@@ -162,16 +164,16 @@ topics:
           Rust. It is nearly complete and features a capability-based system
           similar to seL4. More will be focused on how to roll out your own
           kernel project based on Rux.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:      false
-  -   title:    "Building Artificial Intelligence Units in Rust"
-      id:       "building-artificial-intelligence-units-in-rust"
+      lang: en
+      lang_slide: en
+      type: talk
+      cfp:      true
+  -   title:    Building Artificial Intelligence Units in Rust
+      id:       building-artificial-intelligence-units-in-rust
       speaker:
-        - "vigneshwer-dhinakaran"
-      remark:   "India"
-      url:      "#"
+        - vigneshwer-dhinakaran
+      remark:   India
+      url:      #
       description:
         - >
           General Description
@@ -220,16 +222,16 @@ topics:
           Benchmarks of rust ML crates
         - >
           Learn the different benchmark parameters
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
+      lang: en
+      lang_slide: en
+      type: talk
       cfp: true
-  -   title:    "Data In, Elasticsearch Out"
-      id:       "data-in-elasticsearch-out"
+  -   title:    Data In, Elasticsearch Out
+      id:       data-in-elasticsearch-out
       speaker:
-        - "josh-rich"
-      remark:   "Elasticsearch"
-      url:      "#"
+        - josh-rich
+      remark:    Elasticsearch
+      url:       #
       description:
         - >
           In this talk, I'll give a whirlwind tour of how to get various common
@@ -238,16 +240,17 @@ topics:
           enrichment options both pre and post ingest with Logstash and
           Elasticsearch and then finally at management, maintenance and best
           practices of storing data in Elasticsearch.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:      false
-  -   title:  "A War of File Format -- Why We Select ODF in Taiwan"
-      id: "a-war-of-file-format-why-we-select-odf-in-taiwan"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp:      true
+  -   title:   >-
+            A War of File Format -- Why We Select ODF in Taiwan
+      id:  a-war-of-file-format-why-we-select-odf-in-taiwan
       speaker:
-        - "franklin-weng"
-      remark: ""
-      url:    "#"
+        -  franklin-weng
+      remark:  Taiwan
+      url:     #
       description:
         - >
           Since 2015 Taiwan launched a three-year project, asking users in
@@ -256,16 +259,17 @@ topics:
           What's the differences?  What's the advantages using a stable and
           open spec file format?  LibreOffice v.s. Microsoft Office -- It's not
           a war of software.  It's actually a war of file format.
-      lang: "en_zh"
-      lang_slide: "en"
-      type: "talk"
-      cfp:    false
-  -   title:  "PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法"
-      id: "PIME"
+      lang:  en_zh
+      lang_slide:  en
+      type:  talk
+      cfp:    true
+  -   title:   >-
+                PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法
+      id:  PIME
       speaker:
-        - "pcman"
-      remark: ""
-      url:  "#"
+        -  pcman
+      remark:  Taiwan
+      url:   #
       description:
         - >
           Open source 的中文輸入 framework 在Linux下選擇很多，但在 Windows 上則相對缺乏，
@@ -274,18 +278,19 @@ topics:
           為一個能在 Windows 上用 python 和 JavaScript 開發中文輸入法的架構，底層採用
           C++ 開發的 LibIME (取自新酷音輸入 Windows 版)，幫助有志於改善中文輸入環境的朋友，
           在不了解太多細節，也不用會 C++ 的狀況下，也能用標準 web 技術設計新的輸入法。
-      lang: "zh.tw"
-      lang_slide: "zh"
-      type: "talk"
-      cfp:  false
-  -   title:  "ezgo for HK：自由的學習系統，本地的楷書字型。"
-      id: "ezgo-for-hk"
+      lang:  zh.tw
+      lang_slide:  zh
+      type:  talk
+      cfp:  true
+  -   title:   >-
+            ezgo for HK：自由的學習系統，本地的楷書字型。
+      id:  ezgo-for-hk
       speaker:
-        - "eric-sun"
-        - "franklin-weng"
-        - "kingman-leung"
-      remark: ""
-      url:    "#"
+        -  eric-sun
+        -  franklin-weng
+        -  kingman-leung
+      remark:
+      url:     #
       description:
         - >
           ezgo 是由台灣所發起的一項計畫，將 Linux 系統客製化，加入許多值得推廣的自由軟體、
@@ -294,30 +299,42 @@ topics:
           各項自由資源以外，更加上了近期大力推展的「自由香港字型」，以及可以參與造字的
           fontforge 軟體。讓香港的孩子們、大人們，都可以體驗自由軟體的世界，並貢獻於自由
           香港字型的建立。
-      lang: "zh.tw"
-      lang_slide: "zh"
-      type: "talk"
-      cfp:  false
-  -   title:  "This year in #rstats"
-      id: "this-year-in-rstats"
+      lang:  zh.tw
+      lang_slide:  zh
+      type:  talk
+      cfp:  true
+  -   title:  Free Hong Kong Kai Font
+      id:  free-hong-kong-font
       speaker:
-          - "hong-kong-r-user-group"
-      remark: ""
-      url:  "#"
+          -  kingman-leung
+      remark:
+      url:  #
+      description:
+      lang:  zh.yue
+      lang_slide:  zh
+      type: talk
+      cfp:  true
+  -   title:   >-
+            This year in #rstats
+      id:  this-year-in-rstats
+      speaker:
+          -  hong-kong-r-user-group
+      remark:
+      url:   #
       description:
         - >
           Demonstrate some fascinating stuffs that you can do now with #rstats,
           but not in 365 days before.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:  false
-  -   title:  "Harnessing social media with R"
-      id: "harnessing-social-media-with-r"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp:  true
+  -   title:   Harnessing social media with R
+      id:  harnessing-social-media-with-r
       speaker:
-        - "lushi-chen"
-      remark: ""
-      url: "#"
+        -  lushi-chen
+      remark:
+      url:  #
       description:
         - >
           Studying satisfaction with life can assist evaluation of the effect
@@ -335,16 +352,17 @@ topics:
           Comparison of these models suggest that content words such as negative
           emotion words are the major indicators of SWL and a multi-step random
           forest model can make valid predictions for many psychological traits.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:  false
-  -   title:  "A Security State of Mind: Continuous Security for DevOps with Kubernetes"
-      id:   "a-security-state-of-mind-continuous-security-for-devops-with-kubernetes"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp:  true
+  -   title:  >-
+            A Security State of Mind: Continuous Security for DevOps with Kubernetes
+      id:    a-security-state-of-mind-continuous-security-for-devops-with-kubernetes
       speaker:
-        - "chris-van-tuin"
-      remark: ""
-      url:  "#"
+        -  chris-van-tuin
+      remark:  Redhat
+      url:   #
       description:
         - >
           With the rise of DevOps, containers are at the brink of becoming a
@@ -372,17 +390,17 @@ topics:
           Also, a demo of Kubernetes managing container image lifecycle,
           automating container security scans, and deployment strategies for
           security updates at scale including Canary, Blue/Green, A/B testing.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp:  false
-  -   title:  "Build a cross-platform game in Haxe"
-      id: "build-a-cross-platofrm-game-in-haxe"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp:  true
+  -   title:   Build a cross-platform game in Haxe
+      id:  build-a-cross-platofrm-game-in-haxe
       speaker:
-        - "andy-li"
-        - "kevin-leung"
-      remark: "Workshop"
-      url:  "#"
+        -  andy-li
+        -  kevin-leung
+      remark:  Haxe Foundation
+      url:   #
       description:
         - >
           The Haxe programming language is well known for its wide range of
@@ -393,17 +411,18 @@ topics:
           game that is totally cross-platform - runs on desktops, mobiles, and
           browsers. We will explore Haxe’s modern language design and study how
           it produce performance efficient outputs.
-      lang: "en"
-      lang_slide: "en"
-      type: "workshop"
-      cfp:  false
-  -   title:  "Getting into the virtual world with WebVR/A-Frame"
-      id: "getting-into-the-virtual-world-with-web-vr"
+      lang:  en
+      lang_slide:  en
+      type:  workshop
+      cfp:  true
+  -   title:   >-
+            Getting into the virtual world with WebVR/A-Frame
+      id:  getting-into-the-virtual-world-with-web-vr
       speaker:
-        - "andy-li"
-        - "parvani-ng"
-      remark: "Workshop"
-      url:  "#"
+        -  andy-li
+        -  parvani-ng
+      remark:
+      url:   #
       description:
         - >
           Let’s get started in Virtual Reality with A-Frame, which is an open
@@ -415,30 +434,30 @@ topics:
           will build a simple WebVR application that can be viewed on a desktop
           browser, on mobile with Google Cardboard, or even on a high-end head
           mounted display.
-      lang: "en"
-      lang_slide: "en"
-      type: "workshop"
-      cfp:  false
-  -   title: "Building web app with open source serverless technology"
-      id: "building-web-app-with-open-source-serverless-technology"
+      lang:  en
+      lang_slide:  en
+      type:  workshop
+      cfp:  true
+  -   title:  Building web app with open source serverless technology
+      id:  building-web-app-with-open-source-serverless-technology
       speaker:
-        - "david-ng"
-      remark: "Workshop, Oursky"
-      url:  "#"
+        -  david-ng
+      remark:  Oursky
+      url:   #
       description:
         - >
           Short workshop on building web app with JavaScript and HTML5 that has
           cloud features in a serverless approach。
-      lang: "zh.yue"
-      lang_slide: "en"
-      type: "workshop"
-      cfp:  false
-  -   title: "1000 days of Mozilla Community Space in Taipei"
-      id: "1000-days-of-mozilla-community-space-in-taipei"
+      lang:  zh.yue
+      lang_slide:  en
+      type:  workshop
+      cfp:  true
+  -   title:  1000 days of Mozilla Community Space in Taipei
+      id:  1000-days-of-mozilla-community-space-in-taipei
       speaker:
-        - "irvin-chen"
-      remark: ""
-      url: "#"
+        -  irvin-chen
+      remark:  Taiwan
+      url:  #
       description:
         - >
           Volunteers of MozTW had already running Mozilla Community Space Taipei
@@ -446,48 +465,48 @@ topics:
           what we have learned. If you're interesting in running your own
           hackerspace or makerspace, you're invited to join us exploring a
           open way of community building and management.
-      lang: "zh.tw"
-      lang_slide: "en"
-      type: "talk"
-      cfp: false
+      lang:  zh.tw
+      lang_slide:  en
+      type:  talk
+      cfp: true
   -   title:  Blender Interface and 3D-CGI concepts
       id: blender-interface-and-3d-cgi-concepts
       speaker:
-        - "anny-leung"
-      remark: ""
-      url:  "#"
+        -  anny-leung
+      remark:
+      url:   #
       description:
         - >
           This session will share the basic 3D-CGI architecture and Blender
           interface. Audience will learn the concepts and mechanisms of 3D
           digital modeling and 3D animation principles. Blender would be used
           to demonstrate the underlying concepts.
-      lang: "zh.yue"
-      lang_slide: "en"
-      type: "talk"
-      cfp: false
+      lang:  zh.yue
+      lang_slide:  en
+      type:  talk
+      cfp: true
   -   title:  軟體訊息本地化前置翻譯工具
       id: 軟體訊息本地化前置翻譯工具
       speaker:
         - bluebat
-      remark: ""
-      url:  "#"
+      remark:  Taiwan
+      url:   #
       description:
         - >
           翻譯軟體訊息與翻譯一般文件的需求差異，是造成本地化工作困難的原因之一。本工具希望能
           夠扮演前置翻譯程式的角色，藉由字典檔案的比對，減輕翻譯者保持字彙一致的壓力，而能專
           注於語意的正確與敘述的通順。除了由英語翻譯為漢語的功能之外，在不同的漢語翻譯之間互
           轉也是程式的設計目標。
-      lang: "zh.tw"
-      lang_slide: "zh"
-      type: "talk"
-      cfp:  false
+      lang:  zh.tw
+      lang_slide:  zh
+      type:  talk
+      cfp:  true
   -   title: ZMQ multiplex between golang coroutine and python thread
       id: zmq-multiplex-between-golang-coroutine-and-python-thread
       speaker:
         - rick-mak
-      remark: "Oursky"
-      url:  "#"
+      remark:  Oursky
+      url:   #
       description:
         - >
           We use ZMQ as RPC transport between golang coroutine and python
@@ -498,16 +517,16 @@ topics:
           consumed all python thread in thread pool very easily. We implement
           a bidirectional and multiplexing transport, so we can reduce overhead
           and reuse blocked workers.
-      lang: "en_zh"
-      lang: "en"
-      type: "talk"
-      cfp: false
-  -   title:  "Pentest fun with metasploit framework II"
-      id: "pentest-fun-with-metasploit-framework-ii"
+      lang:  zh.yue
+      lang:  en
+      type:  talk
+      cfp: true
+  -   title:   Pentest fun with metasploit framework II
+      id:  pentest-fun-with-metasploit-framework-ii
       speaker:
-        - "hayden-chung"
-      remark: ""
-      url:  "#"
+        -  hayden-chung
+      remark:
+      url:   #
       description:
         - >
           This talk would be covering a quick recap of why we need penetration
@@ -518,16 +537,16 @@ topics:
           (mainly command line interface) would take place. Though it is not
           necessary, it is encouraged that participant would bring their own
           laptop to follow the demo if they wish to.
-      lang: "en"
-      lang_slide: "en"
-      type: "talk"
-      cfp: false
-  -   title:  "Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!"
-      id: "use-sqlite-for-simple-data-analysis"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp: true
+  -   title:   Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!
+      id:  use-sqlite-for-simple-data-analysis
       speaker:
-        - "amanda-lam"
-      remark: "Workshop"
-      url:  "#"
+        -  amanda-lam
+      remark:
+      url:   #
       description:
         - >
           Excel formulas can be quite slow when you're processing data files
@@ -556,16 +575,16 @@ topics:
           Requirements
         - >
           Bring your own laptop (it can be Windows, Mac or Linux)
-      lang: "en"
-      lang_slide: "en"
-      type: "workshop"
-      cfp: false
-  -   title:  "AWS Cloud Lab (革新雲端電腦房)"
-      id: "aws-cloud-lab"
+      lang:  en
+      lang_slide:  en
+      type:  workshop
+      cfp: true
+  -   title:   AWS Cloud Lab (革新雲端電腦房)
+      id:  aws-cloud-lab
       speaker:
-        - "cyrus-wong"
-      remark: ""
-      url:  "#"
+        -  cyrus-wong
+      remark:
+      url:   #
       description:
         - >
           AWS Cloud Lab is aims to facilitate educators using AWS in their
@@ -576,13 +595,16 @@ topics:
           This project won 香港資訊及通訊科技獎2015:最佳學生發明（大專及大學）金獎
           Gold Award - Hong Kong ICT Awards 2015: Best Student Invention
           (College & Undergraduates) Award.
-      cfp:  false
-  -   title:  "Why BASH?"
-      id: "why-bash"
+      lang:  zh.yue
+      lang-slide:  en
+      type:  talk
+      cfp:  true
+  -   title:   Why BASH?
+      id:  why-bash
       speaker:
-        - "daniel-chcouri"
-      remark: "MeteorSpark"
-      url:  "#"
+        -  daniel-chcouri
+      remark:  MeteorSpark
+      url:   #
       description:
         - >
           When Linus Torvalds set down to write git it was Bash that he first
@@ -590,13 +612,16 @@ topics:
           developers still use this scripting language to play with ideas and
           write new tools. I'll present some of the most powerful features of
           the language, and will help you getting started with it.
-      cfp: false
-  -   title:  "沒有 Powerpoint 的簡報世界"
-      id: "libreoffice-impress"
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp: true
+  -   title:   沒有 Powerpoint 的簡報世界
+      id:  libreoffice-impress
       speaker:
-        - "franklin-weng"
-      remark: ""
-      url: "#"
+        -  franklin-weng
+      remark:  Taiwan
+      url:  #
       description:
         - >
           你認識的簡報軟體只有 PowerPoint 嗎? 思考一下，全世界公認的簡報大師 Steve Jobs
@@ -606,4 +631,28 @@ topics:
           試著在網路搜尋 Presentation tools 你將會發現原來簡報的工具還有更多的選擇，
           試著選擇 LibreOffice 裡的 Impress 你將會發現，原來簡報設計可以如此的純粹，
           原來一份令人驚豔的簡報關鍵不在 PowerPoint，而是令人  Impressive 的創意。
-      cfp: false
+      lang:  zh.tw
+      lang-slide:  zh
+      type:  talk
+      cfp: true
+  -   title:   JavaScript fuzzing in Mozilla, 2017
+      id:  javascript-fuzzling-in-mozilla-2017
+      speaker:
+        -  gary-kwong
+      remark:  Mozilla
+      url:  #
+      description:
+        - >
+          In Mozilla Firefox, the JavaScript engine (SpiderMonkey) is an
+          important component of the Gecko platform. In this presentation,
+          Senior Security Engineer Gary Kwong will describe how fuzzing is
+          leveraged in the Mozilla development workflow for the JavaScript
+          engine. He will talk about various fuzzing tools (e.g. jsfunfuzz)
+          for such engines. The potential pitfalls of this approach and
+          conditions under which fuzzing can be most effective will also be
+          discussed. Finally, Gary will speak about plans for the future of
+          some of these tools.
+      lang:  en
+      lang-slide: en
+      type:  talk
+      cfp: true

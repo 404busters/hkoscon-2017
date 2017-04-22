@@ -28,7 +28,7 @@ ivan-ma:
     url: https://www.mysql.com/
   portrait: ""
   hkoscon-sponsored: false
-  
+
 ryusuke-kajiyama:
   name: Ryusuke Kajiyama
   gender: male
@@ -425,6 +425,7 @@ rick-mak:
     url:  http://oursky.com/
   portrait: ""
   hkoscon-sponsored: false
+
 hayden-chung:
   name: Hayden Chung
   gender: male
@@ -442,6 +443,7 @@ hayden-chung:
     blog: https://about.me/fubukihoshino
   portrait: ""
   hkoscon-sponsored: false
+
 amanda-lam:
   name: Amanda Lam
   gender: female
@@ -456,6 +458,7 @@ amanda-lam:
     nickname: Amanda
     github: https://github.com/amandalam
     blog: http://dadablog.net/
+
 vinnson-lee:
   name: Vinnson Lee
   gender: male
@@ -468,6 +471,7 @@ vinnson-lee:
   nationality: Hong Kong
   portrait: ""
   hkoscon-sponsored: false
+
 cyrus-wong:
   name: Cyrus Wong
   gender: male
@@ -487,6 +491,7 @@ cyrus-wong:
     github: https://github.com/wongcyrus/AWSCloudLab
   portrait: male
   hkoscon-sponsored: false
+
 daniel-chcouri:
   name: Daniel Chcouri
   gender: male
@@ -504,6 +509,7 @@ daniel-chcouri:
     url: http://www.meteorspark.com/
   portrait: ""
   hkoscon-sponsored: false
+
 vigneshwer-dhinakaran:
   name: Vigneshwer Dhinakaran
   gender: male
@@ -530,6 +536,7 @@ vigneshwer-dhinakaran:
     blog: https://dvigneshwer.wordpress.com/
   portrait: ""
   hkoscon-sponsored: false
+
 vaishali-thakkar:
   name: Vaishali Thakkar
   gender: female
@@ -537,3 +544,22 @@ vaishali-thakkar:
   nationality: ""
   portrait: ""
   hkoscon-sponsored: true
+
+gary-kwong:
+  name: Gary Kwong
+  gender: male
+  description:
+    - >
+      Gary Kwong is a senior security engineer at Mozilla and a long-time member
+      of its community. He specialises in running JavaScript fuzzers that
+      rigorously test SpiderMonkey - the JavaScript engine of the Gecko
+      platform on which Mozilla Firefox is based. Gary is passionate about human
+      languages and breaking things in general.
+
+  residence: United States
+  nationality: Singapore
+  social:
+    nickname: gkw
+    github: https://github.com/nth10sd/
+  portrait: ""
+  hkoscon-sponsored: false
