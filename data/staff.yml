@@ -2,24 +2,26 @@ teams:
   - name: Conference Chairman
     members:
       - name: Mr. Sammy Fung
+        email: sammy@sammy.hk
   - name: Design
     members:
       - name: Mr. Nicholas Yau
         teamlead: true
-        email: ''
   - name: Finance
     members:
       - name: Dr. Haggen So
         teamlead: true
-        email: ''
+        github: lbrabbit
   - name: Marketing
     members:
       - name: Mr. Calvin Tsang
         teamlead: true
       - name: Ms. Fiona Lam
       - name: Ms. Clara Lin
+        fallback: https://file.hkoscon.org/staff/clara.lin.jpg
       - name: Ms. Wing Yan Tang
       - name: Mr. Tony Yip
+        email: tony@opensource.hk
   - name: Operation
     members:
       - name: Mr. Nicholas Yau
@@ -29,9 +31,12 @@ teams:
         email: cleung334@gmail.com
       - name: Ms. Sana Siu
       - name: Mr. Dick Tang
+        github: dictcp
       - name: Ms. Claire Wong
       - name: Mr. Koala Yeung
+        github: yookoala
       - name: Mr. Tony Yip
+        email: tony@opensource.hk
   - name: Program
     members:
       - name: Mr. Sammy Fung
@@ -39,17 +44,20 @@ teams:
       - name: Ms. Connie Leung
         email: cleung334@gmail.com
       - name: Mr. Dick Tang
+        github: dictcp
       - name: Mr. Calvin Tsang
   - name: Record
     members:
       - name: Mr. Henry Law
         teamlead: true
       - name: Mr. Joe Chan
-      - name: Mr. Mr. Sam Chiuck
+      - name: Mr. Sam Chiuck
   - name: Web
     members:
       - name: Mr. Koala Yeung
         teamlead: true
+        github: yookoala
       - name: Ms. Connie Leung
-        email: 'cleung334@gmail.com'
+        email: cleung334@gmail.com
       - name: Mr. Tony Yip
+        email: tony@opensource.hk
