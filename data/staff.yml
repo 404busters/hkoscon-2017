@@ -33,6 +33,7 @@ teams:
       - name: Mr. Dick Tang
         github: dictcp
       - name: Ms. Claire Wong
+        fallback: https://file.hkoscon.org/staff/claire.wong.jpg
       - name: Mr. Koala Yeung
         github: yookoala
       - name: Mr. Tony Yip
@@ -41,6 +42,7 @@ teams:
     members:
       - name: Mr. Sammy Fung
         teamlead: true
+        email: sammy@sammy.hk
       - name: Ms. Connie Leung
         email: cleung334@gmail.com
       - name: Mr. Dick Tang
@@ -50,6 +52,7 @@ teams:
     members:
       - name: Mr. Henry Law
         teamlead: true
+        fb: 506551481
       - name: Mr. Joe Chan
       - name: Mr. Sam Chiuck
   - name: Web
