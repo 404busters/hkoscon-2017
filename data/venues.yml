@@ -9,22 +9,22 @@
 #
 
 reception:
-  name: "Reception"
+  name: Reception
 
 sea-view-concourse:
-  name: "Sea View Concourse"
+  name: Sea View Concourse
 
 function-room:
-  name: "Function Room 1 and 2"
+  name: Function Room 1 and 2
 
 training-theatre:
-  name: "Training Theatre"
+  name: Training Theatre
 
 training-room-1:
-  name: "Training Room 1"
+  name: Training Room 1
 
 training-room-2:
-  name: "Training Room 2"
+  name: Training Room 2
 
 training-room-3:
-  name: "Training Room 3"
+  name: Training Room 3

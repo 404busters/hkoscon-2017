@@ -232,7 +232,7 @@ chris-van-tuin:
   nationality:  United States
   social:
     nickname: Chris
-    github: https://github.com/cvantuin
+    github: cvantuin
   company:
     name: Red hat
     url:  https://www.redhat.com/
@@ -257,7 +257,7 @@ andy-li:
   nationality:  Hong Kong
   social:
     name: Andy
-    url:  https://github.com/andyli
+    url:  andyli
     blog: https://blog.onthewings.net/
   portrait: ""
   hkoscon-sponsored: false
@@ -299,11 +299,9 @@ karl-lam:
       A Vegan, Free software enthusiast, DevOps engineer from bare metal to cloud.
   residence: Hong Kong
   nationality: Hong Kong
-  portrait: ""
-  hkoscon-sponsored: false
   social:
     nickname: Karl
-    github: http://github.com/karlvlam
+    github: karlvlam
   portrait: ""
   hkoscon-sponsored: false
 
@@ -318,7 +316,7 @@ wei-tang:
   nationality: Hong Kong
   social:
     nickname: Wei Tang
-    github: github.com/sorpaas
+    github: sorpaas
     blog: https://that.world/en/
   portrait: ""
   hkoscon-sponsored: false
@@ -334,7 +332,7 @@ david-ng:
   nationality: Hong Kong
   social:
     nickname: skygeario
-    github: https://github.com/skygeario
+    github: skygeario
     blog: https://code.oursky.com/
   portrait: ""
   hkoscon-sponsored: false
