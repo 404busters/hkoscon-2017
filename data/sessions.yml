@@ -6,17 +6,21 @@
 #
 # day-key:
 #   -
-#     tile:      "session name" (Only for non-topic)
-#     time:      "Timeslot id, in timeslot.yml"
+#     name:      "session name"
+#     timeStart: "time of session start, in RFC2822"
+#     timeEnd:   "time of session end, in RFC2822"
 #     venue:     "venue key, in venues.yml"
-#     topic
 
 day-1:
-  - title: Registration
-    venue: reception
-    time: day-1-start
+  -
+    name:      "Registration"
+    timeStart: "2017-06-09T09:15:00+0800"
+    timeEnd:   "2017-06-09T09:15:00+0800"
+    venue:     "reception"
 
 day-2:
-  - name: Registration
-    veune: reception
-    time: day-2-start
+  -
+    name:      "Registration"
+    timeStart: "2017-06-10T09:15:00+0800"
+    timeEnd:   "2017-06-10T09:15:00+0800"
+    venue:     "reception"

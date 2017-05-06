@@ -1,0 +1,31 @@
+zh.audience:
+  name: Cantonese/Mandarin, depending preferences of the audience
+  short: C/M (aud pref)
+
+zh.tw:
+  name: Mandarin
+  short: M
+
+zh.traditional:
+  name: Tranditional Chinese
+  short: M
+
+zh.cn:
+  name: Mandarin
+  short: M
+
+zh.yue:
+  name: Cantonese
+  short: C
+
+zh:
+  name: Chinese
+  short: C
+
+en:
+  name: English
+  short: E
+
+en_US/zh_CN/zh_TW/ja_JP:
+  name: Mixed English, Chinese, Japanese
+  short: Multi

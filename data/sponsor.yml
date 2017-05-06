@@ -22,10 +22,10 @@ sponsor_types:
         links:
           text:     Cyberport Website
           url:      https://www.cyberport.hk/en/
-  - name:     "Gold Sponsor"
+  - name:     Gold Sponsor
     sponsors:
-      - id:   "gandi"
-        name: "Gandi.net"
+      - id:   gandi
+        name: Gandi.net
         grantedPerm: true
         description:
           - >

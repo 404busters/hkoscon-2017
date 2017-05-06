@@ -49,7 +49,7 @@ ryusuke-kajiyama:
   company:
     name: MySQL
     url: https://www.mysql.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/ryusuke.kajiyama.jpg
   hkoscon-sponsored: false
 
 josh-rich:
@@ -65,11 +65,11 @@ josh-rich:
   nationality:  Australia
   social:
     nickname: Josh
-    github: https://github.com/joshuar/
+    github: joshuar
   company:
     name: Elastic
     url:  https://www.elastic.co/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/joshua.rich.jpg
   hkoscon-sponsored: false
 
 chris-lamb:
@@ -87,12 +87,12 @@ chris-lamb:
   nationality:  United Kingdom
   social:
     nickname: Chris
-    github: https://github.com/lamby/
+    github: lamby
     blog: https://chris-lamb.co.uk/blog
   community:
     name: Debian
     url: https://www.debian.org/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/chris.lamb.png
   hkoscon-sponsored: false
 
 dietrich-ayala:
@@ -110,11 +110,11 @@ dietrich-ayala:
   nationality:  United States
   social:
     nickname: Dietrich
-    github: http://github.com/autonome/
+    github: autonome
   company:
     name: Mozilla
     url:  https://www.mozilla.org/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/dietrich.ayala.jpg
   hkoscon-sponsored: false
 
 franklin-weng:
@@ -122,18 +122,18 @@ franklin-weng:
   gender: male
   description:
     - >
-      <a href=\"https://about.me/fweng322\" target=\"_blank\">https://about.me/fweng322</a>
+      <a href="https://about.me/fweng322" target="_blank">https://about.me/fweng322</a>
   residence:  Taiwan
   nationality:  Taiwan
   social:
     nickname: Franklin
-    github: https://github.com/fweng322/
+    github: fweng322
   community:
     name: LibreOffice (representation); KDE, ezgo (participating)
   company:
     name: Software Liberty Association Taiwan (SLAT)
     url: http://www.slat.org/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/franklin.weng.jpg
   hkoscon-sponsored: false
 
 pcman:
@@ -174,10 +174,10 @@ kingman-leung:
       香港註冊社工，主職長者服務，2000年帶領長者開發開放源碼「筆順五碼」中文輸入法，再於近年帶長者開發開放授權的「自由香港字型」計劃
   residence: Hong Kong
   nationality: Hong Kong
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/kingman.leung.jpg
   hkoscon-sponsored: false
 
-hong-kong-r-user-group:
+hkrug:
   name: Hong Kong R User Group
   gender: NA
   description:
@@ -186,16 +186,16 @@ hong-kong-r-user-group:
   residence:  Hong Kong
   nationality: Hong Kong
   social:
-    nickname: Hong Kong R User Group
-    github: https://github.com/hkrusers
+    nickname: hkrug
+    github: hkrusers
   community:
     name: Hong Kong R User Group
     url: https://www.facebook.com/groups/hkrusers/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/hkrug.png
   hkoscon-sponsored: false
 
 lushi-chen:
-  name: Lucia Chen
+  name: Lushi Chen
   gender: female
   description:
     - >
@@ -209,9 +209,8 @@ lushi-chen:
   residence: Hong Kong
   nationality: Hong Kong
   social:
-    nickname: Lucia
-    github: https://github.com/luciasalar/FB_ML
-  portrait: ""
+    github: luciasalar
+  portrait: https://file.hkoscon.org/speakers/2017/lushi.chen.jpg
   hkoscon-sponsored: false
 
 chris-van-tuin:
@@ -236,7 +235,7 @@ chris-van-tuin:
   company:
     name: Red hat
     url:  https://www.redhat.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/chris.van.tuin.jpg
   hkoscon-sponsored: false
 
 andy-li:
@@ -256,10 +255,10 @@ andy-li:
   residence:  Hong Kong
   nationality:  Hong Kong
   social:
-    name: Andy
-    url:  andyli
+    nickname: Andy
+    github:  andyli
     blog: https://blog.onthewings.net/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/andy.li.png
   hkoscon-sponsored: false
 
 kevin-leung:
@@ -274,8 +273,9 @@ kevin-leung:
       full-stack developer in a startup company.
   residence:  Hong Kong
   nationality: Hong Kong
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/kevin.leung.jpg
   hkoscon-sponsored: false
+  
 parvani-ng:
   name: Parvani Ng
   gender: female
@@ -288,7 +288,7 @@ parvani-ng:
       Creative Media.
   residence: Hong Kong
   nationality: Hong Kong
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/parvani.ng.jpg
   hkoscon-sponsored: false
 
 karl-lam:
@@ -302,7 +302,7 @@ karl-lam:
   social:
     nickname: Karl
     github: karlvlam
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/karl.lam.png
   hkoscon-sponsored: false
 
 wei-tang:
@@ -318,8 +318,9 @@ wei-tang:
     nickname: Wei Tang
     github: sorpaas
     blog: https://that.world/en/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/wei.tang.jpg
   hkoscon-sponsored: false
+  
 david-ng:
   name: David Ng
   gender: male
@@ -331,10 +332,14 @@ david-ng:
   residence: Hong Kong
   nationality: Hong Kong
   social:
-    nickname: skygeario
-    github: skygeario
+    project_name: SkygearIO
+    project_github: https://github.com/skygeario
+    blog_name: OurSky
     blog: https://code.oursky.com/
-  portrait: ""
+  company:
+    name: OurSky
+    url:  http://blog.oursky.com/
+  portrait: https://file.hkoscon.org/speakers/2017/david.ng.jpg
   hkoscon-sponsored: false
 irvin-chen:
   name: Irvin Chen
@@ -352,7 +357,7 @@ irvin-chen:
   nationality: Taiwan
   social:
     nickname: Irvin
-    github: https://github.com/irvin
+    github: irvin
   community:
     name: MozTW
     url:  https://moztw.org
@@ -361,8 +366,9 @@ irvin-chen:
     url:  https://womany.net
   portrait: ""
   hkoscon-sponsored: false
+  
 kazuhiko-inaba:
-  name: "Kazuhiko Inaba"
+  name: Kazuhiko Inaba
   gender: male
   description:
     - >
@@ -388,8 +394,9 @@ anny-leung:
   nationality:  Hong Kong
   social:
     blog: http://osmmhk.weebly.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/ann.leung.png
   hkoscon-sponsored: false
+  
 bluebat:
   name: 趙惟倫
   gender: male
@@ -402,8 +409,8 @@ bluebat:
   nationality: Hong Kong
   social:
     nickname: 趙惟倫
-    github: https://github.com/bluebat
-  portrait: ""
+    github: bluebat
+  portrait: https://file.hkoscon.org/speakers/2017/bluebat.png
   hkoscon-sponsored: false
 
 rick-mak:
@@ -412,16 +419,18 @@ rick-mak:
   description:
     - >
       Father of two kids. Programmer writes js, python, go and brew coffee.
-      Like to read codes in different languages. Working at http://oursky.com/
+      Like to read codes in different languages. 
+    - >
+      Working at <a href="http://oursky.com/" target="_blank">http://oursky.com/</a>
   residence: Hong Kong
   nationality: Hong Kong
   social:
-    nickname: Nick
-    github: https://github.com/rickmak
+    nickname: Rick
+    github: rickmak
   company:
     name: Oursky
     url:  http://oursky.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/rick.mak.jpg
   hkoscon-sponsored: false
 
 hayden-chung:
@@ -436,10 +445,10 @@ hayden-chung:
   residence: Hong Kong
   nationality: Hong Kong
   social:
-    nickname: Hayden
-    github: https://github.com/fhoshino
+    nickname: fhoshino
+    github: fhoshino
     blog: https://about.me/fubukihoshino
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/hayden.chung.jpg
   hkoscon-sponsored: false
 
 amanda-lam:
@@ -449,12 +458,14 @@ amanda-lam:
     - >
       Product Owner @ SEEK Asia (jobsDB + JobStreet) | Diversity Advocate |
       HKPUG Podcaster | Youtuber | Jolla & Sailfish OS fans
-      http://about.me/amandalam
+    - >
+      <a href="http://about.me/amandalam" target="_blank">http://about.me/amandalam</a>
   residence: Hong Kong
   nationality: Hong Kong
+  portrait: https://file.hkoscon.org/speakers/2017/amanda.lam.jpg
   social:
     nickname: Amanda
-    github: https://github.com/amandalam
+    github: amandalam
     blog: http://dadablog.net/
 
 vinnson-lee:
@@ -479,15 +490,19 @@ cyrus-wong:
       Hong Kong, and he is the Data Scientist of Cloud Innovation Centre in
       IVE (Lee Wai Lee) . Winner of 3 Hong Kong ICT Awards.
     - >
-      https://hk.linkedin.com/in/cyruswong
+      <a href="https://hk.linkedin.com/in/cyruswong" target="_blank">
+        https://hk.linkedin.com/in/cyruswong
+      </a>
     - >
-      https://aws.amazon.com/heroes/asia-pacific/cyrus-wong/
+      <a href="https://aws.amazon.com/heroes/asia-pacific/cyrus-wong/" target="_blank">
+        https://aws.amazon.com/heroes/asia-pacific/cyrus-wong/
+      </a>
   residence: Hong Kong
   nationality: Hong Kong
   social:
     nickname: Cyrus
-    github: https://github.com/wongcyrus/AWSCloudLab
-  portrait: male
+    github: wongcyrus
+  portrait: https://file.hkoscon.org/speakers/2017/cyrus.wong.jpg
   hkoscon-sponsored: false
 
 daniel-chcouri:
@@ -501,11 +516,11 @@ daniel-chcouri:
   nationality: Israel
   social:
     nickname: Daniel
-    github: https://github.com/theosp
+    github: theosp
   company:
     name: MeteorSpark
     url: http://www.meteorspark.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/daniel.chcouri.jpg
   hkoscon-sponsored: false
 
 vigneshwer-dhinakaran:
@@ -530,18 +545,32 @@ vigneshwer-dhinakaran:
   nationality: India
   social:
     nickname: Vigneshwer
-    github: https://github.com/dvigneshwer/
+    github: dvigneshwer
     blog: https://dvigneshwer.wordpress.com/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/vigneshwer.dhinakaran.jpg
   hkoscon-sponsored: false
 
 vaishali-thakkar:
   name: Vaishali Thakkar
   gender: female
-  residence: ""
-  nationality: ""
+  description:
+    - >
+      Vaishali Thakkar is working as a Linux Kernel engineer at Oracle. She 
+      works on various parts of the Linux Kernel like memory management, 
+      security and debugging tools [mainly Coccinelle]. She has previously 
+      worked as a Linux kernel intern in Outreachy program. She is also 
+      associated with various open source internship programs and groups 
+      [Outreachy, GSoC, GCI, Bangalore kernel meetup, LinuxChix India etc] 
+      as a mentor, co-organizer or volunteer. Her area of interest includes 
+      embedded systems, operating systems, security and computer architecture.
+  residence: India
+  nationality: India
+  social:
+    project_name: Linux Kernel
+    project_github: https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=vaishali
+    blog: http://vaishalitproject_hakkar.in/
   portrait: ""
-  hkoscon-sponsored: true
+  hkoscon-sponsored: false
 
 gary-kwong:
   name: Gary Kwong
@@ -553,11 +582,45 @@ gary-kwong:
       rigorously test SpiderMonkey - the JavaScript engine of the Gecko
       platform on which Mozilla Firefox is based. Gary is passionate about human
       languages and breaking things in general.
-
   residence: United States
   nationality: Singapore
   social:
     nickname: gkw
-    github: https://github.com/nth10sd/
+    github: nth10sd
+  portrait: https://file.hkoscon.org/speakers/2017/gary.kwong.jpg
+  hkoscon-sponsored: false
+
+thomas-kuiper:
+  name: Thomas Kuiper
+  gender: male
+  description:
+    - >
+      Thomas Kuiper, the General Manager of the Asia subsidiary of the domain
+      name registrar Gandi is originally from Germany. He worked on embedded
+      systems and content management systems for companies in Taiwan and Europe
+      before he set himself to the task to start Gandi's Asia business unit.
+      Gandi (abbreviation for "Gestion et Attribution des Noms de Domaine sur Internet"
+      in French or "Management and Allocation of Domain Names on the Internet"
+      in English) is a company tha provides domain name registration and
+      management in addition to Internet hosting infrastructure and related
+      services. The company has its head office in Paris and offices in San
+      Francisco, Luxembourg and Taipei to serve its customers around the clock.
+      Gandi was among the first European domain name registrars to offer ".COM"
+      and ".NET" and now manages over 2 million domain names with accreditation
+      for over 700 different domain name extensions for its customers, placing
+      Gandi among the top domain name registrars worldwide.
+  residence: Taiwan
+  social:
+    nickname: gandi
+    github: Gandi
   portrait: ""
+  hkoscon-sponsored: false
+
+dennis-chen:
+  name: Dennis Chen
+  gender: male
+  description: ""
+  residence: Taiwan
+  nationality: Taiwan
+  portrait: https://file.hkoscon.org/speakers/2017/dennis.chen.jpg
   hkoscon-sponsored: false
