@@ -44,8 +44,35 @@ sponsor_types:
         links:
           text:     Gandi.net Website
           url:      https://www.gandi.net/
-  - name:     Silver Sponsor
+  - name:     Silver Sponsors
     sponsors:
+      - id:   microsoft
+        name: Microsoft
+        grantedPerm: true
+        description:
+          - >
+            Since its founding in 1975, Microsoft has been a leader in this
+            transformation. As a reflection of that role - and to help the
+            company to focus on the opportunities that lie ahead - Microsoft
+            has established and embraced a new corporate mission: To empower
+            every person and every organization on the planet to achieve more.
+            The company offers a wide range of products and services designed,
+            to empower people through great software – any time, any place and
+            on any device. These include operating systems for personal
+            computers and networks, server applications for client/server
+            environments, business and consumer productivity applications,
+            interactive media programs and Internet platform and development
+            tools. Microsoft also offers online services and entertainment and
+            hardware devices.
+
+        logos:
+          title:  Microsfot
+          alt:    Microsoft logo
+          img:    https://file.hkoscon.org/sponsor/mircosoft.jpg
+          url:    https://www.microsoft.com/
+        links:
+          text:     Microsoft Website
+          url:      https://www.microsoft.com/
       - id:   MySQL
         name: MySQL
         grantedPerm: true
