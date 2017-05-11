@@ -134,17 +134,17 @@ topics:
       remark:   India
       description:
         - >
-          Nowadays when almost all major companies are using, supporting and 
-          contributing to the Free and Open Source Software (FOSS), there are 
-          lots of jobs available for the people with FOSS background. As a paid, 
-          full-time FOSS contributor Vaishali Thakkar has built her career 
-          around by contributing in one of the biggest open source project 
-          Linux Kernel]. In this talk, she aims to talk about giving an 
-          overview of valuable ways to contribute and how they relate to 
-          building a career in FOSS. She will also focus on some of the 
-          benefits of working in open source communities which are beyond money, 
-          including [but not limited to] how it leads to opportunities to travel, 
-          collaborate with different people around the world and satisfaction of 
+          Nowadays when almost all major companies are using, supporting and
+          contributing to the Free and Open Source Software (FOSS), there are
+          lots of jobs available for the people with FOSS background. As a paid,
+          full-time FOSS contributor Vaishali Thakkar has built her career
+          around by contributing in one of the biggest open source project
+          Linux Kernel]. In this talk, she aims to talk about giving an
+          overview of valuable ways to contribute and how they relate to
+          building a career in FOSS. She will also focus on some of the
+          benefits of working in open source communities which are beyond money,
+          including [but not limited to] how it leads to opportunities to travel,
+          collaborate with different people around the world and satisfaction of
           working on big and interesting FOSS projects.
       lang: en
       lang_slide: en
@@ -174,7 +174,7 @@ topics:
       requirement:
         Anyone is OK, and  beginner also, cause I explain in the process of
         programming about open CV
-      venue: function-room  
+      venue: function-room
   -   title:    Tips in setting up OpenStack from scratch
       id:       tips-in-setting-up-openstack-from-scratch
       speaker:
@@ -291,7 +291,7 @@ topics:
       requirement:
         - >
           Any experience with coding in any language is good enough and people
-          interested to know about parallelism. Experience with rust language 
+          interested to know about parallelism. Experience with rust language
           is big plus but not compulsory as the session will cover the core concepts.
       venue: training-theatre
   -   title:    Data In, Elasticsearch Out
@@ -341,8 +341,7 @@ topics:
       level:  Beginners
       requirement: ""
       venue: function-room
-  -   title:   >-
-                PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法
+  -   title: PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法
       id:  PIME
       speaker:
         -  pcman
@@ -392,7 +391,7 @@ topics:
       speaker:
           -  kingman-leung
       remark: ""
-      description: 
+      description:
         - >
           Free Hong kong Kai Font for education
       lang:  zh.yue
@@ -648,7 +647,7 @@ topics:
           a bidirectional and multiplexing transport, so we can reduce overhead
           and reuse blocked workers.
       lang:  zh.yue
-      lang:  en
+      #lang:  en
       type:  talk
       cfp: true
       isSponsorTopic: false
@@ -810,7 +809,8 @@ topics:
       speaker:
         -  dennis-chen
       remark:  ""
-      description: ""
+      description:
+        -
       lang:  zh.tw
       lang-slide: zh
       type:  talk

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <meta name="description" content="LiveDNS is Gandi&#39;s new DNS platform which includes an REST API and makes its easy for developers to updates their zones in real time with a few HTTP calls. This talk will give an introduction to the s..." />
+    <meta name="description" content="Whilst anyone can inspect the source code of free software for malicious flaws, most Linux distributions provide binary (or &quot;compiled&quot;) packages to end users.
+ The motivation behind &quot;reproducible&quot; bui..." />
     <meta name="author" content="Hong Kong Open Source Conference 2017" />
     <meta property="og:site_name" content="Hong Kong Open Source Conference 2017" />
     <meta property="og:title" content="Hong Kong Open Source Conference 2017" />
-    <meta property="og:url" content="/2017/topics/live-dns-new-gTLD" />
+    <meta property="og:url" content="/2017/topics/reproducible-builds-fulfilling-the-original-promise-of-free-software" />
     <meta property="og:image" content="http://file.hkoscon.org/og/2017.png" />
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="LiveDNS is Gandi&#39;s new DNS platform which includes an REST API and makes its easy for developers to updates their zones in real time with a few HTTP calls. This talk will give an introduction to the service and also update the audience on recently delegated top level domain names.
-" />
+    <meta property="og:description" content="Whilst anyone can inspect the source code of free software for malicious flaws, most Linux distributions provide binary (or &quot;compiled&quot;) packages to end users.
+ The motivation behind &quot;reproducible&quot; builds is to allow verification that no flaws have been introduced during this compilation process by p..." />
     <meta property="theme-color" content="#294454" />
     <title>Hong Kong Open Source Conference 2017 // 香港開源年會 2017</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
@@ -26,7 +27,7 @@
     <link rel="icon" sizes="192x192" href="https://hkoscon.org/logo.png">
     
 </head>
-<body class="page--topics--live-dns-new-gTLD">
+<body class="page--topics--reproducible-builds-fulfilling-the-original-promise-of-free-software">
 <div class="navbar-fixed">
     <nav>
         <ul class="left">
@@ -84,10 +85,10 @@
 <main>
 
 <div class="container topic-page">
-  <div class="topic-type-name">Keynote</div>
-  <div class="dark-section"><h1>Gandi&#39;s LiveDNS and new gTLD&#39;s</h1></div>
+  <div class="topic-type-name">Talk</div>
+  <div class="dark-section"><h1>Reproducible builds: Fulfilling the original promise of free software</h1></div>
   <div class="page-topic-header">
-    <p>By <span class="name">Thomas Kuiper</span> <span class="nickname">(gandi)</span></p>
+    <p>By <span class="name">Chris Lamb</span> <span class="nickname">(Chris)</span></p>
   </div>
 </div>
 
@@ -111,13 +112,16 @@
         <dd>English (with English Slides)</dd>
 
         
+        <dt>Requirement</dt>
+        <dd>Very little. The difference between source code and binary code, the existence of hackers, etc.</dd>
+        
 
       </dl>
       
       <div class="progress">
         
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="3" style="width: 33%;">
-          Beginners
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="3" style="width: 66%;">
+          Intermediate
         </div>
         
       </div>
@@ -125,62 +129,49 @@
 
       <div class="description">
         
-        <p>LiveDNS is Gandi's new DNS platform which includes an REST API and makes its easy for developers to updates their zones in real time with a few HTTP calls. This talk will give an introduction to the service and also update the audience on recently delegated top level domain names.
+        <p>Whilst anyone can inspect the source code of free software for malicious flaws, most Linux distributions provide binary (or "compiled") packages to end users.
+</p>
+        
+        <p>The motivation behind "reproducible" builds is to allow verification that no flaws have been introduced during this compilation process by promising identical binary packages are always generated from a given source.
+</p>
+        
+        <p>This prevents against the installation of backdoor-introducing malware on developers' machines - an attacker would need to simultaneously infect or blackmail all developers attempting to reproduce the build.
+</p>
+        
+        <p>This talk will focus heavily on how exactly software can fail to be reproducible, the tools, tests & specifications we have written to fix & diagnose issues, as well as the many amusing "fails" in upstream's code that have been unearthed by this process. In addition, you will learn what to avoid in your own software as well as the future efforts in the Reproducible Builds arena.
 </p>
         
       </div>
 
-      
-      <div class="sponsor-wrapper">
-        <h2>Sponsored by</h2>
-        
-        <div class="sponsor-type">
-  <div class="row">
-    <div class="col m3 logos">
-      <p class="logo">
-        <a href="https://www.gandi.net/" title="Gandi.net" target="_blank">
-          <img src="https://file.hkoscon.org/sponsor/gandi.jpg" alt="Gandi.net logo">
-        </a>
-      </p>
-    </div>
-    <div class="col m9 description">
-        <h3>Gandi.net</h3>
-        
-          <p>Gandi is the No Bullshit™ domain name registrar and hosting provider. Created in France in 1999, Gandi is now present in 3 continents,with offices in Paris, San Francisco, Luxembourg, and Taipei. We position ourselves as the next port of call for those who want to create an online presence, right after Internet access providers, since domain names are the firststep in creating your own piece of the Internet.
-</p>
-          
-        <div>
-          <a class="waves-effect waves-light btn" target="_blank"
-              href="https://www.gandi.net/" role="button">
-              Gandi.net Website
-          </a>
-        </div>
-    </div>
-  </div>
-</div>
-
-      </div>
       
 
     </div>
     <div class="col m4 speaker">
 
       <h2>
-        <span class="name">Thomas Kuiper</span>
-        <span class="nickname">gandi</span>
+        <span class="name">Chris Lamb</span>
+        <span class="nickname">Chris</span>
       </h2>
 
       
-      <div class="quick-info ">
+      <div class="quick-info thumbnail">
+        
+        <div class="portrait">
+          <img src="https://file.hkoscon.org/speakers/2017/chris.lamb.png" alt="Photo of Chris Lamb" title="Chris Lamb">
+        </div>
         
         
         <div class="social">
           
-          <a title="Github of Thomas Kuiper" href="https://www.github.com/Gandi" target="_blank">
+          <a title="Github of Chris Lamb" href="https://www.github.com/lamby" target="_blank">
             <i class="fa fa-github fa-icon" aria-hidden="true"></i>
           </a>
           
           
+          
+          <a title="Blog of Chris Lamb" href="https://chris-lamb.co.uk/blog" target="_blank">
+            <i class="fa fa-globe fa-icon" aria-hidden="true"></i>
+          </a>
           
           
           
@@ -191,11 +182,16 @@
 
       <dl class="datasheet">
         
+        <dt>Origin</dt>
+        <dd>United Kingdom</dd>
         
-        <dt>Residence</dt>
-        <dd>Taiwan</dd>
         
 
+        
+        <dt>Community</dt>
+        
+        <dd><a href="https://www.debian.org/" target="_blank">Debian</a></dd>
+        
         
 
         
@@ -206,7 +202,7 @@
 
       <h3>Biography</h3>
       
-      <p>Thomas Kuiper, the General Manager of the Asia subsidiary of the domain name registrar Gandi is originally from Germany. He worked on embedded systems and content management systems for companies in Taiwan and Europe before he set himself to the task to start Gandi's Asia business unit. Gandi (abbreviation for "Gestion et Attribution des Noms de Domaine sur Internet" in French or "Management and Allocation of Domain Names on the Internet" in English) is a company tha provides domain name registration and management in addition to Internet hosting infrastructure and related services. The company has its head office in Paris and offices in San Francisco, Luxembourg and Taipei to serve its customers around the clock. Gandi was among the first European domain name registrars to offer ".COM" and ".NET" and now manages over 2 million domain names with accreditation for over 700 different domain name extensions for its customers, placing Gandi among the top domain name registrars worldwide.
+      <p>I am a polyglot freelance computer programmer who is the author of dozens of free projects and contributor to 100s of others. I've been an official Debian Developer since 2008 and am currently highly active in the Reproducible Builds project where I have been awarded a grant from the Core Infrastructure Initiative to fund my work in this area. In my spare time I'm an avid classical musician.
 </p>
       
     </div>
