@@ -676,6 +676,7 @@ topics:
       isSponsorTopic: false
       level: Intermediate
       requirement: Basic *nix commands, interest in information security
+      venue: training-room-3
   -   title:   Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!
       id:  use-sqlite-for-simple-data-analysis
       speaker:
