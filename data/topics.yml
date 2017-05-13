@@ -366,7 +366,6 @@ topics:
             ezgo for HK：自由的學習系統，本地的楷書字型。
       id:  ezgo-for-hk
       speaker:
-        -  eric-sun
         -  franklin-weng
         -  kingman-leung
       remark: ""
@@ -648,6 +647,7 @@ topics:
           and reuse blocked workers.
       lang:  zh.yue
       #lang:  en
+      lang_slide: en
       type:  talk
       cfp: true
       isSponsorTopic: false
@@ -732,7 +732,7 @@ topics:
           Gold Award - Hong Kong ICT Awards 2015: Best Student Invention
           (College & Undergraduates) Award.
       lang:  zh.yue
-      lang-slide:  en
+      lang_slide:  en
       type:  talk
       cfp:  true
       isSponsorTopic: false
@@ -774,7 +774,7 @@ topics:
           試著選擇 LibreOffice 裡的 Impress 你將會發現，原來簡報設計可以如此的純粹，
           原來一份令人驚豔的簡報關鍵不在 PowerPoint，而是令人  Impressive 的創意。
       lang:  zh.tw
-      lang-slide:  zh
+      lang_slide:  zh
       type:  talk
       cfp: true
       isSponsorTopic: false
@@ -798,7 +798,7 @@ topics:
           discussed. Finally, Gary will speak about plans for the future of
           some of these tools.
       lang:  en
-      lang-slide: en
+      lang_slide: en
       type:  talk
       cfp: true
       isSponsorTopic: false
@@ -813,7 +813,7 @@ topics:
       description:
         -
       lang:  zh.tw
-      lang-slide: zh
+      lang_slide: zh
       type:  talk
       cfp: false
       isSponsorTopic: false

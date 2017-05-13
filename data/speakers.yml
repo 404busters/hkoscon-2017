@@ -26,7 +26,7 @@ ivan-ma:
   company:
     name: MySQL
     url: https://www.mysql.com/
-  portrait: ""
+  portrait: 
   hkoscon-sponsored: false
 
 ryusuke-kajiyama:
@@ -149,21 +149,7 @@ pcman:
       firefox plugin, PCMan BBS client
   residence:  Taiwan
   nationality:  Taiwan
-  portrait: ""
-  hkoscon-sponsored: false
-
-eric-sun:
-  name: Eric Sun
-  gender: male
-  description:
-    - >
-      台灣教育部校園自由軟體數位資源推廣服務中心  執行秘書
-  residence:  Taiwan
-  nationality:  Taiwan
-  community:
-    name: ezgo
-    url: http://ezgo.westart.tw/ezgo13/
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/pcman.jpg
   hkoscon-sponsored: false
 
 kingman-leung:
@@ -364,7 +350,7 @@ irvin-chen:
   company:
     name: 女人迷 womany.net
     url:  https://womany.net
-  portrait: ""
+  portrait: https://file.hkoscon.org/speakers/2017/irvin.chen.jpg
   hkoscon-sponsored: false
   
 kazuhiko-inaba:
@@ -378,7 +364,7 @@ kazuhiko-inaba:
   social:
     nickname: Kaz
     facebook: https://www.facebook.com/inaba.kazuhiko.94
-  portrait: ""
+  portrait: http://file.hkoscon.org/speakers/2017/kazuhiko.inaba.jpg
   hkoscon-sponsored: false
 anny-leung:
   name: Ann/y Leung
@@ -392,9 +378,10 @@ anny-leung:
       Fabrication.
   residence: Hong Kong
   nationality:  Hong Kong
-  social:
-    blog: http://osmmhk.weebly.com/
   portrait: https://file.hkoscon.org/speakers/2017/ann.leung.png
+  community:
+    name: OSMM OPEN LEARNING NETWORK
+    url: http://osmmhk.weebly.com/
   hkoscon-sponsored: false
   
 bluebat:
@@ -405,8 +392,8 @@ bluebat:
       趙惟倫曾以開發小組主管或專案經理的身分，在開放原始碼相關業務的公司任職多年，主要負責
       套件打包與系統整合的工作。他也熱衷於自由軟體的本地化，長期參與 GNU 翻譯計畫，並製作
       一些漢語相關的國際化套件。
-  residence: Hong Kong
-  nationality: Hong Kong
+  residence: Taiwan
+  nationality: Taiwan
   social:
     nickname: 趙惟倫
     github: bluebat
@@ -478,7 +465,7 @@ vinnson-lee:
       source software
   residence: Hong Kong
   nationality: Hong Kong
-  portrait: ""
+  portrait: 
   hkoscon-sponsored: false
 
 cyrus-wong:
@@ -562,7 +549,7 @@ vaishali-thakkar:
     project_name: Linux Kernel
     project_github: https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=vaishali
     blog: http://vaishalithakkar.in/
-  portrait: ""
+  portrait: http://file.hkoscon.org/speakers/2017/vaishali.thakkar.jpg
   hkoscon-sponsored: false
 
 gary-kwong:
@@ -606,7 +593,7 @@ thomas-kuiper:
   social:
     nickname: gandi
     github: Gandi
-  portrait: ""
+  portrait: http://file.hkoscon.org/speakers/2017/thomas.kuiper.jpg
   hkoscon-sponsored: false
 
 dennis-chen:
