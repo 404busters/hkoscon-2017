@@ -364,7 +364,7 @@ kazuhiko-inaba:
   social:
     nickname: Kaz
     facebook: https://www.facebook.com/inaba.kazuhiko.94
-  portrait: http://file.hkoscon.org/speakers/2017/kazuhiko.inaba.jpg
+  portrait: https://file.hkoscon.org/speakers/2017/kazuhiko.inaba.jpg
   hkoscon-sponsored: false
 anny-leung:
   name: Ann/y Leung
@@ -549,7 +549,7 @@ vaishali-thakkar:
     project_name: Linux Kernel
     project_github: https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/log/?qt=grep&q=vaishali
     blog: http://vaishalithakkar.in/
-  portrait: http://file.hkoscon.org/speakers/2017/vaishali.thakkar.jpg
+  portrait: https://file.hkoscon.org/speakers/2017/vaishali.thakkar.jpg
   hkoscon-sponsored: false
 
 gary-kwong:
@@ -593,7 +593,7 @@ thomas-kuiper:
   social:
     nickname: gandi
     github: Gandi
-  portrait: http://file.hkoscon.org/speakers/2017/thomas.kuiper.jpg
+  portrait: https://file.hkoscon.org/speakers/2017/thomas.kuiper.jpg
   hkoscon-sponsored: false
 
 dennis-chen:
