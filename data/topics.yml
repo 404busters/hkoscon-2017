@@ -139,7 +139,7 @@ topics:
           lots of jobs available for the people with FOSS background. As a paid,
           full-time FOSS contributor Vaishali Thakkar has built her career
           around by contributing in one of the biggest open source project
-          Linux Kernel]. In this talk, she aims to talk about giving an
+          Linux Kernel. In this talk, she aims to talk about giving an
           overview of valuable ways to contribute and how they relate to
           building a career in FOSS. She will also focus on some of the
           benefits of working in open source communities which are beyond money,
@@ -224,7 +224,7 @@ topics:
         - >
           This talk discusses about my experience in working on Rux
           (https://github.com/sorpaas/rux), a hobbist microkernel project in
-          Rust. It is nearly complete and features a capability-based system
+          Rust. It is nearly completed and features a capability-based system
           similar to seL4. More will be focused on how to roll out your own
           kernel project based on Rux.
       lang: en
@@ -665,9 +665,9 @@ topics:
           testing, what metasploit framework is, and how to use it for
           penetration testing. The talk would be including a mimic penetration
           testing scenario as a showcase for how the framework is used.
-          Participant would expect after some introductory slides, live demo
+          Participants would expect after some introductory slides, live demo
           (mainly command line interface) would take place. Though it is not
-          necessary, it is encouraged that participant would bring their own
+          necessary, it is encouraged that participants would bring their own
           laptop to follow the demo if they wish to.
       lang:  en
       lang_slide:  en
