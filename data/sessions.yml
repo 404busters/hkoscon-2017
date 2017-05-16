@@ -12,15 +12,202 @@
 #     venue:     "venue key, in venues.yml"
 
 day-1:
-  -
-    name:      "Registration"
-    timeStart: "2017-06-09T09:15:00+0800"
-    timeEnd:   "2017-06-09T09:15:00+0800"
-    venue:     "reception"
+  - name: Registration
+    timeslot: slot-1
+    venue: reception
+  - name: Opening Ceremony
+    timeslot: slot-2
+    venue: function-room
+  - name: 45-min Keynote - Gandi's LiveDNS and new gTLD's (Gandi)
+    timeslot: slot-3
+    venue: function-room
+    topic: live-dns-new-gTLD
+  - name: 45-min Keynote - TBC (IBM)
+    timeslot: slot-4
+    venue: function-room
+  - name: 30-min Talk - TBC
+    timeslot: slot-5
+    venue: function-room
+  - name: Lunch Network
+    timeslot: slot-6
+    venue: sea-view-concourse
+  - name: 30-min Talk
+    timeslot: slot-7
+    venue: function-room
+    topic: whats-new-in-mysql-8.0
+  - name: "70-min Meeting: Global F/OSS Community Meeting (English) (open to public)"
+    timeslot: slot-7
+    venue: training-theatre
+    row: 2
+  - name: 30-min Talk - TBC (Microsoft)
+    timeslot: slot-8
+    venue: function-room
+  - name: Afternoon Network
+    timeslot: slot-tea
+    venue: sea-view-concourse
+  - name: 30-min Talk
+    timeslot: slot-9
+    venue: function-room
+    topic: a-war-of-file-format-why-we-select-odf-in-taiwan
+  - name: "70-min Meeting: Local F/OSS Community Meeting (Cantonese) (open to public)"
+    timeslot: slot-9
+    venue: training-theatre
+    row: 2
+  - name: 30-min Talk
+    timeslot: slot-10
+    venue: function-room
+    topic: tips-in-setting-up-openstack-from-scratch
+  - name: End Of Day
+    timeslot: slot-11
+
 
 day-2:
-  -
-    name:      "Registration"
-    timeStart: "2017-06-10T09:15:00+0800"
-    timeEnd:   "2017-06-10T09:15:00+0800"
-    venue:     "reception"
+  - name: Registration
+    timeslot: slot-1
+    venue: reception
+  - name: 30-min Talk
+    timeslot: slot-2
+    venue: function-room
+    topic: a-security-state-of-mind-continuous-security-for-devops-with-kubernetes
+  - name: 30-min Talk
+    timeslot: slot-2
+    venue: training-theatre
+    topic: 1000-days-of-mozilla-community-space-in-taipei
+  - name: 60-min Workshop
+    timeslot: slot-2
+    venue: training-room-1
+    topic: building-web-app-with-open-source-serverless-technology
+    row: 2
+  - name: 30-min Talk
+    timeslot: slot-2
+    venue: training-room-2
+    topic: why-bash
+  - name: 60-min Workshop
+    timeslot: slot-2
+    venue: training-room-3
+    topic: use-sqlite-for-simple-data-analysis
+    row: 2
+  - name: 30-min Talk
+    timeslot: slot-3
+    venue: function-room
+    topic: open-cv-in-raspberry-pi-with-camera
+  - name: 30-min Talk
+    timeslot: slot-3
+    venue: training-theatre
+    topic: javascript-fuzzling-in-mozilla-2017
+  - name: 30-min Talk
+    timeslot: slot-3
+    venue: training-room-2
+    topic: blender-interface-and-3d-cgi-concepts
+  - name: Morning Break
+    timeslot: slot-4
+    venue: sea-view-concourse
+  - name: 30-min Talk
+    timeslot: slot-5
+    venue: function-room
+    topic: reproducible-builds-fulfilling-the-original-promise-of-free-software
+  - name: 30-min Talk
+    timeslot: slot-5
+    venue: training-theatre
+    topic: lets-rust-system-programming-is-awesome-again
+  - name: 90-min Workshop
+    timeslot: slot-5
+    venue: training-room-1
+    topic: build-a-cross-platform-game-in-haxe
+    row: 3
+  - name: 30-min Talk
+    timeslot: slot-5
+    venue: training-room-2
+    topic: free-hong-kong-font
+  - name: Unconference - 1
+    timeslot: slot-5
+    venue: training-room-3
+    row: 3
+  - name: 30-min Talk
+    timeslot: slot-6
+    venue: function-room
+    topic: building-a-career-in-open-source
+  - name: 30-min Talk
+    timeslot: slot-6
+    venue: training-treatre
+    topic: one-year-of-rust-microkernel-development
+  - name: 30-min Talk
+    timeslot: slot-6
+    venue: training-room-2
+    topic: ezgo-for-hk
+  - name: 30-min Talk
+    timeslot: slot-7
+    venue: function-room
+    topic: PIME
+  - name: 30-min Talk
+    timeslot: slot-7
+    venue: training-theatre
+    topic: building-artificial-intelligence-units-in-rust
+  - name: 30-min Talk
+    timeslot: slot-7
+    venue: training-room-2
+    topic: libreoffice-impress
+  - name: Lunch Networking
+    timeslot: slot-8
+    venue: sea-view-concourse
+  - name: 30-min Keynote
+    timeslot: slot-9
+    venue: function-room
+    topic: preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing
+  - name: Lightninig Talks
+    timeslot: slot-10
+    venue: function-room
+  - name: Group Photo
+    timeslot: slot-11
+    venue: function-room
+  - name: Afternoon Networking
+    timeslot: slot-12
+    venue: sea-view-concourse
+  - name: 30-min Talk
+    timeslot: slot-13
+    venue: function-room
+    topic: data-in-elasticsearch-out
+  - name: 30-min Talk
+    timeslot: slot-13
+    venue: training-theatre
+    topic: mysql-group-replication
+  - name: 90-min Workshop
+    timeslot: slot-13
+    venue: training-room-1
+    row: 3
+  - name: 30-min Talk - TBC
+    timeslot: slot-13
+    venue: training-room-2
+  - name: 30-min Talk
+    timeslot: slot-13
+    venue: training-room-3
+    topic: pentest-fun-with-metasploit-framework-ii
+  - name: 30-min Talk
+    timeslot: slot-14
+    venue: function-room
+    topic: this-year-in-rstats
+  - name: 30-min Talk - TBC (Microsoft)
+    timeslot: slot-14
+    venue: training-theatre
+  - name: 30-min Talk
+    timeslot: slot-14
+    venue: training-room-2
+    topic: msgchi
+  - name: Unconference - 2
+    timeslot: slot-14
+    venue: training-room-3
+    row: 2
+  - name: 30-min Talk
+    timeslot: slot-15
+    venue: function-room
+    topic: harnessing-social-media-with-r
+  - name: 30-min Talk
+    timeslot: slot-15
+    venue: training-theatre
+    topic: zmq-multiplex-between-golang-coroutine-and-python-thread
+  - name: 30-min Talk
+    timeslot: slot-15
+    venue: training-room-2
+    topic: aws-cloud-lab
+  - name: End of Day
+    timeslot: slot-16
