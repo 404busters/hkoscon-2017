@@ -597,10 +597,36 @@ thomas-kuiper:
   hkoscon-sponsored: false
 
 dennis-chen:
-  name: Dennis Chen
+  name: Dennis Raylin Chen
   gender: male
-  description: ""
+  description:
+    - >
+      Dennis Raylin Chen is a member of Wikipedia Taiwan, and is a active 
+      OpenStreetMap community member, doing stuff like translating OpenStreetMap 
+      related software interface, training material, and holding meetup in 
+      Taipei. His day job is a tech editor in TechNews.tw, covering issue of 
+      Software and Web, sometimes writing about Open Culture movement.
   residence: Taiwan
   nationality: Taiwan
+  social:
+    nickname: Supaplextw
+    github: Supaplextw
   portrait: https://file.hkoscon.org/speakers/2017/dennis.chen.jpg
+  hkoscon-sponsored: false
+
+vidyasagar-machupalli:
+  name: Vidyasagar S Machupalli
+  gender: male
+  description:
+  nationality: India
+  portrait:
+  hkoscon-sponsored: false
+
+haggen-so:
+  name: Dr. Haggen So
+  gender: male
+  description:
+  residence: Hong Kong
+  nationality: Hong Kong
+  portrait:
   hkoscon-sponsored: false
