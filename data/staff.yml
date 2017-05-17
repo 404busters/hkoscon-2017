@@ -5,8 +5,11 @@ teams:
         email: sammy@sammy.hk
   - name: Design
     members:
-      - name: Mr. Nicholas Yau
+      - name: Ms. Claire Wong
+        fallback: https://file.hkoscon.org/staff/claire.wong.jpg
         teamlead: true
+      - name: Mr. Ronald Hung
+      - name: Mr. Nicholas Yau
   - name: Finance
     members:
       - name: Dr. Haggen So
