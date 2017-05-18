@@ -23,7 +23,6 @@ day-1:
   slot-8:
     timeStart: "2017-06-09T14:30:00+0800"
     timeEnd:   "2017-06-09T15:00:00+0800"
-    reserved:  1
   slot-tea:
     timeStart: "2017-06-09T15:00:00+0800"
     timeEnd:   "2017-06-09T15:30:00+0800"
@@ -33,7 +32,6 @@ day-1:
   slot-10:
     timeStart: "2017-06-09T16:10:00+0800"
     timeEnd:   "2017-06-09T16:40:00+0800"
-    reserved: 1
   slot-11:
     timeStart: "2017-06-09T16:40:00+0800"
     timeEnd:   "2017-06-09T16:40:00+0800"
@@ -48,7 +46,6 @@ day-2:
   slot-3:
     timeStart: "2017-06-10T10:40:00+0800"
     timeEnd:   "2017-06-10T11:10:00+0800"
-    reserved: 2
   slot-4:
     timeStart: "2017-06-10T11:10:00+0800"
     timeEnd:   "2017-06-10T11:30:00+0800"
@@ -58,11 +55,9 @@ day-2:
   slot-6:
     timeStart: "2017-06-10T12:10:00+0800"
     timeEnd:   "2017-06-10T12:40:00+0800"
-    reserved: 2
   slot-7:
     timeStart: "2017-06-10T12:50:00+0800"
     timeEnd:   "2017-06-10T13:20:00+0800"
-    reserved: 2
   slot-8:
     timeStart: "2017-06-10T13:20:00+0800"
     timeEnd:   "2017-06-10T14:20:00+0800"
@@ -84,11 +79,9 @@ day-2:
   slot-14:
     timeStart: "2017-06-10T16:40:00+0800"
     timeEnd:   "2017-06-10T17:20:00+0800"
-    reserved: 1
   slot-15:
     timeStart: "2017-06-10T17:20:00+0800"
     timeEnd:   "2017-06-10T17:50:00+0800"
-    reserved: 2
   slot-16:
     timeStart: "2017-06-10T17:50:00+0800"
     timeEnd:   "2017-06-10T17:50:00+0800"

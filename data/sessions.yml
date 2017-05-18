@@ -37,13 +37,15 @@ day-1:
     timeslot: slot-7
     venue: function-room
     topic: whats-new-in-mysql-8.0
-  - name: "70-min Meeting: Global F/OSS Community Meeting (English) (open to public)"
+  - name: "70-min Meeting: Global F/OSS Community Meeting Part 1 (open to public)"
     timeslot: slot-7
     venue: training-theatre
-    row: 2
   - name: 30-min Talk - TBC (Microsoft)
     timeslot: slot-8
     venue: function-room
+  - name: "70-min Meeting: Global F/OSS Community Meeting Part 2 (open to public)"
+    timeslot: slot-8
+    venue: training-theatre
   - name: Afternoon Networking
     timeslot: slot-tea
     venue: sea-view-concourse
@@ -51,14 +53,16 @@ day-1:
     timeslot: slot-9
     venue: function-room
     topic: a-war-of-file-format-why-we-select-odf-in-taiwan
-  - name: "70-min Meeting: Local F/OSS Community Meeting (Cantonese) (open to public)"
+  - name: "70-min Meeting: Local F/OSS Community Meeting Part 1 (open to public)"
     timeslot: slot-9
     venue: training-theatre
-    row: 2
   - name: 30-min Talk
     timeslot: slot-10
     venue: function-room
     topic: tips-in-setting-up-openstack-from-scratch
+  - name: "70-min Meeting: Local F/OSS Community Meeting Part 2 (open to public)"
+    timeslot: slot-10
+    venue: training-theatre
   - name: End Of Day
     timeslot: slot-11
 
@@ -75,20 +79,18 @@ day-2:
     timeslot: slot-2
     venue: training-theatre
     topic: 1000-days-of-mozilla-community-space-in-taipei
-  - name: 60-min Workshop
+  - name: 60-min Workshop Part 1
     timeslot: slot-2
     venue: training-room-1
     topic: building-web-app-with-open-source-serverless-technology
-    row: 2
   - name: 30-min Talk
     timeslot: slot-2
     venue: training-room-2
     topic: why-bash
-  - name: 60-min Workshop
+  - name: 60-min Workshop Part 1
     timeslot: slot-2
     venue: training-room-3
     topic: use-sqlite-for-simple-data-analysis
-    row: 2
   - name: 30-min Talk
     timeslot: slot-3
     venue: function-room
@@ -97,10 +99,18 @@ day-2:
     timeslot: slot-3
     venue: training-theatre
     topic: javascript-fuzzling-in-mozilla-2017
+  - name: 60-min Workshop Part 2
+    timeslot: slot-3
+    venue: training-room-1
+    topic: building-web-app-with-open-source-serverless-technology
   - name: 30-min Talk
     timeslot: slot-3
     venue: training-room-2
     topic: blender-interface-and-3d-cgi-concepts
+  - name: 60-min Workshop Part 2
+    timeslot: slot-3
+    venue: training-room-3
+    topic: use-sqlite-for-simple-data-analysis
   - name: Morning Break
     timeslot: slot-4
     venue: sea-view-concourse
@@ -112,19 +122,17 @@ day-2:
     timeslot: slot-5
     venue: training-theatre
     topic: lets-rust-system-programming-is-awesome-again
-  - name: 90-min Workshop
+  - name: 90-min Workshop Part 1
     timeslot: slot-5
     venue: training-room-1
     topic: build-a-cross-platform-game-in-haxe
-    row: 3
   - name: 30-min Talk
     timeslot: slot-5
     venue: training-room-2
     topic: free-hong-kong-font
-  - name: Unconference - 1
+  - name: Unconference - Part 1
     timeslot: slot-5
     venue: training-room-3
-    row: 3
   - name: 30-min Talk
     timeslot: slot-6
     venue: function-room
@@ -133,10 +141,17 @@ day-2:
     timeslot: slot-6
     venue: training-treatre
     topic: one-year-of-rust-microkernel-development
+  - name: 90-min Workshop Part 2
+    timeslot: slot-6
+    venue: training-room-1
+    topic: build-a-cross-platform-game-in-haxe
   - name: 30-min Talk
     timeslot: slot-6
     venue: training-room-2
     topic: ezgo-for-hk
+  - name: Unconference - Part 2
+    timeslot: slot-6
+    venue: training-room-3
   - name: 30-min Talk
     timeslot: slot-7
     venue: function-room
@@ -145,10 +160,17 @@ day-2:
     timeslot: slot-7
     venue: training-theatre
     topic: building-artificial-intelligence-units-in-rust
+  - name: 90-min Workshop Part 3
+    timeslot: slot-7
+    venue: training-room-1
+    topic: build-a-cross-platform-game-in-haxe
   - name: 30-min Talk
     timeslot: slot-7
     venue: training-room-2
     topic: libreoffice-impress
+  - name: Unconference - Part 3
+    timeslot: slot-7
+    venue: training-room-3
   - name: Lunch Networking
     timeslot: slot-8
     venue: sea-view-concourse
@@ -173,10 +195,9 @@ day-2:
     timeslot: slot-13
     venue: training-theatre
     topic: mysql-group-replication
-  - name: 90-min Workshop
+  - name: 90-min Workshop - Part 1
     timeslot: slot-13
     venue: training-room-1
-    row: 3
     topic: getting-into-the-virtual-world-with-web-vr
   - name: 30-min Talk
     timeslot: slot-13
@@ -193,14 +214,17 @@ day-2:
   - name: 30-min Talk - TBC (Microsoft)
     timeslot: slot-14
     venue: training-theatre
+  - name: 90-min Workshop - Part 2
+    timeslot: slot-14
+    venue: training-room-1
+    topic: getting-into-the-virtual-world-with-web-vr
   - name: 30-min Talk
     timeslot: slot-14
     venue: training-room-2
     topic: msgchi
-  - name: Unconference - 2
+  - name: Unconference - Part 4
     timeslot: slot-14
     venue: training-room-3
-    row: 2
   - name: 30-min Talk
     timeslot: slot-15
     venue: function-room
@@ -209,9 +233,16 @@ day-2:
     timeslot: slot-15
     venue: training-theatre
     topic: zmq-multiplex-between-golang-coroutine-and-python-thread
+  - name: 90-min Workshop - Part 3
+    timeslot: slot-15
+    venue: training-room-1
+    topic: getting-into-the-virtual-world-with-web-vr
   - name: 30-min Talk
     timeslot: slot-15
     venue: training-room-2
     topic: aws-cloud-lab
+  - name: Unconference - Part 5
+    timeslot: slot-15
+    venue: training-room-3
   - name: End of Day
     timeslot: slot-16
