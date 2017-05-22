@@ -1,0 +1,34 @@
+{% extends "app.jinja" %}
+
+{% block content %}
+<div class="theme-area">
+    <div class="content">
+        <div class="container">
+            <h1>Lightning Talks</h1>
+        </div>
+    </div>
+</div>
+  <div class="container">
+      <div class="content">
+
+        <p>Lightning talks will be held in Day 1 Afternoon (3:00pm - 3:25pm).</p>
+
+        <p>Lightning talk is a participant-driven activity which you (attendees) create the agenda. At HKOSCon 2017, each lightning talk is 5 minutes long, and topics must be related to open source technologies and projects.</p>
+
+        <p>Registration of Lightning talk topics &amp; speakers will start from Day 1 Opening online. You are welcome to write down your topic and name.</p>
+        {% if not data.site.releaseLightningTalk %}
+        <p>Application will be provided on Day 1</p>
+        {% else %}
+          <a class="waves-effect waves-light z-depth-2 btn" href="https://goo.gl/forms/feXw03p7e5J0dPKB2">Apply</a>
+          
+          <p>Schedule will be published &amp; updated online by conference staff anytime.</p>
+          
+          <h3>Lightning Talk Schedule</h3>
+          <div class="iframe-wrapper">
+            <iframe class="embed-unconf-sheet" src="https://docs.google.com/spreadsheets/d/1J17Kx9l0nhxlw8k_-dR3h-PsKHXcmUEjV6QBOQv7iW4/htmlembed"></iframe>
+          </div>
+        {% endif %}
+      </div>
+  </div>
+
+{% endblock %}

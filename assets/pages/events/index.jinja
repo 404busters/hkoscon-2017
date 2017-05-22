@@ -1,0 +1,35 @@
+{% extends "app.jinja" %}
+
+{% block content %}
+<div class="theme-area">
+    <div class="content">
+        <div class="container">
+            <h1>Unconference</h1>
+        </div>
+    </div>
+</div>
+  <div class="container">
+      <div class="content">
+
+        <p>Unconference will be started from Day 2 Morning Break to the end of Day 2 (11:30am - 5:50pm).</p>
+
+        <p>Unconference is a participant-driven activity which you (attendees) create the agenda. At HKOSCon 2017, each unconference session is 30 minutes long, and topics must be related to open source technologies and projects.</p>
+
+        <p>Registration of Unconference topics &amp; speakers will start from Day 1 Opening online. You are welcome to write down your topic and name.</p>
+        
+        {% if not data.site.releaseUnconference %}
+        <p>Application will be provided on Day 1</p>
+        {% else %}
+          <a class="waves-effect waves-light z-depth-2 btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeZc5cRZ6CYaVG-SEkMZrKO57qaRLCei7BWSTf9BchtoaOB8g/viewform?c=0&w=1">Apply</a>
+          
+          <p>Schedule will be published &amp; updated online by conference staff anytime.</p>
+          
+          <h3>Unconference Schedule</h3>
+          <div class="iframe-wrapper">
+            <iframe class="embed-unconf-sheet" src="https://docs.google.com/spreadsheets/d/1Opljk6P-UHGfMneBnigrwVndGjdsTgl7hsv74HtLH-k/htmlembed"></iframe>            
+          </div>
+        {% endif %}
+      </div>
+  </div>
+
+{% endblock %}
