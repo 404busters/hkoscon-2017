@@ -7,6 +7,7 @@ type Props = {
   id: string,
   col: number,
   row?: number,
+  name: string,
 }
 
 function mapStateToProps(state: State, ownProps: Props) {
@@ -15,6 +16,7 @@ function mapStateToProps(state: State, ownProps: Props) {
     topic: topics.find(topic => topic.id === ownProps.id),
     col: ownProps.col,
     rol: ownProps.row || 0,
+    name: ownProps.name,
   };
 }
 
