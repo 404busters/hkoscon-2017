@@ -63,8 +63,12 @@ day-1:
   - name: "70-min Meeting: Local F/OSS Community Meeting Part 2 (open to public)"
     timeslot: slot-10
     venue: training-theatre
-  - name: End Of Day
+  - name: 30-min Talk
     timeslot: slot-11
+    venue: function-room
+    topic: optimal-financial-planning-through-storytelling
+  - name: End Of Day
+    timeslot: slot-12
 
 
 day-2:

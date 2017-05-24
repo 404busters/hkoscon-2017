@@ -889,3 +889,18 @@ topics:
       level: Intermediate
       requirement: Basic knowledge of Qt, QML, UI design
       venue: training-room-3
+  -   title: Optimal financial planning through storytelling using narrative visualizations with advanced filtering
+      id:  optimal-financial-planning-through-storytelling
+      speaker:
+        -  heena-mahour
+      remark: ""
+      description: 
+          - >
+      lang:  en
+      lang_slide:  en
+      type:  talk
+      cfp:  false
+      isSponsorTopic: false
+      level: Intermediate
+      requirement: ""
+      venue: function-room
