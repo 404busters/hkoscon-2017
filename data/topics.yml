@@ -845,7 +845,7 @@ topics:
       lang_slide: en
       type: keynote
       cfp:      false
-      isSponsorTopic: false
+      isSponsorTopic: true
       sponsor: ibm
       level: Intermediate
       requirement: ""
