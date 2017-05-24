@@ -630,3 +630,22 @@ haggen-so:
   nationality: Hong Kong
   portrait:
   hkoscon-sponsored: false
+
+heena-mahour:
+  name: Heena Mahour
+  gender: female
+  description: 
+    - >
+      I am a Season of KDE 2012 student(kde-edu game pairs), Google summer of code 2013 student under KDE where I worked with plasma team, Google Code In 2013 mentor where I provided tasks under KDE for plasma, co-administrator & mentor of Season of KDE 2014 and organization co-administrator & mentor of KDE for Google Code In 2014 as well. 
+    - >
+      I am also the co-founder, organizer and director of Women Who Code Delhi, India. 
+      I also organized a GSoC meetup at Delhi recently which got featured at Google open source blog. 
+      I also was one of the speakers at GSoC Symposium, Delhi where I presented a talk on the plasma development.
+    - >
+      Currently, I am working as a software engineer with a financial firm, Indus Valley Partners, India
+  nationality: India
+  portrait: https://file.hkoscon.org/speakers/2017/heena.mahour.jpg
+  social:
+    github: fallacy321
+    blog: http://heenamahour.blogspot.in
+  hkoscon-sponsered: false
