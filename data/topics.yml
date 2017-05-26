@@ -617,7 +617,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-theatre
-      startTime: day-2.slot-2
+      startTime: day-2.slot-3
   -   title:  Blender Interface and 3D-CGI concepts
       id: blender-interface-and-3d-cgi-concepts
       speaker:
@@ -840,7 +840,7 @@ topics:
       level: Advanced
       requirement: Be able to understand fuzzing (random black box testing)
       venue: training-theatre
-      startTime: day-2.slot-3
+      startTime: day-2.slot-14
   -   title:   How OpenStreetMap makes a different in Taiwan and the challenges the project faced in East Asia
       id:  open-street-map-taiwan
       speaker:
@@ -973,24 +973,15 @@ topics:
       level: Intermediate
       requirement: ""
       venue: training-theatre
-      startTime: day-2.slot-14
+      startTime: day-2.slot-2
   -   title: Intro to Open Source Deep Learning toolkit from Microsoft
       id:  intro-to-open-source-deep-learning-tookkit-from-microsoft
       speaker:
         -  delon-yau
       remark: ""
-      description: 
+      description:
           - >
-            Delon is currently a Technical Evangelist in the Developer Experience 
-            Group at Microsoft HK, evangelizing developers across HK on artificial 
-            intelligence on cloud, big data analytics and IoT. Prior to Joining 
-            Microsoft HK, he worked for Microsoft UK as a machine learning 
-            developer supporting the data analytics development of a cloud-based 
-            online shopping platform.  
-          - >
-            He holds a Bachelor's degree in Electrical and Electronic Engineering 
-            from Imperial College London and also a Master's degree in Computer 
-            Science from UCL.
+            Intro to Open Source Deep Learning toolkit from Microsoft
       lang:  en
       lang_slide:  en
       type:  talk

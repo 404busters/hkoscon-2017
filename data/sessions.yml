@@ -83,7 +83,7 @@ day-2:
   - name: 30-min Talk
     timeslot: slot-2
     venue: training-theatre
-    topic: 1000-days-of-mozilla-community-space-in-taipei
+    topic: azure-db-for-mysql-introduction-dotnet-open-source-technology-stack-integration
   - name: 60-min Workshop Part 1
     timeslot: slot-2
     venue: training-room-1
@@ -103,7 +103,7 @@ day-2:
   - name: 30-min Talk
     timeslot: slot-3
     venue: training-theatre
-    topic: javascript-fuzzling-in-mozilla-2017
+    topic: 1000-days-of-mozilla-community-space-in-taipei
   - name: 60-min Workshop Part 2
     timeslot: slot-3
     venue: training-room-1
@@ -220,7 +220,7 @@ day-2:
   - name: 30-min Talk
     timeslot: slot-14
     venue: training-theatre
-    topic: azure-db-for-mysql-introduction-dotnet-open-source-technology-stack-integration
+    topic: javascript-fuzzling-in-mozilla-2017
   - name: 90-min Workshop - Part 2
     timeslot: slot-14
     venue: training-room-1
