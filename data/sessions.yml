@@ -40,9 +40,10 @@ day-1:
   - name: "70-min Meeting: Global F/OSS Community Meeting Part 1 (open to public)"
     timeslot: slot-7
     venue: training-theatre
-  - name: 30-min Talk - TBC (Microsoft)
+  - name: 30-min Talk
     timeslot: slot-8
     venue: function-room
+    topic: intro-to-open-source-deep-learning-tookkit-from-microsoft
   - name: "70-min Meeting: Global F/OSS Community Meeting Part 2 (open to public)"
     timeslot: slot-8
     venue: training-theatre
@@ -216,9 +217,10 @@ day-2:
     timeslot: slot-14
     venue: function-room
     topic: this-year-in-rstats
-  - name: 30-min Talk - TBC (Microsoft)
+  - name: 30-min Talk
     timeslot: slot-14
     venue: training-theatre
+    topic: azure-db-for-mysql-introduction-dotnet-open-source-technology-stack-integration
   - name: 90-min Workshop - Part 2
     timeslot: slot-14
     venue: training-room-1
