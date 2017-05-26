@@ -626,9 +626,20 @@ haggen-so:
   name: Dr. Haggen So
   gender: male
   description:
+    - >
+      Graduated from the Royal Melbourne Institute of Technology, Dr. Haggen So,
+      has experiences in commercial software development and developed software
+      products for renowned companies such as Kodak. Dr. So also taught in Hong
+      Kong Baptist University as lecturer in the department of Computer Science.
+      Dr. So was the former Project Manager for Creative Commons Hong Kong and
+      currently the president of the Hong Kong Creative Open Technology
+      Association.
   residence: Hong Kong
   nationality: Hong Kong
-  portrait:
+  portrait: https://file.hkoscon.org/speakers/2017/haggen.so.jpg
+  community:
+    name: HKCOTA
+    url: https://www.cota.hk/
   hkoscon-sponsored: false
 
 heena-mahour:

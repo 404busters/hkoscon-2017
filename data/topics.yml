@@ -888,17 +888,20 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-4
-  -   title:    Better than Free Giveaways - Open Source Business Models with Examples
+  -   title:    Better than Free Giveaways - Case Studies of Open Source Business Models
       id:       better-than-free-giveaways
       speaker:
         - haggen-so
       remark:   HKCOTA
       description:
         - >
-          The Power of Free" is well-known in marketing, but you can go one 
-          step further by applying Free/Open Source/Creative Commons licences. 
-          Examples of Open Source Businesses with different models will be 
-          explained so you can try them for yourself.
+          "The Power of Free" is well-known in marketing, but you can go one
+          step further by releasing copyrighted materials inside your company
+          with appropriate licences. Copyleft and Permissive Free/Open Source
+          Software Licences will be discussed. For general copyrighted materials,
+          Creative Commons Licences will be introduced. Case Studies of Open Source
+          Business Models using the above licences will then be presented and
+          compared with Business Models in famous companies such as Amazon.
       lang: en
       lang_slide: en
       type: talk
