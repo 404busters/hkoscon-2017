@@ -160,4 +160,28 @@ sponsor_types:
         links:
           text:     JetBrains Website
           url:      https://www.gandi.net/
+  - name:     Drink Sponsor
+    sponsors:
+      - id:   tranquini
+        name: Tranquini
+        grantedPerm: true
+        description:
+          - >
+            Inspired by the tranquility of the Austrian Alps ... Tranquini is a new premium relaxation drink that relieves stress, reduces anxiety and increases focus - yet does not make you sleepy.
+          - >
+            Join us in bringing more positive relaxation to the world!
+          - >
+            Relax. Be Positive. Good Happens
+        logos:
+          title:  Tranquini
+          alt:    Tranquini logo
+          img:    https://file.hkoscon.org/sponsor/tranquini.png
+          url:    http://tranquini.com/     
+        links:
+          text:     Tranquini Website
+          url:      http://tranquini.com/          
+
 patron_name: Patrons
+patrons:
+  - name:
+      - Mr. Henry Law
