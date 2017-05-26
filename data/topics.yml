@@ -22,6 +22,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: function-room
+      startTime: day-1.slot-3 
   -   title:    The deep dive in-and-out of MySQL Group Replication
       id:       mysql-group-replication
       speaker:
@@ -49,6 +50,7 @@ topics:
             As long as you are the application developers, you need a DB.  As
             long as you care about your data, you need a reliable DB.
       venue: training-theatre
+      startTime: day-2.slot-13 
   -   title:  What's New in MySQL 8.0
       id:     whats-new-in-mysql-8.0
       speaker:
@@ -68,6 +70,7 @@ topics:
       level: Intermediate
       requirement: Basic knowledge of database
       venue: function-room
+      startTime: day-1.slot-7
   -   title:  >-
                 Preparing for the App-ocalypse: The Web in the Age of Physical Computing
       id:       preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing
@@ -90,6 +93,7 @@ topics:
         >-
           Front-end web technology stack: HTML, CSS and JavaScript.
       venue: function-room
+      startTime: day-2.slot-9
   -   title:  >-
                 Reproducible builds: Fulfilling the original promise of free software
       id:       reproducible-builds-fulfilling-the-original-promise-of-free-software
@@ -127,6 +131,7 @@ topics:
           Very little. The difference between source code and binary code, the
           existence of hackers, etc.
       venue: function-room
+      startTime: day-2.slot-5
   -   title:    Building a career in Open Source
       id:       building-a-career-in-open-source
       speaker:
@@ -154,6 +159,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: function-room
+      startTime: day-2.slot-6
   -   title:    Open CV in Raspberry PI with Camera
       id:       open-cv-in-raspberry-pi-with-camera
       speaker:
@@ -175,6 +181,7 @@ topics:
         Anyone is OK, and  beginner also, cause I explain in the process of
         programming about open CV
       venue: function-room
+      startTime: day-2.slot-3
   -   title:    Tips in setting up OpenStack from scratch
       id:       tips-in-setting-up-openstack-from-scratch
       speaker:
@@ -193,6 +200,7 @@ topics:
       level: Intermediate
       requirement: Concept on virtualization (VMWare, Juju, KVM)
       venue: function-room
+      startTime: day-1.slot-10
   -   title:    Let's Rust! System programming is awesome again!
       id:       lets-rust-system-programming-is-awesome-again
       speaker:
@@ -216,6 +224,7 @@ topics:
       level:  Intermediate
       requirement: Basic programming experience.
       venue: training-theatre
+      startTime: day-2.slot-5
   -   title:    One Year of Rust Microkernel Development
       id:       one-year-of-rust-microkernel-development
       speaker:
@@ -235,6 +244,7 @@ topics:
       level: Intermediate
       requirement: Understand basic programming and concepts of kernel/operating system.
       venue: training-theatre
+      startTime: day-2.slot-6
   -   title:    Building Artificial Intelligence Units in Rust
       id:       building-artificial-intelligence-units-in-rust
       speaker:
@@ -294,6 +304,7 @@ topics:
           interested to know about parallelism. Experience with rust language
           is big plus but not compulsory as the session will cover the core concepts.
       venue: training-theatre
+      startTime: day-2.slot-7
   -   title:    Data In, Elasticsearch Out
       id:       data-in-elasticsearch-out
       speaker:
@@ -319,6 +330,7 @@ topics:
           Knowledge or experience in using Elasticsearch, Logstash or Beats
           will be beneficial.
       venue: function-room
+      startTime: day-2.slot-13
   -   title:   >-
             A War of File Format -- Why We Select ODF in Taiwan
       id:  a-war-of-file-format-why-we-select-odf-in-taiwan
@@ -341,6 +353,7 @@ topics:
       level:  Beginners
       requirement: ""
       venue: function-room
+      startTime: day-1.slot-9
   -   title: PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法
       id:  PIME
       speaker:
@@ -362,6 +375,7 @@ topics:
       level:  Intermediate
       requirement: Some contents are advanced level.
       venue: function-room
+      startTime: day-2.slot-7
   -   title:   >-
             ezgo for HK：自由的學習系統，本地的楷書字型。
       id:  ezgo-for-hk
@@ -385,6 +399,7 @@ topics:
       level:  Beginners
       requirement:  ""
       venue: training-room-2
+      startTime: day-2.slot-6
   -   title:  Free Hong Kong Kai Font
       id:  free-hong-kong-font
       speaker:
@@ -401,6 +416,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-room-2
+      startTime: day-2.slot-5
   -   title:   >-
             This year in #rstats
       id:  this-year-in-rstats
@@ -419,6 +435,7 @@ topics:
       level: Intermediate
       requirement: Data science, Machine Learning, Data visualization
       venue: function-room
+      startTime: day-2.slot-14
   -   title:   Harnessing social media with R
       id:  harnessing-social-media-with-r
       speaker:
@@ -450,6 +467,7 @@ topics:
       requirement:
           This talk is recommended for audience who have basic NLP and machine learning skills
       venue: function-room
+      startTime: day-2.slot-15
   -   title:  >-
             A Security State of Mind: Continuous Security for DevOps with Kubernetes
       id:   a-security-state-of-mind-continuous-security-for-devops-with-kubernetes
@@ -486,6 +504,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: function-room
+      startTime: day-2.slot-2
   -   title:   Build a cross-platform game in Haxe
       id:  build-a-cross-platform-game-in-haxe
       speaker:
@@ -519,6 +538,8 @@ topics:
           Participants should bring their own laptop computer, with either
           Windows, Mac, or Linux installed.
       venue: training-room-1
+      startTime: day-2.slot-5
+      endTime: day-2.slot-7
   -   title:   >-
             Getting into the virtual world with WebVR/A-Frame
       id:  getting-into-the-virtual-world-with-web-vr
@@ -553,6 +574,8 @@ topics:
           The VR application can be developed and used without Google Cardboard
           or any other VR hardware.
       venue: training-room-1
+      startTime: day-2.slot-13
+      endTime: day-2.slot-15
   -   title:  Building web app with open source serverless technology
       id:  building-web-app-with-open-source-serverless-technology
       speaker:
@@ -572,6 +595,8 @@ topics:
         Basic HTML5 and JavaScript Web front-end knowledge; Experience on
         building web application will definitely help.
       venue: training-room-1
+      startTime: day-2.slot-2
+      endTime: day-2.slot-3
   -   title:  1000 days of Mozilla Community Space in Taipei
       id:  1000-days-of-mozilla-community-space-in-taipei
       speaker:
@@ -592,6 +617,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-theatre
+      startTime: day-2.slot-2
   -   title:  Blender Interface and 3D-CGI concepts
       id: blender-interface-and-3d-cgi-concepts
       speaker:
@@ -611,6 +637,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-room-2
+      startTime: day-2.slot-3
   -   title:  軟體訊息本地化前置翻譯工具
       id: msgchi
       speaker:
@@ -630,6 +657,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-room-2
+      startTime: day-2.slot-2
   -   title: ZMQ multiplex between golang coroutine and python thread
       id: zmq-multiplex-between-golang-coroutine-and-python-thread
       speaker:
@@ -654,6 +682,7 @@ topics:
       level: Intermediate
       requirement: Knowledge of Golang, Python, HTTP, PRC
       venue: training-theatre
+      startTime: day-2.slot-15
   -   title:   Pentest fun with metasploit framework II
       id:  pentest-fun-with-metasploit-framework-ii
       speaker:
@@ -677,6 +706,7 @@ topics:
       level: Intermediate
       requirement: Basic *nix commands, interest in information security
       venue: training-room-3
+      startTime: day-2.slot-13
   -   title:   Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!
       id:  use-sqlite-for-simple-data-analysis
       speaker:
@@ -716,6 +746,8 @@ topics:
       level: Beginners
       requirement: Bring your own laptop (it can be Windows, Mac or Linux)
       venue: training-room-3
+      startTime: day-2.slot-2
+      endTime: day-2.slot-3
   -   title:   AWS Cloud Lab (革新雲端電腦房)
       id:  aws-cloud-lab
       speaker:
@@ -739,6 +771,7 @@ topics:
       level: Intermediate
       requirement: Basic knowledge in AWS i.e.  EC2, Lambda, and CloudFormation
       venue: training-room-2
+      startTime: day-2.slot-15
   -   title:   Why BASH?
       id:  why-bash
       speaker:
@@ -759,6 +792,7 @@ topics:
       level: Intermediate
       requirement: Basic programming and Linux command line skills
       venue: training-room-2
+      startTime: day-2.slot-14
   -   title:   沒有 Powerpoint 的簡報世界
       id:  libreoffice-impress
       speaker:
@@ -781,6 +815,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: training-room-2
+      startTime: day-2.slot-7
   -   title:   JavaScript fuzzing in Mozilla, 2017
       id:  javascript-fuzzling-in-mozilla-2017
       speaker:
@@ -805,6 +840,7 @@ topics:
       level: Advanced
       requirement: Be able to understand fuzzing (random black box testing)
       venue: training-theatre
+      startTime: day-2.slot-3
   -   title:   How OpenStreetMap makes a different in Taiwan and the challenges the project faced in East Asia
       id:  open-street-map-taiwan
       speaker:
@@ -828,6 +864,7 @@ topics:
       level: Beginner
       requirement: ""
       venue: training-room-2
+      startTime: day-2.slot-13
   -   title:    Rapidly build Cognitive applications with Bluemix, a cloud with Open Source at its heart
       id:       bluemix-cognitive-application
       speaker:
@@ -850,6 +887,7 @@ topics:
       level: Intermediate
       requirement: ""
       venue: function-room
+      startTime: day-1.slot-4
   -   title:    Better than Free Giveaways - Open Source Business Models with Examples
       id:       better-than-free-giveaways
       speaker:
@@ -869,6 +907,7 @@ topics:
       level: Beginner
       requirement: ""
       venue: function-room
+      startTime: day-1.slot-5
   -   title: "KDE: Journey of a SoK student to GCI organisation administrator"
       id:  kde-journey-of-a-sok-student-to-gci-organisation-administrator
       speaker:
@@ -889,6 +928,7 @@ topics:
       level: Intermediate
       requirement: Basic knowledge of Qt, QML, UI design
       venue: training-room-3
+      startTime: day-2.slot-5
   -   title: Optimal financial planning through storytelling using narrative visualizations with advanced filtering
       id:  optimal-financial-planning-through-storytelling
       speaker:
@@ -904,3 +944,4 @@ topics:
       level: Intermediate
       requirement: ""
       venue: function-room
+      startTime: day-1.slot-11
