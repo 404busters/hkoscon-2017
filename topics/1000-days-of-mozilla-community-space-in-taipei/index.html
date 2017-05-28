@@ -38,7 +38,16 @@
         <div class="nav-wrapper container">
             <a href="/2017/" class="brand-logo">HKOSCon 2017</a>
             <ul class="right">
-                <li data-mount="auth" data-position="navbar"></li>
+                <li data-role="ticket" class="hide-on-small-and-down">
+                    <a class="waves-effect waves-light z-depth-2 btn"
+                       data-ga-category="navbar"
+                       data-ga-action="click"
+                       data-ga-label="ticket"
+                       data-ga-value="full ticket"
+                       href="https://hkoscon2017.eventbrite.com/?aff=website&amp;utm_source=website&amp;utm_medium=action_button&amp;utm_campaign=navbar&amp;utm_content=full_ticket#tickets"
+                       target="_blank">Get Ticket</a>
+                </li>
+                <li data-mount="auth" data-position="navbar" class="hide-on-small-and-down"></li>
             </ul>
         </div>
     </nav>
@@ -50,34 +59,43 @@
             <img src="/2017/images/favicon.png" alt="HKOSCon">
         </a>
     </li>
-    <li data-mount="auth" data-position="sidebar"></li>
+    <li class="hide-on-med-and-up" data-role="ticket">
+        <a class="waves-effect waves-light z-depth-2 btn"
+           data-ga-category="sidebar"
+           data-ga-action="click"
+           data-ga-label="ticket"
+           data-ga-value="full ticket"
+           href="https://hkoscon2017.eventbrite.com/?aff=website&amp;utm_source=website&amp;utm_medium=action_button&amp;utm_campaign=sidebar&amp;utm_content=full_ticket#tickets"
+           target="_blank">Get Ticket</a>
+    </li>
+    <li data-mount="auth" data-position="sidebar" class="hide-on-med-and-up"></li>
     <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-          <li>
-              <a href="#" class="bold waves-effect collapsible-header">About</a>
-              <ul class="collapsible-body">
-                  <li><a href="/2017/about/">Organizers</a></li>
-                  <li><a href="/2017/about/coc.html">Code Of Conduct</a></li>
-                  <li><a href="/2017/about/staff.html">Staff</a></li>
-                  <li><a href="/2017/about/patron-programme.html">Patron Programme</a></li>
-              </ul>
-          </li>
-      </ul>
+    <ul class="collapsible collapsible-accordion">
+        <li>
+            <a href="#" class="bold waves-effect collapsible-header">About</a>
+            <ul class="collapsible-body">
+                <li><a href="/2017/about/">Organizers</a></li>
+                <li><a href="/2017/about/coc.html">Code Of Conduct</a></li>
+                <li><a href="/2017/about/staff.html">Staff</a></li>
+                <li><a href="/2017/about/patron-programme.html">Patron Programme</a></li>
+            </ul>
+        </li>
+    </ul>
     </li>
     <li class="bold"><a class="waves-effect waves-teal" href="/2017/schedule">Schedule</a></li>
     <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-          <li>
-              <a href="#" class="bold waves-effect collapsible-header">Events</a>
-              <ul class="collapsible-body">
-                  <li><a href="/2017/events/unconference.html">Unconference</a></li>
-                  <li><a href="/2017/events/lightning-talk.html">Lightning Talks</a></li>
-                  <li><a href="/2017/events/global-foss.html">Global F/OSS Community Meeting</a></li>
-                  <li><a href="/2017/events/local-foss.html">Local F/OSS Community Meeting</a></li>
-                  <li><a href="/2017/events/financial-assistance.html">Financial Assistance Application</a></li>
-              </ul>
-          </li>
-      </ul>
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a href="#" class="bold waves-effect collapsible-header">Events</a>
+                <ul class="collapsible-body">
+                    <li><a href="/2017/events/unconference.html">Unconference</a></li>
+                    <li><a href="/2017/events/lightning-talk.html">Lightning Talks</a></li>
+                    <li><a href="/2017/events/global-foss.html">Global F/OSS Community Meeting</a></li>
+                    <li><a href="/2017/events/local-foss.html">Local F/OSS Community Meeting</a></li>
+                    <li><a href="/2017/events/financial-assistance.html">Financial Assistance Application</a></li>
+                </ul>
+            </li>
+        </ul>
     </li>
     <li class="bold"><a class="waves-effect waves-teal" href="/2017/cfp/">Call For Proposals Results</a></li>
     <li class="bold"><a class="waves-effect waves-teal" href="/2017/sponsor/">Sponsor</a></li>
@@ -187,16 +205,6 @@
 
       
 
-      <div class="ticket">
-        
-        <a class="waves-effect waves-light z-depth-2 btn"
-        data-ga-category="topic-page"
-        data-ga-action="click"
-        data-ga-label="ticket-topic-page--1000-days-of-mozilla-community-space-in-taipei"
-        data-ga-value="full-ticket"
-        href="https://hkoscon2017.eventbrite.com/?aff=website&amp;utm_source=website&amp;utm_medium=action_button&amp;utm_campaign=topic-details&amp;utm_content=full_ticket#tickets"
-        target="_blank">Get your ticket</a>
-      </div>
     </div>
 
   </div>
