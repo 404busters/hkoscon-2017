@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block script %}
-    <script src="http://maps.googleapis.com/maps/api/js?signed_in=true&language=en-GB&key=AIzaSyAcfOIRBkjKYl6ryd-HqoJvoaOva7E1Al4" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&language=en-GB&key=AIzaSyAcfOIRBkjKYl6ryd-HqoJvoaOva7E1Al4" defer></script>
     <script src="{{ data.site.basePath }}/js/venue.js" defer></script>
 {% endblock %}
 
@@ -26,30 +26,32 @@
         <div class="row">
             <div class="col s12">
                 <div class="card blue-theme yellow-theme-text">
-                    <div class="title">
-                        <h2 class="title-text headline">Bus Transportation</h2>
-                    </div>
-                    <div class="content">
-                        <ul class="browser-default">
-                            <li>
-                                30X Central (via Pok Fu Lam, Wah Fu)
-                                <a href="https://file.hkoscon.org/download/30x.pdf" target="_blank">
-                                    Detail
-                                </a>
-                            </li>
-                            <li>
-                                73 Stanley (via Repulse Bay, Wong Chuk Hang, Aberdeen, Wah Fu)
-                                <a href="https://file.hkoscon.org/download/73.pdf" target="_blank">
-                                    Detail
-                                </a>
-                            </li>
-                            <li>
-                                970 So Uk Estate (via Sham Shui Po, Prince Edward, Mong Kok, Yau Ma Tei, Jordan)
-                                <a href="https://file.hkoscon.org/download/970.pdf" target="_blank">
-                                    Detail
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2 class="title-text headline">Bus Transportation</h2>
+                        </div>
+                        <div class="content">
+                            <ul class="browser-default">
+                                <li>
+                                    30X Central (via Pok Fu Lam, Wah Fu)
+                                    <a href="https://file.hkoscon.org/download/30x.pdf" target="_blank">
+                                        Detail
+                                    </a>
+                                </li>
+                                <li>
+                                    73 Stanley (via Repulse Bay, Wong Chuk Hang, Aberdeen, Wah Fu)
+                                    <a href="https://file.hkoscon.org/download/73.pdf" target="_blank">
+                                        Detail
+                                    </a>
+                                </li>
+                                <li>
+                                    970 So Uk Estate (via Sham Shui Po, Prince Edward, Mong Kok, Yau Ma Tei, Jordan)
+                                    <a href="https://file.hkoscon.org/download/970.pdf" target="_blank">
+                                        Detail
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,32 +59,36 @@
         <div class="row">
             <div class="col s12">
                 <div class="card">
-                    <div class="title">
-                        <h2 class="title-text headline">Minibus Transportation</h2>
-                    </div>
-                    <div class="content">
-                        <ul class="browser-default">
-                            <li>10 Causeway Bay (Jaffe Road)</li>
-                            <li>58 Aberdeen - Cyberport - Kennedy Town (North Street)</li>
-                            <li>69 Quarry Bay (Hoi Chak Street)</li>
-                            <li>69A Aberdeen Main Road (outside St. Peter Secondary School)</li>
-                            <li>69X Causeway Bay (Lockhart Road)</li>
-                        </ul>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2 class="title-text headline">Minibus Transportation</h2>
+                        </div>
+                        <div class="content">
+                            <ul class="browser-default">
+                                <li>10 Causeway Bay (Jaffe Road)</li>
+                                <li>58 Aberdeen - Cyberport - Kennedy Town (North Street)</li>
+                                <li>69 Quarry Bay (Hoi Chak Street)</li>
+                                <li>69A Aberdeen Main Road (outside St. Peter Secondary School)</li>
+                                <li>69X Causeway Bay (Lockhart Road)</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col s12">
                 <div class="card blue-theme yellow-theme-text">
-                    <div class="title">
-                        <h2 class="title-text headline">Floor Plan</h2>
-                    </div>
-                    <div>
-                        <img src="/2017/images/floorplan.svg" id="floorplan-svg" class="floorplan" />
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2 class="title-text headline">Floor Plan</h2>
+                        </div>
+                        <div>
+                            <img src="{{ data.site.basePath }}/images/floorplan.svg" id="floorplan-svg" class="floorplan" />
+                        </div>
                     </div>
                 </div>
             </div>

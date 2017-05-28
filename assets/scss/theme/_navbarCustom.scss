@@ -31,10 +31,20 @@ nav {
   }
 }
 
-[data-role=auth] {
-  color: #000000;
+[data-position=sidebar] {
+  [data-role=auth] {
+    color: #000000;
+  }
+
+  &[data-mount=auth] {
+    text-align: center;
+  }
 }
 
-[data-mount=auth][data-position=sidebar] {
-  text-align: center;
+[data-role=auth] {
+  color: $theme-yellow;
+}
+
+[data-role=ticket] a.btn{
+  color: $theme-blue;
 }

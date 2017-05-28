@@ -1,0 +1,9 @@
+.page--events--financial-assistance {
+  .theme-area {
+    background-image: url('./images/page-cfp-results-theme.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  @extend .document-content;
+}

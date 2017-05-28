@@ -1,4 +1,7 @@
 .page-front {
+  [data-role=ticket] {
+    display: none !important;
+  }
   nav .brand-logo {
     display: none;
   }

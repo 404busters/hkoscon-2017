@@ -40,9 +40,10 @@ day-1:
   - name: "70-min Meeting: Global F/OSS Community Meeting Part 1 (open to public)"
     timeslot: slot-7
     venue: training-theatre
-  - name: 30-min Talk - TBC (Microsoft)
+  - name: 30-min Talk
     timeslot: slot-8
     venue: function-room
+    topic: intro-to-open-source-deep-learning-tookkit-from-microsoft
   - name: "70-min Meeting: Global F/OSS Community Meeting Part 2 (open to public)"
     timeslot: slot-8
     venue: training-theatre
@@ -63,8 +64,12 @@ day-1:
   - name: "70-min Meeting: Local F/OSS Community Meeting Part 2 (open to public)"
     timeslot: slot-10
     venue: training-theatre
-  - name: End Of Day
+  - name: 30-min Talk
     timeslot: slot-11
+    venue: function-room
+    topic: optimal-financial-planning-through-storytelling
+  - name: End Of Day
+    timeslot: slot-12
 
 
 day-2:
@@ -78,7 +83,7 @@ day-2:
   - name: 30-min Talk
     timeslot: slot-2
     venue: training-theatre
-    topic: 1000-days-of-mozilla-community-space-in-taipei
+    topic: azure-db-for-mysql-introduction-dotnet-open-source-technology-stack-integration
   - name: 60-min Workshop Part 1
     timeslot: slot-2
     venue: training-room-1
@@ -98,7 +103,7 @@ day-2:
   - name: 30-min Talk
     timeslot: slot-3
     venue: training-theatre
-    topic: javascript-fuzzling-in-mozilla-2017
+    topic: 1000-days-of-mozilla-community-space-in-taipei
   - name: 60-min Workshop Part 2
     timeslot: slot-3
     venue: training-room-1
@@ -130,9 +135,10 @@ day-2:
     timeslot: slot-5
     venue: training-room-2
     topic: free-hong-kong-font
-  - name: Unconference - Part 1
+  - name: 30-min Talk
     timeslot: slot-5
     venue: training-room-3
+    topic: kde-journey-of-a-sok-student-to-gci-organisation-administrator
   - name: 30-min Talk
     timeslot: slot-6
     venue: function-room
@@ -149,7 +155,7 @@ day-2:
     timeslot: slot-6
     venue: training-room-2
     topic: ezgo-for-hk
-  - name: Unconference - Part 2
+  - name: Unconference - Part 1
     timeslot: slot-6
     venue: training-room-3
   - name: 30-min Talk
@@ -168,7 +174,7 @@ day-2:
     timeslot: slot-7
     venue: training-room-2
     topic: libreoffice-impress
-  - name: Unconference - Part 3
+  - name: Unconference - Part 2
     timeslot: slot-7
     venue: training-room-3
   - name: Lunch Networking
@@ -211,9 +217,10 @@ day-2:
     timeslot: slot-14
     venue: function-room
     topic: this-year-in-rstats
-  - name: 30-min Talk - TBC (Microsoft)
+  - name: 30-min Talk
     timeslot: slot-14
     venue: training-theatre
+    topic: javascript-fuzzling-in-mozilla-2017
   - name: 90-min Workshop - Part 2
     timeslot: slot-14
     venue: training-room-1
@@ -222,7 +229,7 @@ day-2:
     timeslot: slot-14
     venue: training-room-2
     topic: why-bash
-  - name: Unconference - Part 4
+  - name: Unconference - Part 3
     timeslot: slot-14
     venue: training-room-3
   - name: 30-min Talk
@@ -241,7 +248,7 @@ day-2:
     timeslot: slot-15
     venue: training-room-2
     topic: aws-cloud-lab
-  - name: Unconference - Part 5
+  - name: Unconference - Part 4
     timeslot: slot-15
     venue: training-room-3
   - name: End of Day

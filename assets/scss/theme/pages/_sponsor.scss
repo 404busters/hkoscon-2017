@@ -35,6 +35,11 @@
         color: #000;
       }
 
+      a.company-link {
+          font-weight: bolder;
+          color: #4a7b99;
+      }
+
       @media #{$small-and-down} {
         .description div {
           text-align: center;

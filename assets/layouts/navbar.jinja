@@ -10,7 +10,16 @@
         <div class="nav-wrapper container">
             <a href="{{ data.site.basePath }}/" class="brand-logo">HKOSCon 2017</a>
             <ul class="right">
-                <li data-mount="auth" data-position="navbar"></li>
+                <li data-role="ticket" class="hide-on-small-and-down">
+                    <a class="waves-effect waves-light z-depth-2 btn"
+                       data-ga-category="navbar"
+                       data-ga-action="click"
+                       data-ga-label="ticket"
+                       data-ga-value="full ticket"
+                       href="{{ data.site.ticketURL | appendURL | withGA('full_ticket', 'navbar') | execAppend }}"
+                       target="_blank">Get Ticket</a>
+                </li>
+                <li data-mount="auth" data-position="navbar" class="hide-on-small-and-down"></li>
             </ul>
         </div>
     </nav>
@@ -22,33 +31,43 @@
             <img src="{{ data.site.basePath }}/images/favicon.png" alt="HKOSCon">
         </a>
     </li>
-    <li data-mount="auth" data-position="sidebar"></li>
+    <li class="hide-on-med-and-up" data-role="ticket">
+        <a class="waves-effect waves-light z-depth-2 btn"
+           data-ga-category="sidebar"
+           data-ga-action="click"
+           data-ga-label="ticket"
+           data-ga-value="full ticket"
+           href="{{ data.site.ticketURL | appendURL | withGA('full_ticket', 'sidebar') | execAppend }}"
+           target="_blank">Get Ticket</a>
+    </li>
+    <li data-mount="auth" data-position="sidebar" class="hide-on-med-and-up"></li>
     <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-          <li>
-              <a href="#" class="bold waves-effect collapsible-header">About</a>
-              <ul class="collapsible-body">
-                  <li><a href="{{ data.site.basePath }}/about/">Organizers</a></li>
-                  <li><a href="{{ data.site.basePath }}/about/coc.html">Code Of Conduct</a></li>
-                  <li><a href="{{ data.site.basePath }}/about/staff.html">Staff</a></li>
-                  <li><a href="{{ data.site.basePath }}/about/patron-programme.html">Patron Programme</a></li>
-              </ul>
-          </li>
-      </ul>
+    <ul class="collapsible collapsible-accordion">
+        <li>
+            <a href="#" class="bold waves-effect collapsible-header">About</a>
+            <ul class="collapsible-body">
+                <li><a href="{{ data.site.basePath }}/about/">Organizers</a></li>
+                <li><a href="{{ data.site.basePath }}/about/coc.html">Code Of Conduct</a></li>
+                <li><a href="{{ data.site.basePath }}/about/staff.html">Staff</a></li>
+                <li><a href="{{ data.site.basePath }}/about/patron-programme.html">Patron Programme</a></li>
+            </ul>
+        </li>
+    </ul>
     </li>
     <li class="bold"><a class="waves-effect waves-teal" href="{{ data.site.basePath }}/schedule">Schedule</a></li>
     <li class="no-padding">
-      <ul class="collapsible collapsible-accordion">
-          <li>
-              <a href="#" class="bold waves-effect collapsible-header">Events</a>
-              <ul class="collapsible-body">
-                  <li><a href="{{ data.site.basePath }}/events/">Unconference</a></li>
-                  <li><a href="{{ data.site.basePath }}/events/lightning-talk.html">Lightning Talks</a></li>
-                  <li><a href="{{ data.site.basePath }}/events/global-foss.html">Global F/OSS Community Meeting</a></li>
-                  <li><a href="{{ data.site.basePath }}/events/local-foss.html">Local F/OSS Community Meeting</a></li>
-              </ul>
-          </li>
-      </ul>
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a href="#" class="bold waves-effect collapsible-header">Events</a>
+                <ul class="collapsible-body">
+                    <li><a href="{{ data.site.basePath }}/events/unconference.html">Unconference</a></li>
+                    <li><a href="{{ data.site.basePath }}/events/lightning-talk.html">Lightning Talks</a></li>
+                    <li><a href="{{ data.site.basePath }}/events/global-foss.html">Global F/OSS Community Meeting</a></li>
+                    <li><a href="{{ data.site.basePath }}/events/local-foss.html">Local F/OSS Community Meeting</a></li>
+                    <li><a href="{{ data.site.basePath }}/events/financial-assistance.html">Financial Assistance Application</a></li>
+                </ul>
+            </li>
+        </ul>
     </li>
     <li class="bold"><a class="waves-effect waves-teal" href="{{ data.site.basePath }}/cfp/">Call For Proposals Results</a></li>
     <li class="bold"><a class="waves-effect waves-teal" href="{{ data.site.basePath }}/sponsor/">Sponsor</a></li>

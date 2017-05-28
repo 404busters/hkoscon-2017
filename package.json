@@ -35,7 +35,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "flow-bin": "^0.46.0",
+    "flow-bin": "^0.47.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.2",
     "gulp-data": "^1.2.1",

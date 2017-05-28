@@ -334,11 +334,11 @@ irvin-chen:
     - >
       Community liaison of MozTW, Mozilla Taiwan Community.
       Long time Mozilla contributor, Mozilla Rep Mentor.
-      Current contributing to Mozilla on community building, recruiting volunteers,
+      I have been contributing to Mozilla on community building, recruiting volunteers,
       organising event and speaking for Mozilla's Mission and open culture.
 
     - >
-      In the mean time, I'm front-end developer in womany.net.
+      In the meantime, I'm a front-end developer of womany.net.
   residence: Taiwan
   nationality: Taiwan
   social:
@@ -460,12 +460,12 @@ vinnson-lee:
   gender: male
   description:
     - >
-      Senior Software Engineer from China Mobile Hong Kong, DevOps leader,
-      10+ year experience in software development and implementation of open
-      source software
+      DevOps leader and data engineer in fintech industry, worked at China 
+      Mobile HK as Senior Software Engineer, 10+ year experience in software 
+      development and implementation of open source software.
   residence: Hong Kong
   nationality: Hong Kong
-  portrait: 
+  portrait: https://file.hkoscon.org/speakers/2017/vinnson.lee.jpg
   hkoscon-sponsored: false
 
 cyrus-wong:
@@ -626,7 +626,68 @@ haggen-so:
   name: Dr. Haggen So
   gender: male
   description:
+    - >
+      Graduated from the Royal Melbourne Institute of Technology, Dr. Haggen So,
+      has experiences in commercial software development and developed software
+      products for renowned companies such as Kodak. Dr. So also taught in Hong
+      Kong Baptist University as lecturer in the department of Computer Science.
+      Dr. So was the former Project Manager for Creative Commons Hong Kong and
+      currently the president of the Hong Kong Creative Open Technology
+      Association.
   residence: Hong Kong
   nationality: Hong Kong
-  portrait:
+  portrait: https://file.hkoscon.org/speakers/2017/haggen.so.jpg
+  community:
+    name: HKCOTA
+    url: https://www.cota.hk/
   hkoscon-sponsored: false
+
+heena-mahour:
+  name: Heena Mahour
+  gender: female
+  description: 
+    - >
+      I am a Season of KDE 2012 student(kde-edu game pairs), Google summer of code 2013 student under KDE where I worked with plasma team, Google Code In 2013 mentor where I provided tasks under KDE for plasma, co-administrator & mentor of Season of KDE 2014 and organization co-administrator & mentor of KDE for Google Code In 2014 as well. 
+    - >
+      I am also the co-founder, organizer and director of Women Who Code Delhi, India. 
+      I also organized a GSoC meetup at Delhi recently which got featured at Google open source blog. 
+      I also was one of the speakers at GSoC Symposium, Delhi where I presented a talk on the plasma development.
+    - >
+      Currently, I am working as a software engineer with a financial firm, Indus Valley Partners, India
+  nationality: India
+  portrait: https://file.hkoscon.org/speakers/2017/heena.mahour.jpg
+  social:
+    github: fallacy321
+    blog: http://heenamahour.blogspot.in
+  hkoscon-sponsered: false
+  
+edwin-song:
+  name: Edwin Song
+  gender: male
+  description: 
+    - >
+      Principle PM of Azure Database for MySQL
+  nationality: China
+  portrait: https://file.hkoscon.org/speakers/2017/edwin.song.png
+  hkoscon-sponsered: false
+
+delon-yau:
+  name: Delon Yau
+  gender: male
+  description: 
+    - >
+      Technical Evangelist, DX, Microsoft      
+    - >
+      Delon is currently a Technical Evangelist in the Developer Experience 
+      Group at Microsoft HK, evangelizing developers across HK on artificial 
+      intelligence on cloud, big data analytics and IoT. Prior to Joining 
+      Microsoft HK, he worked for Microsoft UK as a machine learning 
+      developer supporting the data analytics development of a cloud-based 
+      online shopping platform.  
+    - >
+      He holds a Bachelor's degree in Electrical and Electronic Engineering 
+      from Imperial College London and also a Master's degree in Computer 
+      Science from UCL.
+  nationality: Hong Kong
+  portrait: https://file.hkoscon.org/speakers/2017/delon.yau.jpg
+  hkoscon-sponsered: false

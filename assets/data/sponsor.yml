@@ -22,7 +22,7 @@ sponsor_types:
         links:
           text:     Cyberport Website
           url:      https://www.cyberport.hk/en/
-  - name:     Gold Sponsor
+  - name:     Gold Sponsors
     sponsors:
       - id:   gandi
         name: Gandi.net
@@ -44,6 +44,32 @@ sponsor_types:
         links:
           text:     Gandi.net Website
           url:      https://www.gandi.net/
+      - id:   ibm
+        name: IBM
+        grantedPerm: true
+        description:
+          - >
+            IBM is an innovation and technology company headquartered in New 
+            York with operations in over 175 countries. It delivers innovative 
+            solutions, software and infrastructures to improve client outcomes, 
+            create new value and solve business problems through integrated 
+            solutions that leverage IT and deep knowledge in business processes. 
+            These solutions draw from an industry leading portfolio of business 
+            and technology consulting, delivery and implementation services, 
+            as well as enterprise software, systems and financing.
+          - >  
+            IBM opened for business in Hong Kong in 1957, and has since played 
+            a pivotal role in Hong Kong’s development and transformation. 
+            For more information, visit 
+            <a href="https://www.ibm.com/hk-en/" class="company-link" target="_blank">www.ibm.com/hk</a>
+        logos:
+          title:  IBM
+          alt:    IBM
+          img:    https://file.hkoscon.org/sponsor/ibm.jpg
+          url:    https://www.ibm.com/hk-en/
+        links:
+          text:     IBM Website
+          url:      https://www.ibm.com/hk-en/
   - name:     Silver Sponsors
     sponsors:
       - id:   microsoft
@@ -134,4 +160,28 @@ sponsor_types:
         links:
           text:     JetBrains Website
           url:      https://www.gandi.net/
+  - name:     Drink Sponsor
+    sponsors:
+      - id:   tranquini
+        name: Tranquini
+        grantedPerm: true
+        description:
+          - >
+            Inspired by the tranquility of the Austrian Alps ... Tranquini is a new premium relaxation drink that relieves stress, reduces anxiety and increases focus - yet does not make you sleepy.
+          - >
+            Join us in bringing more positive relaxation to the world!
+          - >
+            Relax. Be Positive. Good Happens
+        logos:
+          title:  Tranquini
+          alt:    Tranquini logo
+          img:    https://file.hkoscon.org/sponsor/tranquini.png
+          url:    http://tranquini.com/     
+        links:
+          text:     Tranquini Website
+          url:      http://tranquini.com/          
+
 patron_name: Patrons
+patrons:
+  - name:
+      - Mr. Henry Law

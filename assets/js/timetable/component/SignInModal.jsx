@@ -27,12 +27,9 @@ export default class SigninModal extends React.Component {
   render() {
     const auth = this.props.user !== null;
     const button = `Sign ${auth ? 'Out' : 'In'}`;
-    const className = classNames('btn', 'waves-effect', 'waves-light', {
-      'hide-on-small-only': this.props.position === 'navbar',
-      'hide-on-med-and-up': this.props.position === 'sidebar',
-    });
+    const className = classNames('waves-effect', 'waves-teal');
     return (
-      <button data-role="auth" className={className} onClick={this.handleButtonClick(auth)}>{button}</button>
+      <a data-role="auth" className={className} onClick={this.handleButtonClick(auth)}>{button}</a>
     );
   }
 }

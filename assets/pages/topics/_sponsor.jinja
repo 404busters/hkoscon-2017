@@ -11,7 +11,7 @@
     <div class="col m10 description">
         <h3>{{sponsor.name}}</h3>
         {% for desc in sponsor.description %}
-          <p>{{desc}}</p>
+          <p>{{desc | safe }}</p>
           {% endfor %}
         <div>
           <a class="waves-effect waves-light btn" target="_blank"

@@ -33,6 +33,19 @@
         {% endfor %}
       </div><!--/.description-->
 
+      {% if topic.startTime %}
+      <div class="time">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        {% set topicTime = topic.startTime.split('.') %}
+        {% set day = topicTime[0] %}
+        {% set startTime = topicTime[1] %}
+        {% if topic.endTime %}
+        {% set endTime = topic.endTime.split('.')[1] %}
+        {% endif %}
+        {{ day.replace('-', ' ') | capitalize }} {{ data.timeslots | formatTime(day, startTime, endTime) }}
+      </div>
+      {% endif %}
+
       {% if topic.venue %}
       <div class="location">
         <i class="fa fa-map-signs" aria-hidden="true"></i>
