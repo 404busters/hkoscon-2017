@@ -932,13 +932,41 @@ topics:
       requirement: Basic knowledge of Qt, QML, UI design
       venue: training-room-3
       startTime: day-2.slot-5
-  -   title: Optimal financial planning through storytelling using narrative visualizations with advanced filtering
+  -   title: >-
+          Portfolio Management through storytelling using narrative visualizations with advanced filtering: Crossfilter + d3.js = dc.js
       id:  optimal-financial-planning-through-storytelling
       speaker:
         -  heena-mahour
       remark: ""
       description: 
           - >
+             Visualizations act as a campfire around which we gather to tell stories (AI Shalloway, 2011).
+             Most sophisticated visualization tools supports visual encodings and analysis routines but lacks 
+             interactivity to support narrative communication. Hence, it diminishes the expressiveness,i.e, the 
+             diversity of possible visualizations and leads to substantial runtime overhead. It remains an open 
+             question that how these tools be upgraded to support optimal and wide range of storytelling. 
+             This talk deals with the amalgamation of narrative storytelling with interactive and responsive 
+             visualizations through advanced filtering.
+          - >
+            According to Ben Shneiderman(2003), a picture is worth a thousand words. An interface is worth a 
+            thousand pictures. Hence, with the rise in visualization techniques, the need to catalogue and 
+            consolidate it arises as well. In recent years, static visualizations via diagrams and charts are 
+            used for author driven financial storytelling in which the text provides the outline and the image 
+            depicts the related details. 
+            Prior to that, conventional raw dataset was used to provide details to the subject. Though it 
+            clarifies the visual elements but produces clutter.According to a recent survey, less than 25% of 
+            the individuals over the age of 50 were not aware of fundamental economic concepts such as exposure, 
+            inflation and hence failed to invest properly. It refers to the need of proper financial planning 
+            which is inculcated with the use of narrative communication through visualization techniques with 
+            runtime filtering so that the visualization could be manipulated by the users. Through prior 
+            research work on drill down stories, the author observed the need for single frame interactivity 
+            and consistent visual platform for reader driven stories. 
+          - >
+            Thereby, enabling the end users to foster the decision making by visualizing aggregated risk and other factors efficiently. This talk thus 
+            investigates a problem statement to visualize reader driven top performers involving exposure and 
+            profit allocation across a varied set of dimensions such as funds, segment and sector to illustrate 
+            design space using graphical techniques and interactivity enforcing a narrative flow. Later, the talk 
+            also illustrates  a narrative exploratory analysis of high dimensional datasets using brushing technique.
       lang:  en
       lang_slide:  en
       type:  talk
