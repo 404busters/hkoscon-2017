@@ -618,7 +618,34 @@ vidyasagar-machupalli:
   name: Vidyasagar S Machupalli
   gender: male
   description:
+    - >
+      Vidyasagar MSC aka Vidyasagar Machupalli is a Polyglot and Pragmatic 
+      programmer, who loves technologies changing lives. He is a well-known 
+      blogger and speaker in various technical communities. He currently works 
+      for IBM as an Offering Manager for Developer Productivity promoting the 
+      use of IBM Cloud through talks, articles, blogging, user demonstrations, 
+      recorded demonstrations, or by the creation of sample projects. He has 
+      been awarded as Microsoft MVP, Intel Software Innovator, and DZone MVB. He 
+      is passionate about game development and works in his free time developing 
+      games and Mobile apps.
+    
+    - >
+      Vidyasagar has 9+ years of industry experience and a broad set of skills in 
+      software developVidyasagarMSCment and design. He started as a .Net Developer in early 2007 
+      and continued to hone his skills from that point on. He is a tech addict 
+      and a technology enthusiast.
+
+    - >
+      Also a Mentor | Explorer | Xbox Fan | Living in (Virtual + Augmented) 
+      Reality |  Always on Cloud | an Assimilator | Geek | Freak | Music Lover | Movie Buff
+
+    - >
+      Core member and Organiser of BlueCoders Meetup Group.
   nationality: India
+  social:
+    github: VidyasagarMSC
+    blog: http://vidyasagarmsc.com/
+  portrait: https://file.hkoscon.org/speakers/2017/vidyasagar.machupalli.jpg
   hkoscon-sponsored: false
 
 haggen-so:
