@@ -80,12 +80,20 @@
     margin: 1rem auto;
   }
 
-  .modal .row {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    .col {
-      padding-bottom: 1rem;
+  .modal {
+    .row {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      .col {
+        padding-bottom: 1rem;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .fixed-action-btn {
+      bottom: 3.5rem;
     }
   }
 }

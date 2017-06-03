@@ -8,7 +8,13 @@ import {
   IMPORT_TOPICS,
   IMPORT_SPONSORS,
   IMPORT_TIMESLOTS,
+  LOAD_AGENDA,
+  PUSH_ADD_AGENDA,
+  PUSH_REMOVE_AGENDA,
+  ADD_AGENDA,
+  REMOVE_AGENDA,
 } from '../action';
+import { addAgenda, removeAgenda } from '../schedule';
 
 export type TimetableState = {
   sessions: Object,
@@ -18,10 +24,20 @@ export type TimetableState = {
   speakers: Object,
   sponsors: Object,
   timeslots: Object,
+  agenda: {[key: string]: string},
 };
 
 
-export default function (state: TimetableState = { timeslots: {}, sessions: {}, topics: {}, venues: {}, langs: {}, speakers: {}, sponsors: {} }, action: Object) {
+export default function (state: TimetableState = {
+  agenda: {},
+  timeslots: {},
+  sessions: {},
+  topics: {},
+  venues: {},
+  langs: {},
+  speakers: {},
+  sponsors: {},
+}, action: Object) {
   switch (action.type) {
     case IMPORT_LANGS: {
       const { langs, ...others } = state;
@@ -69,6 +85,54 @@ export default function (state: TimetableState = { timeslots: {}, sessions: {}, 
       const { timeslots, ...others } = state;
       return {
         timeslots: action.timeslots,
+        ...others,
+      };
+    }
+    case LOAD_AGENDA: {
+      const { agenda, ...others } = state;
+      return {
+        agenda: action.agenda,
+        ...others,
+      };
+    }
+    case PUSH_ADD_AGENDA: {
+      const { key, topic } = action;
+      const { agenda, ...others } = state;
+      return {
+        agenda: Object.assign({}, agenda, { [key]: topic }),
+        ...others,
+      };
+    }
+    case PUSH_REMOVE_AGENDA: {
+      const { key } = action;
+      const { agenda, ...others } = state;
+      const nextAgenda = Object.assign({}, agenda);
+      delete nextAgenda[key];
+      return {
+        agenda: nextAgenda,
+        ...others,
+      };
+    }
+    case ADD_AGENDA: {
+      const { topic } = action;
+      const key = addAgenda(topic);
+      const { agenda, ...others } = state;
+      return {
+        agenda: Object.assign({}, agenda, { [key]: topic }),
+        ...others,
+      };
+    }
+    case REMOVE_AGENDA: {
+      const { topic } = action;
+      const { agenda, ...others } = state;
+      const key = Object.keys(agenda).find(k => agenda[k] === topic);
+      const nextAgenda = Object.assign({}, agenda);
+      if (key) {
+        removeAgenda(key).then(console.log);
+        delete nextAgenda[key];
+      }
+      return {
+        agenda: nextAgenda,
         ...others,
       };
     }

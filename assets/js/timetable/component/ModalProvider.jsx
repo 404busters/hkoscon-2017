@@ -9,6 +9,10 @@ type Props = {
   children: React.Component<*>,
   topics: Array<Object>,
   speakers: Array<Object>,
+  user: Object | null,
+  agenda: {[key: string]: string},
+  addTopic(topic: string): void,
+  removeTopic(topic: string): void,
 };
 
 export default class ModalProvider extends React.Component {
@@ -24,6 +28,7 @@ export default class ModalProvider extends React.Component {
       session: null,
       type: 'topic',
     };
+    this.saved = props.agenda ? Object.values(props.agenda) : [];
   }
 
   state: {
@@ -49,8 +54,24 @@ export default class ModalProvider extends React.Component {
     $(this.modal).modal();
   }
 
+  componentWillReceiveProps(nextProps: Props) {
+    this.saved = nextProps.agenda ? Object.values(nextProps.agenda) : [];
+  }
+
+  saved: Array<any>;
   props: Props;
   modal: HTMLElement;
+
+  handleClick() {
+    const topic = this.state.topic;
+    if (!topic) return;
+    const saved = this.saved.indexOf(topic) !== -1;
+    if (saved) {
+      this.props.removeTopic(topic);
+    } else {
+      this.props.addTopic(topic);
+    }
+  }
 
   renderSpeakers(topic: Object) {
     const speakers = topic.speaker.map(id => this.props.speakers[id]);
@@ -99,6 +120,18 @@ export default class ModalProvider extends React.Component {
     );
   }
 
+  renderSave() {
+    return (
+      <div className="fixed-action-btn">
+        <button className="btn-floating btn-large" onClick={() => this.handleClick()}>
+          <i className="material-icons">
+            {this.saved.indexOf(this.state.topic) !== -1 ? 'delete' : 'save' }
+          </i>
+        </button>
+      </div>
+    );
+  }
+
   render() {
     const topic = this.props.topics.find(t => t.id === this.state.topic) || {};
     const containHtmlTag = topic.description && topic.description[0].indexOf('</') !== -1;
@@ -115,11 +148,18 @@ export default class ModalProvider extends React.Component {
                 description
               }
             </div>
-            <div>{'speaker' in topic && this.renderSpeakers(topic)}</div>
+            <div>
+              {'speaker' in topic && this.renderSpeakers(topic)}
+            </div>
+            {this.props.user !== null && this.renderSave()}
           </div>
           <div className="modal-footer">
-            <a href="#!" className="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            <a href={`/2017/topics/${this.state.topic || '#'}`} className="modal-action waves-effect waves-green btn-flat">More</a>
+            <a href="#!" className="modal-action modal-close waves-effect waves-green btn-flat">
+              Close
+            </a>
+            <a href={`/2017/topics/${this.state.topic || '#'}`} className="modal-action waves-effect waves-green btn-flat">
+              More
+            </a>
           </div>
         </div>
         {this.props.children}

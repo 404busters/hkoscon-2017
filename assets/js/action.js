@@ -71,3 +71,44 @@ export function importTimeslots(timeslots: Object) {
     type: IMPORT_TIMESLOTS,
   };
 }
+
+export const LOAD_AGENDA = 'LOAD_AGENDA';
+export function loadAgenda(agenda: Object) {
+  return {
+    agenda,
+    type: LOAD_AGENDA,
+  };
+}
+
+export const PUSH_ADD_AGENDA = 'PUSH_ADD_AGENDA';
+export function pushAddAgenda(key: string, value: string) {
+  return {
+    key,
+    value,
+    type: PUSH_ADD_AGENDA,
+  };
+}
+
+export const PUSH_REMOVE_AGENDA = 'PUSH_REMOVE_AGENDA';
+export function pushRemoveAgenda(key: string) {
+  return {
+    key,
+    type: PUSH_REMOVE_AGENDA,
+  };
+}
+
+export const ADD_AGENDA = 'ADD_AGENDA';
+export function addAgenda(topic: string) {
+  return {
+    topic,
+    type: ADD_AGENDA,
+  };
+}
+
+export const REMOVE_AGENDA = 'REMOVE_AGENDA';
+export function removeAgenda(topic: string) {
+  return {
+    topic,
+    type: REMOVE_AGENDA,
+  };
+}

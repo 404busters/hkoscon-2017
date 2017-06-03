@@ -12,6 +12,7 @@ const initialState = {
     topics: {},
     venues: {},
     sessions: {},
+    agenda: {},
   },
 };
 

@@ -16,6 +16,7 @@ type Props = {
     speaker: Array<string>,
   },
   dayslot: string,
+  saved: boolean,
 }
 /* eslint-enable*/
 
@@ -27,6 +28,8 @@ export default function TopicCell(props: Props) {
     <GridCell col={props.col} className="topic-grid grid" modal={topic.id} target="_blank" dayslot={`${props.dayslot}-${topic.venue}`}>
       <div className="session-title">
         {title}
+        &nbsp;
+        {props.saved && <i className="material-icons yellow-theme-text">bookmark</i>}
       </div>
       <div className="session-details">
         <ul>

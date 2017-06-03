@@ -1,5 +1,3 @@
-// @flow
-
 import type { User } from './reducers/user';
 import firebase from './firebase';
 import store from './store';
