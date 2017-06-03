@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Day from '../container/Day';
+import ModalProvider from '../container/ModalProvider';
 
 type Props = {
   sessions: { [day: string]: Array<Object>, }
@@ -10,7 +11,9 @@ type Props = {
 export default function Timetable(props: Props) {
   return (
     <div id="timetable">
-      {Object.keys(props.sessions).map((day: string) => <Day day={day.replace('day-', '')} key={day} />)}
+      <ModalProvider>
+        {Object.keys(props.sessions).map((day: string) => <Day day={day.replace('day-', '')} key={day} />)}
+      </ModalProvider>
     </div>
   );
 }

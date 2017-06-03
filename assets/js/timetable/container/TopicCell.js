@@ -8,6 +8,7 @@ type Props = {
   col: number,
   row?: number,
   name: string,
+  dayslot: string,
 }
 
 function mapStateToProps(state: State, ownProps: Props) {
@@ -17,6 +18,7 @@ function mapStateToProps(state: State, ownProps: Props) {
     col: ownProps.col,
     rol: ownProps.row || 0,
     name: ownProps.name,
+    dayslot: ownProps.dayslot,
   };
 }
 

@@ -4,12 +4,13 @@
     <style>
         .map {height: 400px; width: 60%; margin: 2rem auto;}
         .floorplan {width:100%; margin: auto;}
+        .browser-default a { text-decoration: underline; }
     </style>
 {% endblock %}
 
 {% block script %}
     <script src="https://maps.googleapis.com/maps/api/js?signed_in=true&language=en-GB&key=AIzaSyAcfOIRBkjKYl6ryd-HqoJvoaOva7E1Al4" defer></script>
-    <script src="{{ data.site.basePath }}/js/venue.js" defer></script>
+    <script src="{{ data.site.basePath }}/venue.js" defer></script>
 {% endblock %}
 
 {% block content %}
@@ -23,9 +24,43 @@
     <div id="map" class="map"></div>
 
     <div class="container">
+        <h2>Shuttle Bus Service</h2>
         <div class="row">
             <div class="col s12">
-                <div class="card blue-theme yellow-theme-text">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2 class="title-text headline">From Admiralty Center To Cyberport</h2>
+                        </div>
+                        <div class="content">
+                            3 buses departs from Admiralty Centre 海富中心 (near McDonald) at <strong>09:00</strong>.
+                            The last bus would leave on <strong>09:10</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h2 class="title-text headline">From Cyberport To Admiralty Center</h2>
+                        </div>
+                        <div class="content">
+                            3 buses departs from Cyberport at the end of the day.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Public Transport</h2>
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
                     <div class="card-content">
                         <div class="card-header">
                             <h2 class="title-text headline">Bus Transportation</h2>
@@ -81,7 +116,7 @@
     <div class="container">
         <div class="row">
             <div class="col s12">
-                <div class="card blue-theme yellow-theme-text">
+                <div class="card">
                     <div class="card-content">
                         <div class="card-header">
                             <h2 class="title-text headline">Floor Plan</h2>

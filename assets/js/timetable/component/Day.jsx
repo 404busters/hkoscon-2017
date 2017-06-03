@@ -31,7 +31,7 @@ export default function Day(props: Props) {
   const className = classNames('day', `day-${props.day}`);
   return (
     <div className={className}>
-      <h2 className="title">Day {props.day}</h2>
+      <h2 className="title" id={`day-${props.day}`}>Day {props.day}</h2>
       {renderRow(props)}
     </div>
   );

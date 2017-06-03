@@ -6,6 +6,7 @@ const webpack = require('webpack');
 const UglifyPlugin = require('webpack/lib/optimize/UglifyJsPlugin');
 const AggressiveMergingPlugin = require('webpack/lib/optimize/AggressiveMergingPlugin');
 const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin');
+const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
 const merge = require('webpack-merge');
 
@@ -15,13 +16,25 @@ const firebaseConfig = {
   FIREBASE_DATEBASE_URL: JSON.stringify(process.env.FIREBASE_DATEBASE_URL || 'https://<DATABASE_NAME>.firebaseio.com'),
   FIREBASE_STORAGE_BUCKET: JSON.stringify(process.env.FIREBASE_STORAGE_BUCKET || '<BUCKET>.appspot.com'),
   FIREBASE_MESSAGING_SENDER_ID: JSON.stringify(process.env.FIREBASE_MESSAGING_SENDER_ID || '<SENDER_ID>'),
+  FIREBASE_MESSAGE_SERVER_KEY: JSON.stringify(process.env.FIREBASE_MESSAGE_SERVER_KEY || '<SENDER_KEY>'),
 };
+
+const envConfig = {};
+Object.keys(firebaseConfig).forEach((key) => {
+  envConfig[`process.env.${key}`] = firebaseConfig[key];
+});
 
 const base = {
   plugins: [
     new AggressiveMergingPlugin(),
-    new webpack.DefinePlugin({
-      'process.env': firebaseConfig,
+    new webpack.DefinePlugin(envConfig),
+    new ServiceWorkerWebpackPlugin({
+      entry: `${__dirname}/assets/js/sw.js`,
+      exclude: [
+        '**/.*',
+        '**/*.map',
+      ],
+      publicPath: '/2017/',
     }),
   ],
   externals: {
@@ -43,8 +56,8 @@ const base = {
   },
   devtool: 'source-map',
   output: {
-    path: `${__dirname}/public/js`,
-    publicPath: '/2017/js/',
+    path: `${__dirname}/public`,
+    publicPath: '/2017/',
     filename: '[name].js',
   },
   resolve: {
@@ -85,6 +98,9 @@ const production = merge.smart({
     new UglifyPlugin({
       minimize: true,
       sourceMap: true,
+    }),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production'),
     }),
   ],
 }, base);

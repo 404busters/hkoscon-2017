@@ -1,6 +1,7 @@
 [ignore]
 .*/node_modules/fbjs/.*
 .*/node_modules/require-yml/.*
+.*/node_modules/serviceworker-webpack-plugin/.*spec.js
 public
 
 [include]

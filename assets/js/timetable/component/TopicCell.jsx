@@ -15,16 +15,16 @@ type Props = {
     venue: string,
     speaker: Array<string>,
   },
+  dayslot: string,
 }
 /* eslint-enable*/
 
 export default function TopicCell(props: Props) {
   const topic = props.topic;
-  const link = `/2017/topics/${topic.id}/`;
   const part = props.name.match(/Part\s(\d+)/im);
   const title = Array.isArray(part) ? `${topic.title} Part ${part[1]}` : topic.title;
   return (
-    <GridCell col={props.col} className="topic-grid grid" href={link} target="_blank">
+    <GridCell col={props.col} className="topic-grid grid" modal={topic.id} target="_blank" dayslot={`${props.dayslot}-${topic.venue}`}>
       <div className="session-title">
         {title}
       </div>

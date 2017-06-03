@@ -58,8 +58,12 @@
     .fa {
       margin-right: 0.5em;
     }
-    .location, .language, .level, .time {
+    .location, .language, .level, .time, .ticket {
       margin: 0.5em 0;
+    }
+
+    .btn {
+      color: #000;
     }
   }
 
@@ -118,7 +122,7 @@
     clear: both;
     padding: 2em 0;
     @extend .card;
-    
+
     a.company-link {
         font-weight: bolder;
         color: #4a7b99;

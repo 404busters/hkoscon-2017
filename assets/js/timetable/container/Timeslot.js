@@ -16,6 +16,7 @@ function mapStateToProps(state: State, ownProps: Props) {
     sessions,
     timeslot,
     slot: ownProps.slot,
+    dayslot: `${day}-${ownProps.slot}`,
   };
 }
 
