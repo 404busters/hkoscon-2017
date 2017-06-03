@@ -253,29 +253,25 @@ topics:
       description:
         - >
           <h3>General Description</h3>
-          <p>
           Rust is great for building mathematical models and AI which is the
           talk of the hour and a great emerging domain is based on mathematics
           which can crunch realtime data to provide human level insights which
           helps in making logical decisions.
-          </p>
-          <p>
+        - >
           There are already many crates in rust which provide AI units which
           help in implementing deep learning and reinforcement learning systems
           and algorithms.
-          </p>
-          <p>
+        - >  
           Proposals basically deep dives into such implementations in rust and
           covers the benchmarks of performance of the rust crates with the
           industrial grade libraries such as tensor flow and caffe. The Talk
           touches upon the major problems in the industrial grade libraries and
           how rust can help in avoiding them.
-          </p>
-          <p>
+        - >
           Demos of few mathematical models to perform prediction tasks and how
           to start off development of models from scratch in rust will be
           demonstrated.
-          </p>
+        - >
           <h3>Session Content</h3>
           <ul>
           <li>Introduction to AI</li>
