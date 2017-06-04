@@ -143,7 +143,7 @@ export default class ModalProvider extends React.Component {
             <h4 data-role="title">{topic.title}</h4>
             <div>
               { containHtmlTag ?
-                <div dangerouslySetInnerHTML={{ __html: topic.description[0].replace(/(<? *script)/gi, 'illegalscript') }} />
+                <div dangerouslySetInnerHTML={{ __html: topic.description[0] }} />
                 :
                 description
               }
