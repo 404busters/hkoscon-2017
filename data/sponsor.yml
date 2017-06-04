@@ -160,27 +160,8 @@ sponsor_types:
         links:
           text:     JetBrains Website
           url:      https://www.gandi.net/
-  - name:     Drink Sponsors
+  - name:     Drink Sponsor
     sponsors:
-      - id:   bonaqua
-        name: Bonaqua
-        grantedPerm: true
-        description:
-          - >
-            Glacéau vitaminwater has always been a simple idea. start with water. 
-            and then add bold, fruity flavors and just the right amount of sugar 
-            to make it delicious. finally, top it off with a little extra 
-            nutrition. genius. and it never would’ve happened if someone hadn't 
-            looked at a plain bottle of water and said, "what if this was a little better?"
-            making things a little better is what makes glacéau vitaminwater great.
-        logos:
-          title:  Bonaqua
-          alt:    Bonaqua logo
-          img:    https://file.hkoscon.org/sponsor/glaceau.jpg
-          url:    https://www.bonaqua.com.hk     
-        links:
-          text:     Bonaqua Website
-          url:      https://www.bonaqua.com.hk/
       - id:   tranquini
         name: Tranquini
         grantedPerm: true
