@@ -6,9 +6,11 @@ const webpack = require('webpack');
 const UglifyPlugin = require('webpack/lib/optimize/UglifyJsPlugin');
 const AggressiveMergingPlugin = require('webpack/lib/optimize/AggressiveMergingPlugin');
 const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin');
-const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
+const PrecachePlugin = require('sw-precache-webpack-plugin');
 
 const merge = require('webpack-merge');
+
+const manifest = require('./manifest.json');
 
 const firebaseConfig = {
   FIREBASE_API_KEY: JSON.stringify(process.env.FIREBASE_API_KEY || '<API_KEY>'),
@@ -28,13 +30,18 @@ const base = {
   plugins: [
     new AggressiveMergingPlugin(),
     new webpack.DefinePlugin(envConfig),
-    new ServiceWorkerWebpackPlugin({
-      entry: `${__dirname}/assets/js/sw.js`,
-      exclude: [
-        '**/.*',
-        '**/*.map',
-      ],
-      publicPath: '/2017/',
+    new PrecachePlugin({
+      cacheId: 'HKOSCon-2017',
+      minify: true,
+      filename: 'sw.js',
+      handleFetch: true,
+      runtimeCaching: [{
+        urlPattern: /2017/,
+        handler: 'fastest',
+      }],
+      staticFileGlobs: manifest.web_accessible_resources.map(path => path.replace('/2017', 'public')),
+      stripPrefix: 'public',
+      verbose: true,
     }),
   ],
   externals: {
@@ -47,6 +54,7 @@ const base = {
     redux: 'Redux',
     'react-redux': 'ReactRedux',
     'moment-timezone': 'moment',
+    toastr: 'toastr',
   },
   entry: {
     app: ['./assets/js/app'],

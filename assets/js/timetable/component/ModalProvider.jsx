@@ -2,6 +2,25 @@
 
 import React from 'react';
 import $ from 'jquery';
+import toastr from 'toastr';
+
+toastr.options = {
+  closeButton: false,
+  debug: false,
+  newestOnTop: false,
+  progressBar: false,
+  positionClass: 'toast-top-full-width',
+  preventDuplicates: false,
+  onclick: null,
+  showDuration: 300,
+  hideDuration: 1000,
+  timeOut: 5000,
+  extendedTimeOut: 1000,
+  showEasing: 'swing',
+  hideEasing: 'linear',
+  showMethod: 'fadeIn',
+  hideMethod: 'fadeOut',
+};
 
 /* globals HTMLElement */
 
@@ -63,6 +82,11 @@ export default class ModalProvider extends React.Component {
   modal: HTMLElement;
 
   handleClick() {
+    if (!this.props.user) {
+      toastr.error('', 'You have to sign in before saving your personal schedule');
+      $('#signin-modal').modal('open');
+      return;
+    }
     const topic = this.state.topic;
     if (!topic) return;
     const saved = this.saved.indexOf(topic) !== -1;
@@ -125,7 +149,7 @@ export default class ModalProvider extends React.Component {
       <div className="fixed-action-btn">
         <button className="btn-floating btn-large" onClick={() => this.handleClick()}>
           <i className="material-icons">
-            {this.saved.indexOf(this.state.topic) !== -1 ? 'delete' : 'save' }
+            {this.saved.indexOf(this.state.topic) !== -1 ? 'delete' : 'bookmark' }
           </i>
         </button>
       </div>
@@ -151,7 +175,7 @@ export default class ModalProvider extends React.Component {
             <div>
               {'speaker' in topic && this.renderSpeakers(topic)}
             </div>
-            {this.props.user !== null && this.renderSave()}
+            {this.renderSave()}
           </div>
           <div className="modal-footer">
             <a href="#!" className="modal-action modal-close waves-effect waves-green btn-flat">
