@@ -162,8 +162,8 @@ sponsor_types:
           url:      https://www.gandi.net/
   - name:     Drink Sponsors
     sponsors:
-      - id:   bonaqua
-        name: Bonaqua
+      - id:   glaceau
+        name: Glaceau vitaminwater
         grantedPerm: true
         description:
           - >
@@ -172,15 +172,15 @@ sponsor_types:
             to make it delicious. finally, top it off with a little extra 
             nutrition. genius. and it never would’ve happened if someone hadn't 
             looked at a plain bottle of water and said, "what if this was a little better?"
-            making things a little better is what makes glacéau vitaminwater great.
+            making things a little better is what makes Glacéau vitaminwater great.
         logos:
-          title:  Bonaqua
-          alt:    Bonaqua logo
+          title:  Glaceau vitaminwater
+          alt:    Glaceau vitaminwater logo
           img:    https://file.hkoscon.org/sponsor/glaceau.jpg
-          url:    https://www.bonaqua.com.hk     
+          url:    https://www.coca-colacompany.com/brands/glaceau-vitaminwater     
         links:
-          text:     Bonaqua Website
-          url:      https://www.bonaqua.com.hk/
+          text:     Glaceau vitaminwater Website
+          url:      https://www.coca-colacompany.com/brands/glaceau-vitaminwater
       - id:   tranquini
         name: Tranquini
         grantedPerm: true
