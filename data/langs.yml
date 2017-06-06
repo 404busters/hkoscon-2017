@@ -29,3 +29,7 @@ en:
 en_US/zh_CN/zh_TW/ja_JP:
   name: Mixed English, Chinese, Japanese
   short: Multi
+
+en_zh:
+  name: Mixed English and Manderin
+  short: Multi
