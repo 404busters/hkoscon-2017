@@ -203,6 +203,8 @@ sponsor_types:
 patron_name: Patrons
 patrons:
   - name:
+      - Mr. Benny Wan
+  - name:
       - Ms. Connie Leung
   - name:
       - Mr. Henry Law
