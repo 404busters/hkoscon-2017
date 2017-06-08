@@ -26,7 +26,7 @@ ivan-ma:
   company:
     name: MySQL
     url: https://www.mysql.com/
-  portrait: 
+  portrait:
   hkoscon-sponsored: false
 
 ryusuke-kajiyama:
@@ -261,7 +261,7 @@ kevin-leung:
   nationality: Hong Kong
   portrait: https://file.hkoscon.org/speakers/2017/kevin.leung.jpg
   hkoscon-sponsored: false
-  
+
 parvani-ng:
   name: Parvani Ng
   gender: female
@@ -306,7 +306,7 @@ wei-tang:
     blog: https://that.world/en/
   portrait: https://file.hkoscon.org/speakers/2017/wei.tang.jpg
   hkoscon-sponsored: false
-  
+
 david-ng:
   name: David Ng
   gender: male
@@ -352,7 +352,7 @@ irvin-chen:
     url:  https://womany.net
   portrait: https://file.hkoscon.org/speakers/2017/irvin.chen.jpg
   hkoscon-sponsored: false
-  
+
 kazuhiko-inaba:
   name: Kazuhiko Inaba
   gender: male
@@ -383,7 +383,7 @@ anny-leung:
     name: OSMM OPEN LEARNING NETWORK
     url: http://osmmhk.weebly.com/
   hkoscon-sponsored: false
-  
+
 bluebat:
   name: 趙惟倫
   gender: male
@@ -406,7 +406,7 @@ rick-mak:
   description:
     - >
       Father of two kids. Programmer writes js, python, go and brew coffee.
-      Like to read codes in different languages. 
+      Like to read codes in different languages.
     - >
       Working at <a href="http://oursky.com/" target="_blank">http://oursky.com/</a>
   residence: Hong Kong
@@ -460,8 +460,8 @@ vinnson-lee:
   gender: male
   description:
     - >
-      DevOps leader and data engineer in fintech industry, worked at China 
-      Mobile HK as Senior Software Engineer, 10+ year experience in software 
+      DevOps leader and data engineer in fintech industry, worked at China
+      Mobile HK as Senior Software Engineer, 10+ year experience in software
       development and implementation of open source software.
   residence: Hong Kong
   nationality: Hong Kong
@@ -535,13 +535,13 @@ vaishali-thakkar:
   gender: female
   description:
     - >
-      Vaishali Thakkar is working as a Linux Kernel engineer at Oracle. She 
-      works on various parts of the Linux Kernel like memory management, 
-      security and debugging tools [mainly Coccinelle]. She has previously 
-      worked as a Linux kernel intern in Outreachy program. She is also 
-      associated with various open source internship programs and groups 
-      [Outreachy, GSoC, GCI, Bangalore kernel meetup, LinuxChix India etc] 
-      as a mentor, co-organizer or volunteer. Her area of interest includes 
+      Vaishali Thakkar is working as a Linux Kernel engineer at Oracle. She
+      works on various parts of the Linux Kernel like memory management,
+      security and debugging tools [mainly Coccinelle]. She has previously
+      worked as a Linux kernel intern in Outreachy program. She is also
+      associated with various open source internship programs and groups
+      [Outreachy, GSoC, GCI, Bangalore kernel meetup, LinuxChix India etc]
+      as a mentor, co-organizer or volunteer. Her area of interest includes
       embedded systems, operating systems, security and computer architecture.
   residence: India
   nationality: India
@@ -601,10 +601,10 @@ dennis-chen:
   gender: male
   description:
     - >
-      Dennis Raylin Chen is a member of Wikipedia Taiwan, and is a active 
-      OpenStreetMap community member, doing stuff like translating OpenStreetMap 
-      related software interface, training material, and holding meetup in 
-      Taipei. His day job is a tech editor in TechNews.tw, covering issue of 
+      Dennis Raylin Chen is a member of Wikipedia Taiwan, and is a active
+      OpenStreetMap community member, doing stuff like translating OpenStreetMap
+      related software interface, training material, and holding meetup in
+      Taipei. His day job is a tech editor in TechNews.tw, covering issue of
       Software and Web, sometimes writing about Open Culture movement.
   residence: Taiwan
   nationality: Taiwan
@@ -619,24 +619,24 @@ vidyasagar-machupalli:
   gender: male
   description:
     - >
-      Vidyasagar MSC aka Vidyasagar Machupalli is a Polyglot and Pragmatic 
-      programmer, who loves technologies changing lives. He is a well-known 
-      blogger and speaker in various technical communities. He currently works 
-      for IBM as an Offering Manager for Developer Productivity promoting the 
-      use of IBM Cloud through talks, articles, blogging, user demonstrations, 
-      recorded demonstrations, or by the creation of sample projects. He has 
-      been awarded as Microsoft MVP, Intel Software Innovator, and DZone MVB. He 
-      is passionate about game development and works in his free time developing 
+      Vidyasagar MSC aka Vidyasagar Machupalli is a Polyglot and Pragmatic
+      programmer, who loves technologies changing lives. He is a well-known
+      blogger and speaker in various technical communities. He currently works
+      for IBM as an Offering Manager for Developer Productivity promoting the
+      use of IBM Cloud through talks, articles, blogging, user demonstrations,
+      recorded demonstrations, or by the creation of sample projects. He has
+      been awarded as Microsoft MVP, Intel Software Innovator, and DZone MVB. He
+      is passionate about game development and works in his free time developing
       games and Mobile apps.
-    
+
     - >
-      Vidyasagar has 9+ years of industry experience and a broad set of skills in 
-      software developVidyasagarMSCment and design. He started as a .Net Developer in early 2007 
-      and continued to hone his skills from that point on. He is a tech addict 
+      Vidyasagar has 9+ years of industry experience and a broad set of skills in
+      software developVidyasagarMSCment and design. He started as a .Net Developer in early 2007
+      and continued to hone his skills from that point on. He is a tech addict
       and a technology enthusiast.
 
     - >
-      Also a Mentor | Explorer | Xbox Fan | Living in (Virtual + Augmented) 
+      Also a Mentor | Explorer | Xbox Fan | Living in (Virtual + Augmented)
       Reality |  Always on Cloud | an Assimilator | Geek | Freak | Music Lover | Movie Buff
 
     - >
@@ -671,12 +671,12 @@ haggen-so:
 heena-mahour:
   name: Heena Mahour
   gender: female
-  description: 
+  description:
     - >
-      I am a Season of KDE 2012 student(kde-edu game pairs), Google summer of code 2013 student under KDE where I worked with plasma team, Google Code In 2013 mentor where I provided tasks under KDE for plasma, co-administrator & mentor of Season of KDE 2014 and organization co-administrator & mentor of KDE for Google Code In 2014 as well. 
+      I am a Season of KDE 2012 student(kde-edu game pairs), Google summer of code 2013 student under KDE where I worked with plasma team, Google Code In 2013 mentor where I provided tasks under KDE for plasma, co-administrator & mentor of Season of KDE 2014 and organization co-administrator & mentor of KDE for Google Code In 2014 as well.
     - >
-      I am also the co-founder, organizer and director of Women Who Code Delhi, India. 
-      I also organized a GSoC meetup at Delhi recently which got featured at Google open source blog. 
+      I am also the co-founder, organizer and director of Women Who Code Delhi, India.
+      I also organized a GSoC meetup at Delhi recently which got featured at Google open source blog.
       I also was one of the speakers at GSoC Symposium, Delhi where I presented a talk on the plasma development.
     - >
       Currently, I am working as a software engineer with a financial firm, Indus Valley Partners, India
@@ -686,11 +686,11 @@ heena-mahour:
     github: fallacy321
     blog: http://heenamahour.blogspot.in
   hkoscon-sponsered: false
-  
+
 edwin-song:
   name: Edwin Song
   gender: male
-  description: 
+  description:
     - >
       Principle PM of Azure Database for MySQL
   nationality: China
@@ -700,20 +700,32 @@ edwin-song:
 delon-yau:
   name: Delon Yau
   gender: male
-  description: 
+  description:
     - >
-      Technical Evangelist, DX, Microsoft      
+      Technical Evangelist, DX, Microsoft
     - >
-      Delon is currently a Technical Evangelist in the Developer Experience 
-      Group at Microsoft HK, evangelizing developers across HK on artificial 
-      intelligence on cloud, big data analytics and IoT. Prior to Joining 
-      Microsoft HK, he worked for Microsoft UK as a machine learning 
-      developer supporting the data analytics development of a cloud-based 
-      online shopping platform.  
+      Delon is currently a Technical Evangelist in the Developer Experience
+      Group at Microsoft HK, evangelizing developers across HK on artificial
+      intelligence on cloud, big data analytics and IoT. Prior to Joining
+      Microsoft HK, he worked for Microsoft UK as a machine learning
+      developer supporting the data analytics development of a cloud-based
+      online shopping platform.
     - >
-      He holds a Bachelor's degree in Electrical and Electronic Engineering 
-      from Imperial College London and also a Master's degree in Computer 
+      He holds a Bachelor's degree in Electrical and Electronic Engineering
+      from Imperial College London and also a Master's degree in Computer
       Science from UCL.
   nationality: Hong Kong
   portrait: https://file.hkoscon.org/speakers/2017/delon.yau.jpg
+  hkoscon-sponsered: false
+
+harris-hui:
+  name: Harris Hui
+  gender: male
+  description:
+    - >
+      Harris has over 10 years of experiences in IT infrastructure and
+      Security architecture. He currently serves as an Infrastructure
+      Security Architect in IBM Bluemix PaaS Platform and lead the IBM
+      Bluemix deployment in China.
+  nationality: Hong Kong
   hkoscon-sponsered: false

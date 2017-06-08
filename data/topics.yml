@@ -22,7 +22,7 @@ topics:
       level: Beginners
       requirement: ""
       venue: function-room
-      startTime: day-1.slot-3 
+      startTime: day-1.slot-3
   -   title:    The deep dive in-and-out of MySQL Group Replication
       id:       mysql-group-replication
       speaker:
@@ -50,7 +50,7 @@ topics:
             As long as you are the application developers, you need a DB.  As
             long as you care about your data, you need a reliable DB.
       venue: training-theatre
-      startTime: day-2.slot-13 
+      startTime: day-2.slot-13
   -   title:  What's New in MySQL 8.0
       id:     whats-new-in-mysql-8.0
       speaker:
@@ -261,7 +261,7 @@ topics:
           There are already many crates in rust which provide AI units which
           help in implementing deep learning and reinforcement learning systems
           and algorithms.
-        - >  
+        - >
           Proposals basically deep dives into such implementations in rust and
           covers the benchmarks of performance of the rust crates with the
           industrial grade libraries such as tensor flow and caffe. The Talk
@@ -844,13 +844,13 @@ topics:
       remark:  ""
       description:
         - >
-          The crowd-edited web map project OpenStreetMap is ten years old. Once 
-          a Europe-centered project, now there are more bigger communities in 
-          Asia. And the quick and wiki style editing makes OpenStreetMap very 
-          shandy to handle map data when a disaster happened. I'll talk about 
-          how OpenStreetMap project going in Taiwan, interesting OpenStreetMap 
-          related project, and the recent activities in East Asia. And the 
-          challenges like localization and unique things to map in East Asia, 
+          The crowd-edited web map project OpenStreetMap is ten years old. Once
+          a Europe-centered project, now there are more bigger communities in
+          Asia. And the quick and wiki style editing makes OpenStreetMap very
+          shandy to handle map data when a disaster happened. I'll talk about
+          how OpenStreetMap project going in Taiwan, interesting OpenStreetMap
+          related project, and the recent activities in East Asia. And the
+          challenges like localization and unique things to map in East Asia,
           that was not well present on the map.
       lang:  en
       lang_slide: en
@@ -864,15 +864,15 @@ topics:
   -   title:    Rapidly build Cognitive applications with Bluemix, a cloud with Open Source at its heart
       id:       bluemix-cognitive-application
       speaker:
-        - vidyasagar-machupalli
+        - harris-hui
       remark:   IBM
       description:
         - >
-          Open source is at the heart of IBM offerings and the way we do business. 
-          Not only is Bluemix powered by the world’s most popular open source 
-          projects, but also we are proud to be governing members and core 
-          contributors to an incredibly diverse set of exciting projects. 
-          We’re making it easier than ever to help companies take advantage of 
+          Open source is at the heart of IBM offerings and the way we do business.
+          Not only is Bluemix powered by the world’s most popular open source
+          projects, but also we are proud to be governing members and core
+          contributors to an incredibly diverse set of exciting projects.
+          We’re making it easier than ever to help companies take advantage of
           the innovation coming out of the community.
       lang: en
       lang_slide: en
@@ -914,10 +914,10 @@ topics:
       remark: ""
       description:
         - >
-          KDE is an international free software community producing an integrated set of cross-platform applications designed to run on Linux, FreeBSD, Solaris, Microsoft Windows, and OS X systems. 
-          It is known for its Plasma Desktop, a desktop environment provided as the default working environment on many Linux distributions, such as Kubuntu The goal of the community is to provide basic desktop functions and applications for daily needs as well as tools and documentation for developers to write stand-alone applications for the system. 
-          In this regard, the KDE project serves as an umbrella project for many standalone applications and smaller projects that are based on KDE technology. 
-          The talk involves my journey as a SoK student in 2012 where I worked with KDE under kde educational game pairs, then as a Google Summer of Code student in 2013 with plasma team, emerging as a Google Code In 2013 mentor as well as administrator of Season of KDE 2014 as well as Google Code In 2014 for KDE organization. 
+          KDE is an international free software community producing an integrated set of cross-platform applications designed to run on Linux, FreeBSD, Solaris, Microsoft Windows, and OS X systems.
+          It is known for its Plasma Desktop, a desktop environment provided as the default working environment on many Linux distributions, such as Kubuntu The goal of the community is to provide basic desktop functions and applications for daily needs as well as tools and documentation for developers to write stand-alone applications for the system.
+          In this regard, the KDE project serves as an umbrella project for many standalone applications and smaller projects that are based on KDE technology.
+          The talk involves my journey as a SoK student in 2012 where I worked with KDE under kde educational game pairs, then as a Google Summer of Code student in 2013 with plasma team, emerging as a Google Code In 2013 mentor as well as administrator of Season of KDE 2014 as well as Google Code In 2014 for KDE organization.
           The talk also involves the changes in plasma from plasma 1 to plasma 5, how the code quality has improved with the upcoming plasma development and how to get involved with open source development.
       lang:  en
       lang_slide:  en
@@ -934,34 +934,34 @@ topics:
       speaker:
         -  heena-mahour
       remark: ""
-      description: 
+      description:
           - >
              Visualizations act as a campfire around which we gather to tell stories (AI Shalloway, 2011).
-             Most sophisticated visualization tools supports visual encodings and analysis routines but lacks 
-             interactivity to support narrative communication. Hence, it diminishes the expressiveness,i.e, the 
-             diversity of possible visualizations and leads to substantial runtime overhead. It remains an open 
-             question that how these tools be upgraded to support optimal and wide range of storytelling. 
-             This talk deals with the amalgamation of narrative storytelling with interactive and responsive 
+             Most sophisticated visualization tools supports visual encodings and analysis routines but lacks
+             interactivity to support narrative communication. Hence, it diminishes the expressiveness,i.e, the
+             diversity of possible visualizations and leads to substantial runtime overhead. It remains an open
+             question that how these tools be upgraded to support optimal and wide range of storytelling.
+             This talk deals with the amalgamation of narrative storytelling with interactive and responsive
              visualizations through advanced filtering.
           - >
-            According to Ben Shneiderman(2003), a picture is worth a thousand words. An interface is worth a 
-            thousand pictures. Hence, with the rise in visualization techniques, the need to catalogue and 
-            consolidate it arises as well. In recent years, static visualizations via diagrams and charts are 
-            used for author driven financial storytelling in which the text provides the outline and the image 
-            depicts the related details. 
-            Prior to that, conventional raw dataset was used to provide details to the subject. Though it 
-            clarifies the visual elements but produces clutter.According to a recent survey, less than 25% of 
-            the individuals over the age of 50 were not aware of fundamental economic concepts such as exposure, 
-            inflation and hence failed to invest properly. It refers to the need of proper financial planning 
-            which is inculcated with the use of narrative communication through visualization techniques with 
-            runtime filtering so that the visualization could be manipulated by the users. Through prior 
-            research work on drill down stories, the author observed the need for single frame interactivity 
-            and consistent visual platform for reader driven stories. 
+            According to Ben Shneiderman(2003), a picture is worth a thousand words. An interface is worth a
+            thousand pictures. Hence, with the rise in visualization techniques, the need to catalogue and
+            consolidate it arises as well. In recent years, static visualizations via diagrams and charts are
+            used for author driven financial storytelling in which the text provides the outline and the image
+            depicts the related details.
+            Prior to that, conventional raw dataset was used to provide details to the subject. Though it
+            clarifies the visual elements but produces clutter.According to a recent survey, less than 25% of
+            the individuals over the age of 50 were not aware of fundamental economic concepts such as exposure,
+            inflation and hence failed to invest properly. It refers to the need of proper financial planning
+            which is inculcated with the use of narrative communication through visualization techniques with
+            runtime filtering so that the visualization could be manipulated by the users. Through prior
+            research work on drill down stories, the author observed the need for single frame interactivity
+            and consistent visual platform for reader driven stories.
           - >
-            Thereby, enabling the end users to foster the decision making by visualizing aggregated risk and other factors efficiently. This talk thus 
-            investigates a problem statement to visualize reader driven top performers involving exposure and 
-            profit allocation across a varied set of dimensions such as funds, segment and sector to illustrate 
-            design space using graphical techniques and interactivity enforcing a narrative flow. Later, the talk 
+            Thereby, enabling the end users to foster the decision making by visualizing aggregated risk and other factors efficiently. This talk thus
+            investigates a problem statement to visualize reader driven top performers involving exposure and
+            profit allocation across a varied set of dimensions such as funds, segment and sector to illustrate
+            design space using graphical techniques and interactivity enforcing a narrative flow. Later, the talk
             also illustrates  a narrative exploratory analysis of high dimensional datasets using brushing technique.
       lang:  en
       lang_slide:  en
@@ -977,16 +977,16 @@ topics:
       speaker:
         -  edwin-song
       remark: ""
-      description: 
+      description:
           - >
-            After a brief introduction of MySQL PaaS service, we will introduce 
-            the integration with .NET Core stack. MySQL's traditional technology 
-            stack is a complete ORM framework based on Linux's LNMP/LAMP and 
-            Java. With .NET Core advantages on both open source and cross 
-            platform, how can the.NET stack such as ORM (Entity Framework) be 
-            better supported with MySQL? With two domestic open source projects 
-            mysqlconnector Ado.net provider) and Pomelo (EF MySQL Provider), 
-            we could enjoy the convenience of the full support on MySQL with 
+            After a brief introduction of MySQL PaaS service, we will introduce
+            the integration with .NET Core stack. MySQL's traditional technology
+            stack is a complete ORM framework based on Linux's LNMP/LAMP and
+            Java. With .NET Core advantages on both open source and cross
+            platform, how can the.NET stack such as ORM (Entity Framework) be
+            better supported with MySQL? With two domestic open source projects
+            mysqlconnector Ado.net provider) and Pomelo (EF MySQL Provider),
+            we could enjoy the convenience of the full support on MySQL with
             .NET Core.
       lang:  en
       lang_slide:  en
