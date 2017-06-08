@@ -530,9 +530,11 @@ topics:
           ideal, but experience with other languages such as C/C++, Python,
           or Ruby is also sufficient. Participants should have some familiarity
           using the command line.
-
+        - >
           Participants should bring their own laptop computer, with either
-          Windows, Mac, or Linux installed.
+          Windows, Mac, or Linux installed.  Participants should read the
+          preparation instruction and install the required software
+          detailed in https://github.com/kevinresol/hkoscon2017-haxe-game#preparation.
       venue: training-room-1
       startTime: day-2.slot-5
       endTime: day-2.slot-7
@@ -565,10 +567,14 @@ topics:
           Participants should bring their own laptop computer, with either
           Windows, Mac, or Linux installed. Some HTML/JS coding skill would be
           great, but not necessary.
-
+        - >
           Some limited amount of Google Cardboard will be lended for testing.
           The VR application can be developed and used without Google Cardboard
           or any other VR hardware.
+        - >
+          Participants should read the preparation instruction and install the
+          required software detailed in
+          https://github.com/TCLResearchHK/VRWorkshopHKOSCon2017#preparation.
       venue: training-room-1
       startTime: day-2.slot-13
       endTime: day-2.slot-15
