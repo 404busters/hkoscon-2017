@@ -49,18 +49,18 @@ sponsor_types:
         grantedPerm: true
         description:
           - >
-            IBM is an innovation and technology company headquartered in New 
-            York with operations in over 175 countries. It delivers innovative 
-            solutions, software and infrastructures to improve client outcomes, 
-            create new value and solve business problems through integrated 
-            solutions that leverage IT and deep knowledge in business processes. 
-            These solutions draw from an industry leading portfolio of business 
-            and technology consulting, delivery and implementation services, 
+            IBM is an innovation and technology company headquartered in New
+            York with operations in over 175 countries. It delivers innovative
+            solutions, software and infrastructures to improve client outcomes,
+            create new value and solve business problems through integrated
+            solutions that leverage IT and deep knowledge in business processes.
+            These solutions draw from an industry leading portfolio of business
+            and technology consulting, delivery and implementation services,
             as well as enterprise software, systems and financing.
-          - >  
-            IBM opened for business in Hong Kong in 1957, and has since played 
-            a pivotal role in Hong Kong’s development and transformation. 
-            For more information, visit 
+          - >
+            IBM opened for business in Hong Kong in 1957, and has since played
+            a pivotal role in Hong Kong’s development and transformation.
+            For more information, visit
             <a href="https://www.ibm.com/hk-en/" class="company-link" target="_blank">www.ibm.com/hk</a>
         logos:
           title:  IBM
@@ -159,7 +159,7 @@ sponsor_types:
           url:    https://www.jetbrains.com/
         links:
           text:     JetBrains Website
-          url:      https://www.gandi.net/
+          url:      https://www.jetbrains.com/
   - name:     Drink Sponsors
     sponsors:
       - id:   glaceau
@@ -167,17 +167,17 @@ sponsor_types:
         grantedPerm: true
         description:
           - >
-            Glacéau vitaminwater has always been a simple idea. start with water. 
-            and then add bold, fruity flavors and just the right amount of sugar 
-            to make it delicious. finally, top it off with a little extra 
-            nutrition. genius. and it never would’ve happened if someone hadn't 
+            Glacéau vitaminwater has always been a simple idea. start with water.
+            and then add bold, fruity flavors and just the right amount of sugar
+            to make it delicious. finally, top it off with a little extra
+            nutrition. genius. and it never would’ve happened if someone hadn't
             looked at a plain bottle of water and said, "what if this was a little better?"
             making things a little better is what makes Glacéau vitaminwater great.
         logos:
           title:  Glaceau vitaminwater
           alt:    Glaceau vitaminwater logo
           img:    https://file.hkoscon.org/sponsor/glaceau.jpg
-          url:    https://www.coca-colacompany.com/brands/glaceau-vitaminwater     
+          url:    https://www.coca-colacompany.com/brands/glaceau-vitaminwater
         links:
           text:     Glaceau vitaminwater Website
           url:      https://www.coca-colacompany.com/brands/glaceau-vitaminwater
@@ -195,10 +195,10 @@ sponsor_types:
           title:  Tranquini
           alt:    Tranquini logo
           img:    https://file.hkoscon.org/sponsor/tranquini.png
-          url:    http://tranquini.com/     
+          url:    http://tranquini.com/
         links:
           text:     Tranquini Website
-          url:      http://tranquini.com/          
+          url:      http://tranquini.com/
 
 patron_name: Patrons
 patrons:
