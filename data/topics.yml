@@ -51,6 +51,7 @@ topics:
             long as you care about your data, you need a reliable DB.
       venue: training-theatre
       startTime: day-2.slot-13
+      slide: https://www.slideshare.net/IvanMa/mysql-innodb-cluster-and-mysql-group-replication-hkosc-2017
   -   title:  What's New in MySQL 8.0
       id:     whats-new-in-mysql-8.0
       speaker:
@@ -71,6 +72,7 @@ topics:
       requirement: Basic knowledge of database
       venue: function-room
       startTime: day-1.slot-7
+      slide: https://www.slideshare.net/IvanMa/whats-new-in-mysql-80-hkosc-2017
   -   title:  >-
                 Preparing for the App-ocalypse: The Web in the Age of Physical Computing
       id:       preparing-for-the-app-ocalypse-the-web-in-the-age-of-physical-computing
@@ -94,6 +96,7 @@ topics:
           Front-end web technology stack: HTML, CSS and JavaScript.
       venue: function-room
       startTime: day-2.slot-9
+      slide: https://autonome.github.io/elephant/public/hkoscon-2017.html
   -   title:  >-
                 Reproducible builds: Fulfilling the original promise of free software
       id:       reproducible-builds-fulfilling-the-original-promise-of-free-software
@@ -225,6 +228,7 @@ topics:
       requirement: Basic programming experience.
       venue: training-theatre
       startTime: day-2.slot-5
+      slide: https://github.com/karlvlam/hkosc2017-demo
   -   title:    One Year of Rust Microkernel Development
       id:       one-year-of-rust-microkernel-development
       speaker:
@@ -301,6 +305,7 @@ topics:
           is big plus but not compulsory as the session will cover the core concepts.
       venue: training-theatre
       startTime: day-2.slot-7
+      slide: http://dvigneshwer.github.io/files/AI_Rust.pdf
   -   title:    Data In, Elasticsearch Out
       id:       data-in-elasticsearch-out
       speaker:
@@ -538,6 +543,7 @@ topics:
       venue: training-room-1
       startTime: day-2.slot-5
       endTime: day-2.slot-7
+      slide: https://github.com/kevinresol/hkoscon2017-haxe-game#preparation
   -   title:   >-
             Getting into the virtual world with WebVR/A-Frame
       id:  getting-into-the-virtual-world-with-web-vr
@@ -578,6 +584,7 @@ topics:
       venue: training-room-1
       startTime: day-2.slot-13
       endTime: day-2.slot-15
+      slide: https://github.com/TCLResearchHK/VRWorkshopHKOSCon2017#preparation
   -   title:  Building web app with open source serverless technology
       id:  building-web-app-with-open-source-serverless-technology
       speaker:
@@ -620,6 +627,7 @@ topics:
       requirement: ""
       venue: training-theatre
       startTime: day-2.slot-3
+      slide: https://www.slideshare.net/irvinfly/mozilla-community-space-taipei-status-report-201706
   -   title:  Blender Interface and 3D-CGI concepts
       id: blender-interface-and-3d-cgi-concepts
       speaker:
@@ -660,6 +668,7 @@ topics:
       requirement: ""
       venue: training-room-2
       startTime: day-2.slot-2
+      slide: https://speakerdeck.com/bluebat
   -   title: ZMQ multiplex between golang coroutine and python thread
       id: zmq-multiplex-between-golang-coroutine-and-python-thread
       speaker:
@@ -685,6 +694,7 @@ topics:
       requirement: Knowledge of Golang, Python, HTTP, PRC
       venue: training-theatre
       startTime: day-2.slot-15
+      slide: https://go-talks.appspot.com/github.com/oursky/slides/zmq-multiplex.slide#1
   -   title:   Pentest fun with metasploit framework II
       id:  pentest-fun-with-metasploit-framework-ii
       speaker:
@@ -709,6 +719,7 @@ topics:
       requirement: Basic *nix commands, interest in information security
       venue: training-room-3
       startTime: day-2.slot-13
+      slide: http://submariner-maria-40063.bitballoon.com/
   -   title:   Waiting too long for Excel's VLOOKUP? Use SQLite for simple data analysis!
       id:  use-sqlite-for-simple-data-analysis
       speaker:
@@ -750,6 +761,7 @@ topics:
       venue: training-room-3
       startTime: day-2.slot-2
       endTime: day-2.slot-3
+      slide: https://docs.google.com/presentation/d/16pf0BiPmG6ZAvV2WYEiAhkXSidefYTFl9AMyswyHhgY/edit#slide=id.p
   -   title:   AWS Cloud Lab (革新雲端電腦房)
       id:  aws-cloud-lab
       speaker:
@@ -774,6 +786,7 @@ topics:
       requirement: Basic knowledge in AWS i.e.  EC2, Lambda, and CloudFormation
       venue: training-room-2
       startTime: day-2.slot-15
+      slide: https://www.linkedin.com/pulse/aws-cloud-lab-one-more-real-educational-use-case-part-wong-1
   -   title:   Why BASH?
       id:  why-bash
       speaker:
@@ -843,6 +856,7 @@ topics:
       requirement: Be able to understand fuzzing (random black box testing)
       venue: training-theatre
       startTime: day-2.slot-14
+      slide: https://nth10sd.github.io/js-fuzzing-in-mozilla/
   -   title:   How OpenStreetMap makes a different in Taiwan and the challenges the project faced in East Asia
       id:  open-street-map-taiwan
       speaker:
