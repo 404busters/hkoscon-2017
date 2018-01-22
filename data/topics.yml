@@ -23,6 +23,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-3
+      videoSource: https://www.facebook.com/hkoscon/videos/1935264383408436/
   -   title:    The deep dive in-and-out of MySQL Group Replication
       id:       mysql-group-replication
       speaker:
@@ -72,6 +73,7 @@ topics:
       requirement: Basic knowledge of database
       venue: function-room
       startTime: day-1.slot-7
+      videoSource: https://www.facebook.com/hkoscon/videos/1935411156727092/
       slide: https://www.slideshare.net/IvanMa/whats-new-in-mysql-80-hkosc-2017
   -   title:  >-
                 Preparing for the App-ocalypse: The Web in the Age of Physical Computing
@@ -96,6 +98,7 @@ topics:
           Front-end web technology stack: HTML, CSS and JavaScript.
       venue: function-room
       startTime: day-2.slot-9
+      videoSource: https://www.facebook.com/hkoscon/videos/1936143829987158/
       slide: https://autonome.github.io/elephant/public/hkoscon-2017.html
   -   title:  >-
                 Reproducible builds: Fulfilling the original promise of free software
@@ -135,6 +138,7 @@ topics:
           existence of hackers, etc.
       venue: function-room
       startTime: day-2.slot-5
+      videoSource: https://www.facebook.com/hkoscon/videos/1936034623331412/
   -   title:    Building a career in Open Source
       id:       building-a-career-in-open-source
       speaker:
@@ -163,6 +167,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-2.slot-6
+      videoSource: https://www.facebook.com/hkoscon/videos/1936075099994031/
   -   title:    Open CV in Raspberry PI with Camera
       id:       open-cv-in-raspberry-pi-with-camera
       speaker:
@@ -185,6 +190,7 @@ topics:
         programming about open CV
       venue: function-room
       startTime: day-2.slot-3
+      videoSource: https://www.facebook.com/hkoscon/videos/1936009010000640/
   -   title:    Tips in setting up OpenStack from scratch
       id:       tips-in-setting-up-openstack-from-scratch
       speaker:
@@ -204,6 +210,7 @@ topics:
       requirement: Concept on virtualization (VMWare, Juju, KVM)
       venue: function-room
       startTime: day-1.slot-10
+      videoSource: https://www.facebook.com/hkoscon/videos/1935513953383479/
   -   title:    Let's Rust! System programming is awesome again!
       id:       lets-rust-system-programming-is-awesome-again
       speaker:
@@ -332,6 +339,7 @@ topics:
           will be beneficial.
       venue: function-room
       startTime: day-2.slot-13
+      videoSource: https://www.facebook.com/hkoscon/videos/1936200919981449/
   -   title:   >-
             A War of File Format -- Why We Select ODF in Taiwan
       id:  a-war-of-file-format-why-we-select-odf-in-taiwan
@@ -355,6 +363,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-9
+      videoSource: https://www.facebook.com/hkoscon/videos/1935486983386176/
   -   title: PIME - 用 Python 和 JavaScript 快速開發 Windows 的中文輸入法
       id:  PIME
       speaker:
@@ -377,6 +386,7 @@ topics:
       requirement: Some contents are advanced level.
       venue: function-room
       startTime: day-2.slot-7
+      videoSource: https://www.facebook.com/hkoscon/videos/1936092223325652/
   -   title:   >-
             ezgo for HK：自由的學習系統，本地的楷書字型。
       id:  ezgo-for-hk
@@ -437,6 +447,7 @@ topics:
       requirement: Data science, Machine Learning, Data visualization
       venue: function-room
       startTime: day-2.slot-14
+      videoSource: https://www.facebook.com/hkoscon/videos/1936210393313835/
   -   title:   Harnessing social media with R
       id:  harnessing-social-media-with-r
       speaker:
@@ -469,6 +480,7 @@ topics:
           This talk is recommended for audience who have basic NLP and machine learning skills
       venue: function-room
       startTime: day-2.slot-15
+      videoSource: https://www.facebook.com/hkoscon/videos/1936231473311727/
   -   title:  >-
             A Security State of Mind: Continuous Security for DevOps with Kubernetes
       id:   a-security-state-of-mind-continuous-security-for-devops-with-kubernetes
@@ -506,6 +518,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-2.slot-2
+      videoSource: https://www.facebook.com/hkoscon/videos/1935934990008042/
   -   title:   Build a cross-platform game in Haxe
       id:  build-a-cross-platform-game-in-haxe
       speaker:
@@ -584,6 +597,7 @@ topics:
       venue: training-room-1
       startTime: day-2.slot-13
       endTime: day-2.slot-15
+      videoSource: https://www.facebook.com/hkoscon/videos/1936144143320460/
       slide: https://github.com/TCLResearchHK/VRWorkshopHKOSCon2017#preparation
   -   title:  Building web app with open source serverless technology
       id:  building-web-app-with-open-source-serverless-technology
@@ -904,6 +918,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-4
+      videoSource: https://www.facebook.com/hkoscon/videos/1935301563404718/
   -   title:    Better than Free Giveaways - Case Studies of Open Source Business Models
       id:       better-than-free-giveaways
       speaker:
@@ -927,6 +942,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-5
+      videoSource: https://www.facebook.com/hkoscon/videos/1935320630069478/
   -   title: "KDE: Journey of a SoK student to GCI organisation administrator"
       id:  kde-journey-of-a-sok-student-to-gci-organisation-administrator
       speaker:
@@ -992,6 +1008,7 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-11
+      videoSource: https://www.facebook.com/hkoscon/videos/1935537453381129/
   -   title: Azure DB for MySQL introduction and.NET Core open source technology stack integration
       id:  azure-db-for-mysql-introduction-dotnet-open-source-technology-stack-integration
       speaker:
@@ -1036,3 +1053,4 @@ topics:
       requirement: ""
       venue: function-room
       startTime: day-1.slot-8
+      videoSource: https://www.facebook.com/hkoscon/videos/1935445826723625/
